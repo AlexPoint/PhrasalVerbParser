@@ -18,7 +18,7 @@ namespace PhrasalVerbParser
         {
             var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
 
-            /*// parsing of usingenglish phrasal verbs
+            // parsing of usingenglish phrasal verbs
             var parser = new UsingEnglishParser();
             var phrasalVerbs = parser.ParseAllPhrasalVerbs();
             Console.WriteLine("============");
@@ -28,7 +28,7 @@ namespace PhrasalVerbParser
             Console.WriteLine("============");
             Console.WriteLine("Persisting phrasal verbs to {0}", phrasalVerbFilePath);
             PersistPhrasalVerbs(phrasalVerbs, phrasalVerbFilePath);
-            Console.WriteLine("Persisted phrasal verbs");*/
+            Console.WriteLine("Persisted phrasal verbs");
 
             Console.WriteLine("============");
             Console.WriteLine("Reading phrasal verbs from file");

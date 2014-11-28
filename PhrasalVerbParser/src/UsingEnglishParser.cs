@@ -78,7 +78,7 @@ namespace PhrasalVerbParser.src
 
             var pv = new PhrasalVerb()
             {
-                Name = title.Split(':').Last().Trim().ToLower(),
+                Name = title.Split(':').Last().Trim().ToLower().Replace("  ", " "),
                 Usages = usages
             };
             return pv;
