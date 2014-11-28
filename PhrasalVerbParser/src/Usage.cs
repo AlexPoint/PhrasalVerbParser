@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace PhrasalVerbParser.src
 {
+    [Serializable]
     public class Usage
     {
         public string Definition { get; set; }
@@ -17,10 +18,12 @@ namespace PhrasalVerbParser.src
         public byte EnglishType { get; set; }
         public bool Intransitive { get; set; }
 
+        public Usage() { }
+
         public Usage(string definition, string example, List<string> notes)
         {
-            this.Definition = definition.Substring("Meaning:".Length).Trim();
-            this.Example = example.Substring("Example:".Length).Trim();
+            this.Definition = System.Web.HttpUtility.HtmlDecode(definition.Substring("Meaning:".Length).Trim());
+            this.Example = System.Web.HttpUtility.HtmlDecode(example.Substring("Example:".Length).Trim());
 
             foreach (var note in notes)
             {

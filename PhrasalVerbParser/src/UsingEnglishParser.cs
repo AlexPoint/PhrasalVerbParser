@@ -14,6 +14,31 @@ namespace PhrasalVerbParser.src
 
         private readonly HtmlWeb _web = new HtmlWeb();
 
+
+        public List<PhrasalVerb> ParsePhrasalVerbs(int nb)
+        {
+            var counter = 0;
+            var phrasalVerbs = new List<PhrasalVerb>();
+            var letterPageUrls = ParseLetterPagesUrls();
+            foreach (var url in letterPageUrls)
+            {
+                var phrasalVerbPagesUrls = ParsePhrasalVerbPageUrls(url);
+                foreach (var phrasalVerbPageUrl in phrasalVerbPagesUrls)
+                {
+                    var pv = ParsePhrasalVerb(phrasalVerbPageUrl);
+                    phrasalVerbs.Add(pv);
+                    Console.WriteLine();
+                    pv.Print();
+                    counter++;
+                    if (counter > nb)
+                    {
+                        return phrasalVerbs;
+                    }
+                }
+            }
+            return phrasalVerbs;
+        }
+
         public List<PhrasalVerb> ParseAllPhrasalVerbs()
         {
             var phrasalVerbs = new List<PhrasalVerb>();
@@ -26,7 +51,6 @@ namespace PhrasalVerbParser.src
                     var pv = ParsePhrasalVerb(phrasalVerbPageUrl);
                     phrasalVerbs.Add(pv);
                     Console.WriteLine();
-                    Console.WriteLine("Parsed");
                     pv.Print();
                 }
             }
