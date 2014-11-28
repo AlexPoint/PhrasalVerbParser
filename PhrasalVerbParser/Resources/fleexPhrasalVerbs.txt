@@ -5,9 +5,9 @@ act on
 act out
 act up
 act upon
-ADD on
-ADD up
-ADD up to 
+add on
+add up
+add up to 
 agree with
 aim at
 allow for
@@ -226,7 +226,6 @@ buy off
 buy out
 buy up
 buzz around
-buzz off
 buzz off
 call after
 call around
@@ -724,7 +723,6 @@ get around
 get around to 
 get at
 get away
-get away
 get away from 
 get away with 
 get back
@@ -752,7 +750,6 @@ get it on with
 get it together 
 get it up 
 get off
-get off
 get off it 
 get off on 
 get off with 
@@ -762,7 +759,6 @@ get on for
 get on to 
 get on with 
 get onto
-get out
 get out
 get out of 
 get over
@@ -789,7 +785,6 @@ give of
 give off
 give onto
 give out
-give over
 give over
 give over to 
 give up
@@ -899,7 +894,6 @@ hand in
 hand on
 hand out
 hand over
-hang about
 hang about
 hang around
 hang back
@@ -1510,9 +1504,7 @@ roll back
 roll by
 roll in
 roll on
-roll on
 roll out
-roll up
 roll up
 romp in
 romp through
@@ -2093,7 +2085,6 @@ wait in
 wait on
 wait out
 wait up
-wait up
 wait upon
 wake up
 walk away from 
@@ -2158,7 +2149,6 @@ winkle out
 wipe out
 wire up
 wise up
-word up
 word up
 work off
 work on
