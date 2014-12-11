@@ -13,6 +13,22 @@ namespace TestStanfordParser.src
     public class DependencyParser
     {
 
+        public static List<DependencyRelationship> ParseDepencyRelationshipsCollapsedInSentence(string sentence)
+        {
+            var tokenizerFactory = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
+            var sent2Reader = new StringReader(sentence);
+            var rawWords2 = tokenizerFactory.getTokenizer(sent2Reader).tokenize();
+            sent2Reader.close();
+            var tree2 = LoadedLexicalizedParserModel.Instance.apply(rawWords2);
+
+            // Extract dependencies from lexical tree
+            var tlp = new PennTreebankLanguagePack();
+            var gsf = tlp.grammaticalStructureFactory();
+            var gs = gsf.newGrammaticalStructure(tree2);
+            var tdl = gs.typedDependenciesCollapsed();
+            return ParseJavaDependecyRelationships(tdl);
+        }
+
         public static List<DependencyRelationship> ParseDepencyRelationshipsInSentence(string sentence)
         {
             var tokenizerFactory = PTBTokenizer.factory(new CoreLabelTokenFactory(), "");
@@ -25,14 +41,24 @@ namespace TestStanfordParser.src
             var tlp = new PennTreebankLanguagePack();
             var gsf = tlp.grammaticalStructureFactory();
             var gs = gsf.newGrammaticalStructure(tree2);
-            var tdl = gs.typedDependenciesCCprocessed();
+            var tdl = gs.typedDependencies();
             return ParseJavaDependecyRelationships(tdl);
         }
 
         static List<DependencyRelationship> ParseJavaDependecyRelationships(List javaList)
         {
+            return ParseJavaDependecyRelationships(javaList.toArray());
+        }
+
+        static List<DependencyRelationship> ParseJavaDependecyRelationships(Collection colection)
+        {
+            return ParseJavaDependecyRelationships(colection.toArray());
+        }
+
+        static List<DependencyRelationship> ParseJavaDependecyRelationships(object[] list)
+        {
             var relationships = new List<DependencyRelationship>();
-            foreach (var dep in javaList.toArray())
+            foreach (var dep in list)
             {
                 var dep2 = (TypedDependency)dep;
                 relationships.Add(new DependencyRelationship()

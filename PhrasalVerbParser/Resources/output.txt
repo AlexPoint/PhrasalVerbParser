@@ -1,22 +1,22 @@
-We have to abide by what the court says.|abide/by||
-They had to account for all the money that had gone missing.|account/for||
-My partner's been away for a fortnight- I am aching for her.|ache/for||
-The police were acting on a tip from an informer and caught the gang red-handed.|act/on||
-The medicine only acts on infected tissue.|act/on||
+We have to abide by what the court says.|abide/by|prep(abide, by)|prep(abide, by)||pcomp(by, says)
+They had to account for all the money that had gone missing.|account/for|prep(account, for)|prep(account, for)||pobj(for, money)
+My partner's been away for a fortnight- I am aching for her.|ache/for|prep(aching, for)|prep(been, for)||pobj(for, fortnight)||prep(aching, for)||pobj(for, her)
+The police were acting on a tip from an informer and caught the gang red-handed.|act/on|prep(acting, on)|prep(acting, on)||pobj(on, tip)
+The medicine only acts on infected tissue.|act/on|prep(acts, on)|prep(acts, on)||pobj(on, tissue)
 You have to add the vat on to the price they give.|add/on|prep(add, on)|prep(add, on)||pcomp(on, to)
-I feel terrible- that food didn't agree with my stomach.|agree/with||
-The magazine is aimed at teenagers.|aim/at||
-They're aiming at reducing costs by ten percent.|aim/at||
-You should allow for delays when planning a journey.|allow/for||
-He's been angling for an invitation, but I don't want him to come.|angle/for||
+I feel terrible- that food didn't agree with my stomach.|agree/with|prep(agree, with)|prep(agree, with)||pobj(with, stomach)
+The magazine is aimed at teenagers.|aim/at|prep(aimed, at)|prep(aimed, at)||pobj(at, teenagers)
+They're aiming at reducing costs by ten percent.|aim/at|prep(aiming, at)|prep(aiming, at)||pcomp(at, reducing)
+You should allow for delays when planning a journey.|allow/for|prep(allow, for)|prep(allow, for)||pobj(for, delays)
+He's been angling for an invitation, but I don't want him to come.|angle/for|prep(angling, for)|prep(angling, for)||pobj(for, invitation)
 Her mother was shocked when she started answering her back and refusing to help.|answer/back|dobj(answering, back)|poss(back, her)||dobj(answering, back)
 The teacher tried to argue the girl down, but she couldn't.|argue/down|prt(argue, down)|prt(argue, down)
 She argued him down ten percent.|argue/down|advmod(argued, down)|advmod(argued, down)||pobj(down, percent)
 They tried to argue down the proposal.|argue/down|prt(argue, down)|prt(argue, down)
-He asked about my father.|ask/about||
+He asked about my father.|ask/about|prep(asked, about)|prep(asked, about)||pobj(about, father)
 They auctioned off their property as they were heavily in debt.|auction/off|prt(auctioned, off)|prt(auctioned, off)
 The crowd backed away when the man pulled a knife.|back/away|prt(backed, away)|prt(backed, away)
-Don't bag out bag out Australian English.|bag/out|prt(bag, out)|prt(bag, out)
+Don't bag out bag out Australian English.|bag/out|prt(bag, out)||prep(bag, out)|prt(bag, out)||prep(bag, out)||pobj(out, English)
 The government had to bail out the airline because it was losing so much money.|bail/out|prt(bail, out)|prt(bail, out)
 The boat was leaking so they had to bail it out.|bail/out|prt(bail, out)|prt(bail, out)
 The pilot bailed out when he saw that the engines had failed.|bail/out|prt(bailed, out)|prt(bailed, out)
@@ -24,24 +24,24 @@ The new project has balled me up- I have no idea what to do.|ball/up|prt(balled,
 He balled up his napkin when he had finished eating.|ball/up|prt(balled, up)|prt(balled, up)
 He ballsed the presentation up.|balls/up||prt(ballsed, up)
 He's banging about in the kitchen.|bang/about|dep(banging, about)|dep(banging, about)
-I'm banking on your help; I can't do it alone.|bank/on||
+I'm banking on your help; I can't do it alone.|bank/on|prep(banking, on)|prep(banking, on)||pobj(on, help)
 I bargained her down to half what she originally wanted.|bargain/down|xcomp(bargained, down)|nsubj(down, her)||xcomp(bargained, down)
 He keeps barging in and asking stupid questions when I'm trying to work.|barge/in|prt(barging, in)|prt(barging, in)
 If you bash your monitor about like that, it won't last long.|bash/about|prep(bash, about)|prep(bash, about)||pcomp(about, like)
 She bawled me out for coming home drunk.|bawl/out|prt(bawled, out)|prt(bawled, out)
-She bawled Raj out for getting there late.|bawl/out|advmod(bawled, out)|advmod(bawled, out)
+She bawled Raj out for getting there late.|bawl/out||advmod(for, out)
 He bawled out our names at the top of his voice.|bawl/out|prt(bawled, out)|prt(bawled, out)
-The police are after him because of the theft.|be/after||
+The police are after him because of the theft.|be/after|prep(are, after)|prep(are, after)||pobj(after, him)
 beam me up, Scottie.|beam/up|prt(beam, up)|prt(beam, up)
-She spotted him on the other side of the room and bore down on him.|bear/on||
+She spotted him on the other side of the room and bore down on him.|bear/on|prep(bore, on)|prep(spotted, on)||pobj(on, side)||prep(bore, on)||pobj(on, him)
 The sun was really beating down and we couldn't stay outdoors.|beat/down|prt(beating, down)|prt(beating, down)
 I managed to beat him down to fifty Euros.|beat/down|prt(beat, down)|prt(beat, down)
 She's beavering away before her exams.|beaver/away|prt(beavering, away)|prt(beavering, away)
 We had to bed down on the floor for the night.|bed/down|prt(bed, down)|prt(bed, down)
 The new government has found it hard to bed down and become accepted.|bed/down||advmod(hard, down)
 The company beefed up their case when they saw that the public wouldn't accept their first explanation of the accident.|beef/up|prt(beefed, up)|prt(beefed, up)
-He belongs to a secret society.|belong/to||
-Their ideas belong to the nineteenth century and seem old-fashioned now.|belong/to||
+He belongs to a secret society.|belong/to|prep(belongs, to)|prep(belongs, to)||pobj(to, society)
+Their ideas belong to the nineteenth century and seem old-fashioned now.|belong/to|prep(belong, to)|prep(belong, to)||pobj(to, century)
 They belted out the national anthems before the game.|belt/out|prt(belted, out)|prt(belted, out)
 I bent down to pick it up off the floor.|bend/down|prt(bent, down)|prt(bent, down)
 He bigs himself up all the time.|big/up||advmod(time, up)||dep(up, all)
@@ -57,34 +57,34 @@ The shooters blazed away at the pheasants.|blaze/away|prt(blazed, away)|prt(blaz
 They bled out their calves.|bleed/out|prt(bled, out)|prt(bled, out)
 I blissed out on the beach all week.|bliss/out|prt(blissed, out)|prt(blissed, out)
 I couldn't drive here this morning because someone had blocked me in.|block/in|prep(blocked, in)|prep(blocked, in)
-He blocked in the events in his calendar.|block/in||
+He blocked in the events in his calendar.|block/in|prep(blocked, in)||prep(blocked, in)|prep(blocked, in)||pobj(in, events)||prep(blocked, in)||pobj(in, calendar)
 He grabbed a gun and blew the police officer away.|blow/away|advmod(blew, away)|advmod(blew, away)
 Their new product has blown all the others away.|blow/away|advmod(blown, away)|advmod(blown, away)
 Her first novel blew me away.|blow/away|advmod(blew, away)|advmod(blew, away)
 The flag blew away in the storm; we'll have to buy a new one.|blow/away|prt(blew, away)|prt(blew, away)
 I was really angry when he blurted out the secret.|blurt/out|prt(blurted, out)|prt(blurted, out)
-We board our dog out with friends when we go abroad.|board/out|advmod(board, out)|advmod(board, out)
-Yasini got bogged down in his research and didn't finish the project in time.|bog/down|dep(down, bogged)|nsubjpass(down, Yasini)||auxpass(down, got)||dep(down, bogged)||root(ROOT, down)||prep(down, research)||conj(down, finish)
+We board our dog out with friends when we go abroad.|board/out||advmod(with, out)
+Yasini got bogged down in his research and didn't finish the project in time.|bog/down|dep(down, bogged)|nsubjpass(down, Yasini)||auxpass(down, got)||dep(down, bogged)||root(ROOT, down)||prep(down, in)||cc(down, and)||conj(down, finish)
 The report's so long, I boiled it down into a two-page summary.|boil/down|prt(boiled, down)|prt(boiled, down)
 We were all scared but she bolstered up our courage.|bolster/up|prt(bolstered, up)|prt(bolstered, up)
 I will have to bone up to get a good result.|bone/up|prt(bone, up)|prt(bone, up)
 I'll book us in at the Intercontinental.|book/in|prep(book, in)|prep(book, in)||pcomp(in, at)
 we took a taxi from the airport to the hotel and booked in.|book/in|prt(booked, in)|prt(booked, in)
 He booted up the computer and started work.|boot/up|prt(booted, up)|prt(booted, up)
-Portugal borders on Spain.|border/on||
-What he did was bordering on betrayal.|border/on||
+Portugal borders on Spain.|border/on|prep(borders, on)|prep(borders, on)||pobj(on, Spain)
+What he did was bordering on betrayal.|border/on|prep(bordering, on)|prep(bordering, on)||pobj(on, betrayal)
 She bosses everyone about.|boss/about||advmod(everyone, about)
 I botched up the whole project and it had to be cancelled.|botch/up|prt(botched, up)|prt(botched, up)
 He kept his feelings bottled away.|bottle/away|prt(bottled, away)|prt(bottled, away)
 The recession bottomed out and the economy is recovering well.|bottom/out|prt(bottomed, out)|prt(bottomed, out)
-They have bounced the government into calling an early election.|bounce/into||
-He bowled the player out first ball.|bowl/out||
+They have bounced the government into calling an early election.|bounce/into|prep(bounced, into)|prep(bounced, into)||pcomp(into, calling)
+He bowled the player out first ball.|bowl/out|prep(bowled, out)|prep(bowled, out)||pobj(out, ball)
 I was boxed in by the bus and couldn't change lane.|box/in|prep(boxed, in)|prep(boxed, in)||pcomp(in, by)
 You should brace up and stop worrying.|brace/up|prt(brace, up)|prt(brace, up)
 The supermarkets have branched out into banking.|branch/out|prt(branched, out)|prt(branched, out)
-The sdp broke away from the Labour Party.|break/away||
-The film breezes along for the first hour, then becomes rather dull and slow.|breeze/along||advmod(becomes, along)||prep(along, hour)
-We bricked in the side window.|brick/in||
+The sdp broke away from the Labour Party.|break/away|prt(broke, away)|prt(broke, away)
+The film breezes along for the first hour, then becomes rather dull and slow.|breeze/along||advmod(becomes, along)||prep(along, for)
+We bricked in the side window.|brick/in|prep(bricked, in)|prep(bricked, in)||pobj(in, window)
 The day started cloudy but brightened up in the afternoon.|brighten/up|prt(brightened, up)|prt(brightened, up)
 He brightened up when he heard the news.|brighten/up|prt(brightened, up)|prt(brightened, up)
 We tried to brighten the place up by painting it.|brighten/up|prt(brighten, up)|prt(brighten, up)
@@ -101,51 +101,51 @@ After the scandal, the politician tried to buff up his public image.|buff/up|prt
 She built the business up from nothing into a market leader in less than a decade.|build/up|prt(built, up)|prt(built, up)
 Tension has been building up ever since the government passed the unpopular law.|build/up||advmod(ever, up)
 I bulked the essay out with a few quotes to reach the number of word required.|bulk/out|prt(bulked, out)|prt(bulked, out)
-I bumped into Helen on the underground the other day.|bump/into||
+I bumped into Helen on the underground the other day.|bump/into|prep(bumped, into)|prep(bumped, into)||pobj(into, Helen)
 He bundled the kids off to bed.|bundle/off|prt(bundled, off)|prt(bundled, off)
 I used to bunk off school and go into town.|bunk/off|prt(bunk, off)|prt(bunk, off)
 After so much criticism, the positive review buoyed him up.|buoy/up|prt(buoyed, up)|prt(buoyed, up)
 The lifejacket buoyed me up till the boat arrived.|buoy/up|advmod(buoyed, up)|advmod(buoyed, up)
 They had to completely rebuild the museum after the old one burned down.|burn/down|prt(burned, down)|prt(burned, down)
-The car burst into flames and the driver died as he didn't have time to get out.|burst/into||
-She burst into laughter when she heard the joke.|burst/into||
+The car burst into flames and the driver died as he didn't have time to get out.|burst/into|prep(burst, into)|prep(burst, into)||pobj(into, flames)
+She burst into laughter when she heard the joke.|burst/into|prep(burst, into)|prep(burst, into)||pobj(into, laughter)
 They bust up after a row last night.|bust/up|prt(bust, up)|prt(bust, up)
 I hope you don't mind me butting in on your conversation, but I couldn't help hearing what you said...|butt/in|prt(butting, in)|prt(butting, in)
 I tried buttering my tutor up but she still wouldn\'t let me hand it in late.|butter/up|prt(buttering, up)|prt(buttering, up)
 Joe Meek's last hit, 'Singin' the Blues', was probably bought in at number 40, but failed to go any higher.|buy/in|prep(bought, in)|prep(bought, in)||pcomp(in, at)
-Reporters were buzzing around the scene of the accident.|buzz/around||
-She was called Rose after her late grandmother.|call/after||
+Reporters were buzzing around the scene of the accident.|buzz/around|prep(buzzing, around)|prep(buzzing, around)||pobj(around, scene)
+She was called Rose after her late grandmother.|call/after|prep(called, after)|prep(called, after)||pobj(after, grandmother)
 When I lose my temper, it takes ages for me to calm down again.|calm/down|prt(calm, down)|prt(calm, down)
 The airport taxes cancelled out the savings we had made on the flight tickets.|cancel/out|prt(cancelled, out)|prt(cancelled, out)
 She capped off the meeting with a radical proposal.|cap/off|prt(capped, off)|prt(capped, off)
-I don't care for fizzy drinks; I prefer water.|care/for||
+I don't care for fizzy drinks; I prefer water.|care/for|prep(care, for)|prep(care, for)||pobj(for, drinks)
 The team got carried away when they won the championship and started shouting and throwing things around.|carried/away||prt(carried, away)
 They carried forward their losses to the next financial year.|carry/forward|prt(carried, forward)|prt(carried, forward)
 They hope the new management will be able to carry the project forward.|carry/forward|advmod(carry, forward)|advmod(carry, forward)
 The police carted them off to question them.|cart/off|prep(carted, off)|prep(carted, off)
 The thieves carted off all the ticket receipts.|cart/off|prt(carted, off)|prt(carted, off)
-She's carved out a career in photojournalism.|carve/out||
-They cashed in their bonds and spent the money on a holiday.|cash/in||
-They're casting about for support.|cast/for||
-She caught at my sleeve as I was leaving and said she needed to talk to me.|catch/at||
-The college caters for students of all ages.|cater/for||
+She's carved out a career in photojournalism.|carve/out|prep(carved, out)|prep(carved, out)||pobj(out, career)
+They cashed in their bonds and spent the money on a holiday.|cash/in|prep(cashed, in)|prep(cashed, in)||pobj(in, bonds)
+They're casting about for support.|cast/for|prep(casting, for)|prep(casting, for)||pobj(for, support)
+She caught at my sleeve as I was leaving and said she needed to talk to me.|catch/at|prep(caught, at)|prep(caught, at)||pobj(at, sleeve)
+The college caters for students of all ages.|cater/for|prep(caters, for)|prep(caters, for)||pobj(for, students)
 The roof caved in because of the weight of the snow.|cave/in|prt(caved, in)|prt(caved, in)
 The government has refused to cave in despite the protests and demonstrations.|cave/in|prt(cave, in)|prt(cave, in)
 He went into the toilets to chalk a line out.|chalk/out|prt(chalk, out)|prt(chalk, out)
-I chanced upon a very rare book in car boot sale and bought it for 65p.|chance/upon||
+I chanced upon a very rare book in car boot sale and bought it for 65p.|chance/upon|prep(chanced, upon)|prep(chanced, upon)||pobj(upon, book)
 The Irish changed over to using kilometres in 2005.|change/over|prt(changed, over)|prt(changed, over)
 I need to charge my phone up- the battery's dead.|charge/up|prt(charge, up)|prt(charge, up)
 The press chased us down when the story broke.|chase/down||dep(broke, down)
 He spent the whole night chatting her up.|chat/up|prt(chatting, up)|prt(chatting, up)
-She cheated on me with my friend.|cheat/on||
-She thought he had always been faithful to her, but he had been cheating on her ever since their wedding day (with one of the bridesmaids).|cheat/on||
-We checked by the office to see if the stuff was ready.|check/by||
+She cheated on me with my friend.|cheat/on|prep(cheated, on)|prep(cheated, on)||pobj(on, me)
+She thought he had always been faithful to her, but he had been cheating on her ever since their wedding day (with one of the bridesmaids).|cheat/on|prep(cheating, on)|prep(cheating, on)||pobj(on, her)
+We checked by the office to see if the stuff was ready.|check/by|prep(checked, by)|prep(checked, by)||pobj(by, office)
 Their cheered their team on throughout the match.|cheer/on|prep(cheered, on)|prep(cheered, on)||pcomp(on, throughout)
 The dog chewed off the man's face.|chew/off|prt(chewed, off)|prt(chewed, off)
-I chickened out of the bungee jumping when I saw how high it was.|chicken/out||
-I'm staying at home and chilling out this evening.|chill/out||
+I chickened out of the bungee jumping when I saw how high it was.|chicken/out|prt(chickened, out)|prt(chickened, out)
+I'm staying at home and chilling out this evening.|chill/out||prep(home, out)||pobj(out, evening)
 If it's ok, I'd like to chime in because I think it's a good idea.|chime/in|prt(chime, in)|prt(chime, in)
-They have been chipping away at his reputation ever since he took office.|chip/at||
+They have been chipping away at his reputation ever since he took office.|chip/at|prep(chipping, at)|prep(chipping, at)||pobj(at, reputation)
 These guerilla attacks are choking off our food shipments.|choke/off|prt(choking, off)|prt(choking, off)
 We chose up to play the game.|choose/up|prt(chose, up)|prt(chose, up)
 We chose up teams before the game.|choose/up|prt(chose, up)|prt(chose, up)
@@ -155,21 +155,21 @@ I chucked away all my old records years ago when cds came out.|chuck/away|prt(ch
 The government churns out educational policies every few months.|churn/out|prt(churns, out)|prt(churns, out)
 His arteries are clagged up because he eats so much saturated fat.|clag/up|prt(clagged, up)|prt(clagged, up)
 Everybody clammed up when the Principal entered.|clam/up|prt(clammed, up)|prt(clammed, up)
-The government are clamping down on antisocial behaviour.|clamp/on||
+The government are clamping down on antisocial behaviour.|clamp/on|prep(clamping, on)|prep(clamping, on)||pobj(on, behaviour)
 The new tax will claw back what the government has given out in grants.|claw/back|prt(claw, back)|prt(claw, back)
 The opposition parties are trying to claw back the voters they lost in the last election.|claw/back|prt(claw, back)|prt(claw, back)
 They are clawing back their market share from their competitors.|claw/back|prt(clawing, back)|prt(clawing, back)
 After dinner, I cleaned off the table.|clean/off|prt(cleaned, off)|prt(cleaned, off)
-We were told to clear away from the scene of the accident.|clear/away||
+We were told to clear away from the scene of the accident.|clear/away|prt(clear, away)|prt(clear, away)
 After dinner, I cleared away the plates and dishes.|clear/away|prt(cleared, away)|prt(cleared, away)
-Only a tiny fraction of users ever bother clicking through the banner adverts.|click/through||
+Only a tiny fraction of users ever bother clicking through the banner adverts.|click/through|prep(clicking, through)|prep(clicking, through)||pobj(through, adverts)
 The Prime Minister had to climb down over his tax proposals because there was so much opposition from the members of his own party.|climb/down|prt(climb, down)|prt(climb, down)
 He told me to cling on as the motorbike accelerated.|cling/on|prt(cling, on)|prt(cling, on)
 The traffic's so bad the roads get clogged up at rush hour.|clog/up|prt(clogged, up)|prt(clogged, up)
 The banks have closed down a lot of branches in villages over the last few years.|close/down|prt(closed, down)|prt(closed, down)
 He closed the player down and stopped him being a threat.|close/down|prt(closed, down)|prt(closed, down)
 The morning started bright and warm, but it clouded over around midday and poured with rain.|cloud/over|prt(clouded, over)|prt(clouded, over)
-The students were clowning about all lesson.|clown/about||
+The students were clowning about all lesson.|clown/about|prep(clowning, about)|prep(clowning, about)||pobj(about, lesson)
 She's been coasting along all year and hasn't made a lot of progress.|coast/along|advmod(coasting, along)|advmod(coasting, along)||dep(along, all)
 They  cobbled a few pages together and submitted it.|cobble/together|advmod(cobbled, together)|advmod(cobbled, together)
 It was so easy, but he managed to cock everything up.|cock/up|prt(cock, up)|prt(cock, up)
@@ -185,15 +185,15 @@ It took me ages to cool down after the argument.|cool/down|prt(cool, down)|prt(c
 They cooped the dog up in a tiny room.|coop/up|prt(cooped, up)|prt(cooped, up)
 They really copped it when they got caught shoplifting.|cop/it|dobj(copped, it)|dobj(copped, it)
 The decorators are going to cost up the work tomorrow.|cost/up|prt(cost, up)|prt(cost, up)
-It took me ages to cotton on to what they were planning.|cotton/on||
+It took me ages to cotton on to what they were planning.|cotton/on|prep(cotton, on)|prep(cotton, on)||dep(on, to)||pcomp(on, planning)
 He was checked so hard he coughed up the puck in front of his own goal.|cough/up|prt(coughed, up)|prt(coughed, up)
 He gave up smoking after he coughed up some blood.|cough/up|prt(coughed, up)|prt(gave, up)||prt(coughed, up)
-I could really do with a cup of tea.|could/with||
-Not having a university degree will count against her.|count/against||
-She asked me to cover for her if anyone asked where she'd gone.|cover/for||
-I covered for her while she was off sick.|cover/for||
+I could really do with a cup of tea.|could/with||prep(do, with)||pobj(with, cup)
+Not having a university degree will count against her.|count/against|prep(count, against)|prep(count, against)||pobj(against, her)
+She asked me to cover for her if anyone asked where she'd gone.|cover/for|prep(cover, for)|prep(cover, for)||pobj(for, her)
+I covered for her while she was off sick.|cover/for|prep(covered, for)|prep(covered, for)||pobj(for, her)
 It was cold and I cozied up by the fire.|cozy/up|prt(cozied, up)|prt(cozied, up)
-The police always crack down on drink-driving offences over the Christmas period.|crack/on||
+The police always crack down on drink-driving offences over the Christmas period.|crack/on|prep(crack, on)|prep(crack, on)||pobj(on, offences)
 My boss keeps cranking out stupid memos.|crank/out|prt(cranking, out)|prt(cranking, out)
 Dave crashed out at a friend's flat after the end-of-term party.|crash/out|prt(crashed, out)|prt(crashed, out)
 I crashed out in front of the tv last night.|crash/out|prt(crashed, out)|prt(crashed, out)
@@ -202,25 +202,25 @@ This means smaller banks can cream off excess profits during lending booms.|crea
 He tried to stay calm, but you could hear the anger creeping in.|creep/in|prt(creeping, in)|prt(creeping, in)
 Errors crept in as the text got longer.|creep/in|prt(crept, in)|prt(crept, in)
 I'm going to be late tonight as something has just cropped up at work.|crop/up|prt(cropped, up)|prt(cropped, up)
-She crossed him off her Christmas card list after they argued.|cross/off||
-He cruised through the exam.|cruise/through||
+She crossed him off her Christmas card list after they argued.|cross/off|prep(crossed, off)|prep(crossed, off)||pobj(off, list)
+He cruised through the exam.|cruise/through|prep(cruised, through)|prep(cruised, through)||pobj(through, exam)
 The waiter crumbed down before the coffee was served.|crumb/down|prt(crumbed, down)|prt(crumbed, down)
 I've got to work tonight; can I cry off going out for dinner?|cry/off|prt(cry, off)|prt(cry, off)
-It'll be quicker if we cut across the park.|cut/across||
-The issue cuts across social backgrounds as it affects us all equally.|cut/across||
+It'll be quicker if we cut across the park.|cut/across|prep(cut, across)|prep(cut, across)||pobj(across, park)
+The issue cuts across social backgrounds as it affects us all equally.|cut/across|prep(cuts, across)|prep(cuts, across)||pobj(across, backgrounds)
 They tried to damp down the anger over the announcement.|damp/down|prt(damp, down)|prt(damp, down)
 They tried to damp down the flames before the fire spread.|damp/down|prt(damp, down)|prt(damp, down)
 He dashed down a memo and sent it to everybody.|dash/down|prt(dashed, down)|prt(dashed, down)
-The truth only dawned on me much later.|dawn/on||
-She deals in paintings.|deal/in||
-They're making a fortune but wouldn't deal me in after all I'd done.|deal/in|dep(deal, in)|dep(deal, in)
-Trevor spent a long time looking at flats before he bought one, but eventually decided on one near his work.|decide/on||
+The truth only dawned on me much later.|dawn/on|prep(dawned, on)|prep(dawned, on)||pobj(on, me)
+She deals in paintings.|deal/in|prep(deals, in)|prep(deals, in)||pobj(in, paintings)
+They're making a fortune but wouldn't deal me in after all I'd done.|deal/in||dep(after, in)
+Trevor spent a long time looking at flats before he bought one, but eventually decided on one near his work.|decide/on|prep(decided, on)|prep(decided, on)||pobj(on, one)
 The last notes died away and the audience burst into applause.|die/away|prt(died, away)|prt(died, away)
-We were starving so we really dug in when the food finally did arrive.|dig/in||
+We were starving so we really dug in when the food finally did arrive.|dig/in|prep(dug, in)|prep(dug, in)||pcomp(in, arrive)
 Anticipating an artillery barrage, we quickly dug in.|dig/in|prt(dug, in)|prt(dug, in)
 We dined out because we couldn't be bothered to cook.|dine/out|prt(dined, out)|prt(dined, out)
-I dipped the brush in the paint and began painting the wall.|dip/in||
-I feel dreadful; the prawns I had for lunch are disagreeing with me.|disagree/with||
+I dipped the brush in the paint and began painting the wall.|dip/in|prep(dipped, in)|prep(dipped, in)||pobj(in, paint)
+I feel dreadful; the prawns I had for lunch are disagreeing with me.|disagree/with|prep(disagreeing, with)|prep(disagreeing, with)||pobj(with, me)
 I dished out the dinner.|dish/out|prt(dished, out)|prt(dished, out)
 Doctors have been dishing out viagra to anyone who asks for it.|dish/out|prt(dishing, out)|prt(dishing, out)
 He dishes it out, but gets all hurt when anyone responds.|dish/out|prt(dishes, out)|prt(dishes, out)
@@ -228,17 +228,17 @@ When we saw what was happening, we all dived in to help.|dive/in|prt(dived, in)|
 Dinner's on the table, so dive in.|dive/in|prep(dive, in)|prep(dive, in)
 They divided up the profits.|divide/up|prt(divided, up)|prt(divided, up)
 The waiters and waitresses divvy out the tips at the end of the night.|divvy/out|prt(divvy, out)|prt(divvy, out)
-The United Kingdom did away with the death penalty in 1965.|do/with||
+The United Kingdom did away with the death penalty in 1965.|do/with|prep(did, with)|prep(did, with)||pobj(with, penalty)
 He dobbed me in to the teacher.|dob/in|prep(dobbed, in)|prep(dobbed, in)||pcomp(in, to)
-Everyone dobbed in some cash to help.|dob/in||
+Everyone dobbed in some cash to help.|dob/in|prep(dobbed, in)|prep(dobbed, in)||pobj(in, cash)
 He needed some help, so dobbed us in.|dob/in|prep(dobbed, in)|prep(dobbed, in)
 They were doling out leaflets in front of the station.|dole/out|prt(doling, out)|prt(doling, out)
 I couldn't get down to my work and dossed about all night.|doss/about||advmod(night, about)
-My study doubles as a spare bedroom when we have visitors.|double/as||
+My study doubles as a spare bedroom when we have visitors.|double/as|prep(doubles, as)|prep(doubles, as)||pobj(as, bedroom)
 The movie was a bit boring and I dozed off halfway through.|doze/off|prt(dozed, off)|prt(dozed, off)
 The meeting dragged on for two and a half hours.|drag/on|prt(dragged, on)|prt(dragged, on)
 He drew back when the dog barked.|draw/back|prt(drew, back)|prt(drew, back)
-I wouldn't even dream of telling her that.|dream/of||
+I wouldn't even dream of telling her that.|dream/of|prep(dream, of)|prep(dream, of)||pcomp(of, telling)
 The newspapers dredged up the details of his affair with his research assistant.|dredge/up|prt(dredged, up)|prt(dredged, up)
 The staff are allowed to dress down on Fridays.|dress/down|prt(dress, down)|prt(dress, down)
 She dressed me down for being rude.|dress/down|advmod(dressed, down)|advmod(dressed, down)
@@ -246,46 +246,46 @@ We were great friends at school but drifted apart when we went to different univ
 I really had to drill down to get the answers from the database.|drill/down|prt(drill, down)|prt(drill, down)
 drink up, please; it's closing time.|drink/up|advmod(drink, up)|advmod(drink, up)
 Their unfriendliness drives customers away.|drive/away|advmod(drives, away)|advmod(drives, away)
-The minister droned on for an hour and the audience looked increasingly bored.|drone/on|dep(droned, on)|dep(droned, on)
+The minister droned on for an hour and the audience looked increasingly bored.|drone/on||dep(for, on)
 We dropped around to collect the stuff we'd left there last week.|drop/around|prt(dropped, around)|prt(dropped, around)
 I dropped around the things they needed.|drop/around|prt(dropped, around)|prt(dropped, around)
-They drown the food in sauce.|drown/in||
-They drum all the traps into you before the test, so you can't go wrong.|drum/into||
+They drown the food in sauce.|drown/in|prep(drown, in)|prep(drown, in)||pobj(in, sauce)
+They drum all the traps into you before the test, so you can't go wrong.|drum/into|prep(drum, into)|prep(drum, into)||pobj(into, you)
 I had a shower and dried myself off.|dry/off|prt(dried, off)|prt(dried, off)
-He ducked out of helping us last night.|duck/of||
+He ducked out of helping us last night.|duck/of|prep(ducked, of)|prep(ducked, of)||pcomp(of, helping)
 He was duffed up in a night club last night.|duff/up|prt(duffed, up)|prt(duffed, up)
 Television has been dumbing down the news for years.|dumb/down|prt(dumbing, down)|prt(dumbing, down)
-Her boss dumps on everyone when things go wrong.|dump/on||
-She dumps on her family a lot.|dump/on||
+Her boss dumps on everyone when things go wrong.|dump/on|prep(dumps, on)|prep(dumps, on)||pobj(on, everyone)
+She dumps on her family a lot.|dump/on|prep(dumps, on)|prep(dumps, on)||pobj(on, family)
 When he';s depressed, he needs someone to dump on.|dump/on|prt(dump, on)|prt(dump, on)
 The government is dusting down its plans for dealing with an Ebola epidemic.|dust/down|prt(dusting, down)|prt(dusting, down)
-The programme dwelled on little other than the scandal.|dwell/on||
+The programme dwelled on little other than the scandal.|dwell/on|prep(dwelled, on)|prep(dwelled, on)||pobj(on, other)
 She eased off the accelerator to let the car slow down.|ease/off|prt(eased, off)|prt(eased, off)
 The disease eats the liver away.|eat/away|advmod(eats, away)|advmod(eats, away)
 His life was ebbed away as the illness progressed.|ebb/away|prt(ebbed, away)|prt(ebbed, away)
 The shareholders edged the ceo out because results were getting worse.|edge/out|advmod(edged, out)|npadvmod(out, ceo)||advmod(edged, out)
-The other students egged him on when he started arguing with the teacher.|egg/on||
+The other students egged him on when he started arguing with the teacher.|egg/on|prep(egged, on)|prep(egged, on)||pcomp(on, started)
 Most students have to eke out their income because they have so little money to live on.|eke/out|prt(eke, out)|prt(eke, out)
-Piere embarked on an mba at Insead last autumn.|embark/on||
+Piere embarked on an mba at Insead last autumn.|embark/on|prep(embarked, on)|prep(embarked, on)||pobj(on, mba)
 I must empty out the rubbish before I leave for work.|empty/out|prt(empty, out)|prt(empty, out)
-I emptied some of the coffee out so I could pour more milk in.|empty/out||
-It'll end in tears.|end/in||
-They entered for the national championship but weren't good enough.|enter/for||
+I emptied some of the coffee out so I could pour more milk in.|empty/out|prep(emptied, out)|prep(emptied, out)||pcomp(out, pour)
+It'll end in tears.|end/in|prep(end, in)|prep(end, in)||pobj(in, tears)
+They entered for the national championship but weren't good enough.|enter/for|prep(entered, for)|prep(entered, for)||pobj(for, championship)
 The guy eyed the other man up because he was behaving suspiciously.|eye/up|advmod(eyed, up)|advmod(eyed, up)
 The company faced off the competition.|face/off|prt(faced, off)|prt(faced, off)
 He told her to stop faffing about and make her mind up.|faff/about|prt(faffing, about)|prt(faffing, about)
-We fell about when we heard what she'd done.|fall/about||
+We fell about when we heard what she'd done.|fall/about|prep(fell, about)|prep(fell, about)||pcomp(about, heard)
 The company wants to farm out their maintenance.|farm/out|prt(farm, out)|prt(farm, out)
 The manager was angry because the staff were farting about.|fart/about|dep(farting, about)|dep(farting, about)
 We fastened it down to keep the wind from blowing it away.|fasten/down|prt(fastened, down)|prt(fastened, down)
 I couldn't fathom out what she wanted from me.|fathom/out|prt(fathom, out)|prt(fathom, out)
-They fatten the cows up before slaughtering them.|fatten/up|advmod(fatten, up)|advmod(fatten, up)||prepc(up, slaughtering)
-He's always fawning on his boss to try to get promoted.|fawn/on||
+They fatten the cows up before slaughtering them.|fatten/up|advmod(fatten, up)|advmod(fatten, up)||prep(up, before)
+He's always fawning on his boss to try to get promoted.|fawn/on|prep(fawning, on)|prep(fawning, on)||pobj(on, boss)
 The gecko feeds off mosquitoes and other insects.|feed/off|prt(feeds, off)|prt(feeds, off)
 He feeds off people's fear of crime to get them to support  his proposals.|feed/off|prt(feeds, off)|prt(feeds, off)
 Someone felt me up in the club as I was trying to get to the bar.|feel/up|prt(felt, up)|prt(felt, up)
 They fenced the whole garden in.|fence/in|prep(fenced, in)|prep(fenced, in)
-The children had to fend for themselves after their parents died.|fend/for||
+The children had to fend for themselves after their parents died.|fend/for|prep(fend, for)|prep(fend, for)||pobj(for, themselves)
 The investigation finally managed to ferret out the truth.|ferret/out|prt(ferret, out)|prt(ferret, out)
 The company fessed up after they were exposed in the newspapers.|fess/up|prt(fessed, up)|prt(fessed, up)
 fess up your share of the bill.|fess/up|prt(fess, up)|prt(fess, up)
@@ -293,9 +293,9 @@ The boat fetched up on the beach.|fetch/up|prt(fetched, up)|prt(fetched, up)
 We spent the whole afternoon fiddling about with the computer but couldn't get it to work.|fiddle/about|dep(fiddling, about)|dep(fiddling, about)
 The army attacked the town and the inhabitants fought back fiercely.|fight/back|prt(fought, back)|prt(fought, back)
 He tried to fight back the tears when he heard the news of her death.|fight/back|prt(fight, back)|prt(fight, back)
-What job do you figure on doing when you graduate?|figure/on||
-I filed a copy of the letter away for my records.|file/away|advmod(filed, away)|advmod(filed, away)
-I filled in the application form and posted it off.|fill/in||
+What job do you figure on doing when you graduate?|figure/on|prep(figure, on)|prep(figure, on)||pcomp(on, doing)
+I filed a copy of the letter away for my records.|file/away||advmod(for, away)
+I filled in the application form and posted it off.|fill/in|prep(filled, in)|prep(filled, in)||pobj(in, form)
 She's just had a baby, so we have hired someone to fill in for her.|fill/in|prt(fill, in)|prt(fill, in)
 The slip lane allows traffic to filter in at the junction.|filter/in|prt(filter, in)|prt(filter, in)
 I went to the library to find out all I could about the life and work of Joe Meek.|find/out|prt(find, out)|prt(find, out)
@@ -303,15 +303,15 @@ They finished off all the chocolates and had to go to the all-night garage to bu
 The  animal was badly  hurt, so they  finished it off to end  its suffering.|finish/off|prep(finished, off)|prep(finished, off)
 The second goal finished  them off.|finish/off|prt(finished, off)|prt(finished, off)
 We finished off the coffee and had to get some more.|finish/off|prt(finished, off)|prt(finished, off)
-He finked on her to the authorities.|fink/on||
+He finked on her to the authorities.|fink/on|prep(finked, on)|prep(finked, on)||pobj(on, her)
 What do you want to know? fire away and I'll tell you.|fire/away|advmod(fire, away)|advmod(fire, away)||dep(away, tell)
 We need to firm up some aspects of the contract before we sign it.|firm/up|prt(firm, up)|prt(firm, up)
 I go swimming every day to firm up my body.|firm/up|prt(firm, up)|prt(firm, up)
-He's always fishing for compliments.|fish/for||
-I didn't fit in with the other people working there so I left and found another job.|fit/in|dep(fit, in)|dep(fit, in)
-I didn't have time to fit in another appointment.|fit/in||
+He's always fishing for compliments.|fish/for|prep(fishing, for)|prep(fishing, for)||pobj(for, compliments)
+I didn't fit in with the other people working there so I left and found another job.|fit/in||dep(with, in)
+I didn't have time to fit in another appointment.|fit/in|prep(fit, in)|prep(fit, in)||pobj(in, appointment)
 He fixed up an appointment for me to see a specialist.|fix/up|prt(fixed, up)|prt(fixed, up)
-The campaign started well, but fizzled out when they ran out of money.|fizzle/out||
+The campaign started well, but fizzled out when they ran out of money.|fizzle/out|prep(fizzled, out)|prep(fizzled, out)||pcomp(out, ran)||prt(ran, out)
 The police officer flagged the car down because it didn't have its headlights on.|flag/down|advmod(flagged, down)|npadvmod(down, car)||advmod(flagged, down)
 I worked till midnight then flaked out.|flake/out|prt(flaked, out)|prt(flaked, out)
 The company flamed out in the recession.|flame/out|prt(flamed, out)|prt(flamed, out)
@@ -324,40 +324,40 @@ She floored it when the police arrived.|floor/it|dobj(floored, it)|dobj(floored,
 He flounced off when they laughed at him.|flounce/off|prt(flounced, off)|prt(flounced, off)
 She fluffed out the sofa cushions.|fluff/out|prt(fluffed, out)|prt(fluffed, out)
 The rumour has been flying about for the past week, but no one has confirmed it.|fly/about|dep(flying, about)|dep(flying, about)
-I fobbed it off Paul.|fob/off||
+I fobbed it off Paul.|fob/off|prep(fobbed, off)|prep(fobbed, off)||pobj(off, Paul)
 He fobbed us off with a really stupid excuse.|fob/off|prt(fobbed, off)|prt(fobbed, off)
-The report focuses on the company's weak points.|focus/on||
+The report focuses on the company's weak points.|focus/on|prep(focuses, on)|prep(focuses, on)||pobj(on, points)
 Darren folded up the letter and put it in an envelope.|fold/up|prt(folded, up)|prt(folded, up)
 He left an hour ago and I'll be following on soon.|follow/on|prt(following, on)|prt(following, on)
 They were over 200 runs behind and had to follow on.|follow/on|prt(follow, on)|prt(follow, on)
 They were fooling about and wouldn't settle down.|fool/about|dep(fooling, about)|dep(fooling, about)
 Their marriage broke down because he kept fooling about.|fool/about|dep(fooling, about)|dep(fooling, about)
 We've been forging ahead with the work and should be finished well before the deadline.|forge/ahead|advmod(forging, ahead)|advmod(forging, ahead)
-She forged ahead of the other runners and won.|forge/ahead||
+She forged ahead of the other runners and won.|forge/ahead|advmod(forged, ahead)|advmod(forged, ahead)
 She freaked out completely when she didn't get the grades to get into university.|freak/out|prt(freaked, out)|prt(freaked, out)
 If we get the work done tonight, it will free up the weekend to go away.|free/up|prt(free, up)|prt(free, up)
 If you proofread this text, it will free me up to get on with the next part.|free/up|prt(free, up)|prt(free, up)
-They tried to freeze me out of the conversation.|freeze/out||
-After Jim was frozen out of the case, they hired a new lawyer.|freeze/out||
+They tried to freeze me out of the conversation.|freeze/out|prt(freeze, out)|prt(freeze, out)
+After Jim was frozen out of the case, they hired a new lawyer.|freeze/out|prt(frozen, out)|prt(frozen, out)
 I'm going to the bathroom to freshen up before they arrive.|freshen/up|prt(freshen, up)|prt(freshen, up)
 Here, let me freshen up your drink.|freshen/up|prt(freshen, up)|prt(freshen, up)
 The magazine gives you tips on how to freshen up your home cheaply.|freshen/up|prt(freshen, up)|prt(freshen, up)
 The noise frightened the birds away.|frighten/away|advmod(frightened, away)|advmod(frightened, away)
 The strikes frightened many visitors away.|frighten/away|advmod(frightened, away)|advmod(frightened, away)
 She frittered her inheritance away.|fritter/away|advmod(frittered, away)|advmod(frittered, away)
-The solicitor fronts for a number of criminal gangs.|front/for||
-He frowns on people making personal calls at work.|frown/on||
+The solicitor fronts for a number of criminal gangs.|front/for|prep(fronts, for)|prep(fronts, for)||pobj(for, number)
+He frowns on people making personal calls at work.|frown/on|prep(frowns, on)|prep(frowns, on)||pobj(on, people)
 We stopped to fuel up before the car ran out.|fuel/up|prt(fuel, up)|prt(fuel, up)
 I spent the afternoon gadding about in the West End.|gad/about|dep(gadding, about)|dep(gadding, about)
-I'm gagging for a drink.|gag/for||
+I'm gagging for a drink.|gag/for|prep(gagging, for)|prep(gagging, for)||pobj(for, drink)
 They ganged up to try to stop the new system.|gang/up|prt(ganged, up)|prt(ganged, up)
-It's not geared to  non-specialists.|gear/to||
+It's not geared to  non-specialists.|gear/to|prep(geared, to)|prep(geared, to)||pobj(to, non-specialists)
 Henry always geeks out at parties and bores all the people who don't know much about computers.|geek/out|prt(geeks, out)|prt(geeks, out)
-I get about a lot with my job- last years I visited eleven countries.|get/about||
-It didn't take long for the news to get about- everyone's talking about it.|get/about|prt(get, about)|prt(get, about)
+I get about a lot with my job- last years I visited eleven countries.|get/about|prep(get, about)|prep(get, about)||pobj(about, lot)
+It didn't take long for the news to get about- everyone's talking about it.|get/about|prt(get, about)|prt(get, about)||prep(talking, about)||pobj(about, it)
 She can't get about much, but she is in her eighties.|get/about||quantmod(much, about)
 She gets about a bit; she's always with some new guy.|get/about||quantmod(bit, about)
-They ghosted him away to a secret location before he could be arrested.|ghost/away|advmod(ghosted, away)|advmod(ghosted, away)||prep(away, location)
+They ghosted him away to a secret location before he could be arrested.|ghost/away|advmod(ghosted, away)|advmod(ghosted, away)||prep(away, to)
 The candidates tried to gin up support at the straw poll by transporting their supporters for free.|gin/up|prt(gin, up)|prt(gin, up)
 They tried to ginger up the party to stop people leaving.|ginger/up|prt(ginger, up)|prt(ginger, up)
 He gave his daughter away and told the groom to look after her.|give/away|advmod(gave, away)|advmod(gave, away)
@@ -367,51 +367,51 @@ He decided to give his new album away in a magazine.|give/away|prt(give, away)|p
 They gave away two goals in the first half.|give/away|advmod(gave, away)|advmod(gave, away)||pobj(away, goals)
 She had to give her baby away as she couldn't afford to bring it up.|give/away|advmod(give, away)|advmod(give, away)
 The gang gave him away to the police.|give/away|prt(gave, away)|prt(gave, away)
-He is giving away thirty pounds to the challenger.|give/away|advmod(giving, away)|advmod(giving, away)||pobj(away, pounds)||prep(away, challenger)
+He is giving away thirty pounds to the challenger.|give/away|advmod(giving, away)|advmod(giving, away)||pobj(away, pounds)||prep(away, to)
 The Minister tried to gloss over the report that was critical of her department.|gloss/over|prt(gloss, over)|prt(gloss, over)
-I know it was wrong and guilt has gnawed at me ever since I did it.|gnaw/at||
-The government's dishonesty has gnawed at people's trust in politicians.|gnaw/at||
-How should I go about telling her the bad news?|go/about||
-A rumour is going about involving the Attorney General.|go/about||
+I know it was wrong and guilt has gnawed at me ever since I did it.|gnaw/at|prep(gnawed, at)|prep(gnawed, at)||pobj(at, me)
+The government's dishonesty has gnawed at people's trust in politicians.|gnaw/at|prep(gnawed, at)|prep(gnawed, at)||pobj(at, trust)
+How should I go about telling her the bad news?|go/about|prep(go, about)|prep(go, about)||pcomp(about, telling)
+A rumour is going about involving the Attorney General.|go/about|prep(going, about)|prep(going, about)||pcomp(about, involving)
 We spent the weekend goofing around.|goof/around|prt(goofing, around)|prt(goofing, around)
-He grasped at the rail when he fell.|grasp/at||
-They grasped at the chance to speak to her.|grasp/at||
-He grassed on us and got us into a lot of trouble.|grass/on||
+He grasped at the rail when he fell.|grasp/at|prep(grasped, at)|prep(grasped, at)||pobj(at, rail)
+They grasped at the chance to speak to her.|grasp/at|prep(grasped, at)|prep(grasped, at)||pobj(at, chance)
+He grassed on us and got us into a lot of trouble.|grass/on|prep(grassed, on)|prep(grassed, on)||pobj(on, us)
 They greyed out the print button to stop people using it.
 
 (In American English, 'gray' would be used.)|grey/out|prt(greyed, out)|prt(greyed, out)
 Although I hated it, I ground away until I had finished.|grind/away|prt(ground, away)|prt(ground, away)
 We used to be good friends at school but have since grown apart.|grow/apart|advmod(grown, apart)|advmod(grown, apart)
-He's gunning for his rivals at work.|gun/for||
+He's gunning for his rivals at work.|gun/for|prep(gunning, for)|prep(gunning, for)||pobj(for, rivals)
 They spent a fortune gussying up the house.|gussy/up|prt(gussying, up)|prt(gussying, up)
 I've been hacking around all morning because I can't get down to doing any revision.|hack/around|advmod(hacking, around)|advmod(hacking, around)||dep(around, all)
 He hammed the part up to get the audience to laugh.|ham/up|prt(hammed, up)|prt(hammed, up)
-She hammered away at her pc all night and finished the project.|hammer/at||
+She hammered away at her pc all night and finished the project.|hammer/at|prep(hammered, at)|prep(hammered, at)||pobj(at, pc)
 The police officer checked my licence, then handed it back.|hand/back|advmod(handed, back)|advmod(handed, back)
-They hang about the station most of the day.|hang/about||
-I'm supposed to be on a diet and I can't stop hankering after some chocolate.|hanker/after||
+They hang about the station most of the day.|hang/about|prep(hang, about)|prep(hang, about)||pobj(about, station)
+I'm supposed to be on a diet and I can't stop hankering after some chocolate.|hanker/after|prep(hankering, after)|prep(hankering, after)||pobj(after, chocolate)
 I was late twice last week and my boss keeps harping on about it.|harp/on|prt(harping, on)|prt(harping, on)
 We hashed out our differences and drew up the agreement.|hash/out|prt(hashed, out)|prt(hashed, out)
-She hates on people who disagree with her ideas.|hate/on||
-I have nothing against their proposals.|have/against||
-It's getting late- I'm heading for home.|head/for||
-Have you heard about the company takeover?|hear/about||
-He heated the soup up in the microwave.|heat/up|advmod(heated, up)|npadvmod(up, soup)||advmod(heated, up)
-She really helped me out when I was going through my divorce.|help/out||
+She hates on people who disagree with her ideas.|hate/on|prep(hates, on)|prep(hates, on)||pobj(on, people)
+I have nothing against their proposals.|have/against||prep(nothing, against)||pobj(against, proposals)
+It's getting late- I'm heading for home.|head/for|prep(heading, for)|prep(heading, for)||pobj(for, home)
+Have you heard about the company takeover?|hear/about|prep(heard, about)|prep(heard, about)||pobj(about, takeover)
+He heated the soup up in the microwave.|heat/up||npadvmod(up, soup)||advmod(in, up)
+She really helped me out when I was going through my divorce.|help/out|prep(helped, out)|prep(helped, out)||pcomp(out, going)
 They hid the money away in secret  bank accounts.|hide/away|advmod(hid, away)|npadvmod(away, money)||advmod(hid, away)
 I'm renting a cottage where I can hide away for the summer.|hide/away|prt(hide, away)|prt(hide, away)
-Everything hinges on the results of the negotiations; if they go badly, we'll be in real trouble.|hinge/on||
+Everything hinges on the results of the negotiations; if they go badly, we'll be in real trouble.|hinge/on|prep(hinges, on)|prep(hinges, on)||pobj(on, results)
 The film hinges on his not being recognised when he's in disguise.|hinge/on|prep(hinges, on)|prep(hinges, on)||pobj(on, not)
 The president hit back at her critics in a speech last night.|hit/back|prt(hit, back)|prt(hit, back)
 They hived off the retail operations.|hive/off|prt(hived, off)|prt(hived, off)
-He was very rude, but I won't hold it against him.|hold/against||
+He was very rude, but I won't hold it against him.|hold/against|prep(hold, against)|prep(hold, against)||pobj(against, him)
 They holed up in a remote cottage while the police were searching for them.|hole/up|prt(holed, up)|prt(holed, up)
-The new law has hollowed out local government.|hollow/out||
-The government is homing in on benefit fraud.|home/on||
+The new law has hollowed out local government.|hollow/out|prep(hollowed, out)|prep(hollowed, out)||pobj(out, government)
+The government is homing in on benefit fraud.|home/on|prep(homing, on)|prep(homing, on)||pobj(on, fraud)
 The company honed in on its rival and tried to take it over.
 (Some consider this verb to be wrong and that is confused with 'home in on.)|hone/on||pcomp(in, on)||pobj(on, rival)||pcomp(in, on)
-She hooked them into coming after all.|hook/into||
-He was hooning around in his new car last night and the police pulled him.|hoon/around|advmod(hooning, around)|advmod(hooning, around)||prep(around, car)||tmod(around, night)
+She hooked them into coming after all.|hook/into|prep(hooked, into)|prep(hooked, into)||pcomp(into, coming)
+He was hooning around in his new car last night and the police pulled him.|hoon/around|advmod(hooning, around)|advmod(hooning, around)||prep(around, in)
 The class were horsing around when the teacher came in and told them to sit down.|horse/around|prt(horsing, around)|prt(horsing, around)
 They hosed the patio down.|hose/down|prt(hosed, down)|prt(hosed, down)
 They have hosed down an obscure start-up up with capital.|hose/down|prt(hosed, down)|prt(hosed, down)
@@ -424,31 +424,31 @@ The management team ironed out the tax problems before they gave the project the
 New initiatives issue forth from the government on a daily basis.|issue/forth|advmod(issue, forth)|advmod(issue, forth)
 They started jabbering away about file systems and lost me completely.|jabber/away|prt(jabbering, away)|prt(jabbering, away)
 Don't listen to him- he always jacks people around.|jack/around|advmod(jacks, around)|advmod(jacks, around)
-Jack jammed on the brakes when the rabbit ran in front of his car.|jam/on||
+Jack jammed on the brakes when the rabbit ran in front of his car.|jam/on|prep(jammed, on)|prep(jammed, on)||pobj(on, brakes)
 That shows that your interest is not in helping the student, but in jawing away.|jaw/away|prt(jawing, away)|prt(jawing, away)
 The show was getting stale so they jazzed it up with some new scenes.|jazz/up|prt(jazzed, up)|prt(jazzed, up)
 He was jerking us around and wouldn't give us the facts.|jerk/around|prt(jerking, around)|prt(jerking, around)
 They were jerking around during the lecture.|jerk/around|prt(jerking, around)|prt(jerking, around)
-They jockeyed him into signing a terrible contract.|jockey/into||
+They jockeyed him into signing a terrible contract.|jockey/into|prep(jockeyed, into)|prep(jockeyed, into)||pcomp(into, signing)
 He's always joking around in class.|joke/around|prt(joking, around)|prt(joking, around)
 I jotted down her number on a scrap of paper and I can't find it now.|jot/down|prt(jotted, down)|prt(jotted, down)
 I need to buy some memory to juice my computer up.|juice/up|advmod(juice, up)|advmod(juice, up)
-I'd jump at the chance to go and live in Japan.|jump/at||
+I'd jump at the chance to go and live in Japan.|jump/at|prep(jump, at)|prep(jump, at)||pobj(at, chance)
 The boat keeled over in the storm and the crew drowned.|keel/over|prt(keeled, over)|prt(keeled, over)
 He was going to confront his boss, but keeled over and didn't mention the matter.|keel/over|prt(keeled, over)|prt(keeled, over)
 The drunk keeled over when trying to leave the pub.|keel/over|prt(keeled, over)|prt(keeled, over)
-I keep a dictionary around when I'm doing my homework.|keep/around||
+I keep a dictionary around when I'm doing my homework.|keep/around||prep(dictionary, around)||pcomp(around, doing)
 I need to key down before I go to bed.|key/down||advmod(need, down)||dep(down, go)
 We kicked the idea about at the meeting.|kick/about|prep(kicked, about)|prep(kicked, about)||pcomp(about, at)
 There used to be a lot of wolves around here, but most of them have been killed off.|kill/off|prt(killed, off)|prt(killed, off)
 It's too late to get the train, so  can I kip down here tonight?|kip/down||advmod(here, down)
 He was bugging us, so we told him to kiss off.|kiss/off|prt(kiss, off)|prt(kiss, off)
 He kissed the criticism off.|kiss/off|prt(kissed, off)|prt(kissed, off)
-He knocked his brother about after they argued.|knock/about||
+He knocked his brother about after they argued.|knock/about|prep(knocked, about)|prep(knocked, about)||pcomp(about, argued)
 I've got my exams next week and I haven't done much work, so I'd better knuckle down.|knuckle/down|prt(knuckle, down)|prt(knuckle, down)
-He landed me in it when he told them what I had done wrong.|land/in||
+He landed me in it when he told them what I had done wrong.|land/in|prep(landed, in)|prep(landed, in)||pobj(in, it)
 He lapped up their praise.|lap/up|prt(lapped, up)|prt(lapped, up)
-They were larging it up in the rave.|large/up|advmod(larging, up)|advmod(larging, up)||prep(up, rave)
+They were larging it up in the rave.|large/up|advmod(larging, up)|advmod(larging, up)||prep(up, in)
 The children made me angry because they were larking about.|lark/about|dep(larking, about)|dep(larking, about)
 The rain was lashing down all day and the roads were flooded.|lash/down|advmod(lashing, down)|advmod(lashing, down)||dep(down, all)
 We lashed the tarpaulin down to stop the wind blowing it away.|lash/down|advmod(lashed, down)|npadvmod(down, tarpaulin)||advmod(lashed, down)
@@ -456,10 +456,10 @@ They were lying, but it took her ages to latch on.|latch/on|prt(latch, on)|prt(l
 He laughed off the sprained finger but it obviously affected his golf game.|laugh/off|prt(laughed, off)|prt(laughed, off)
 The rules of the sport were laid down early in the nineteenth century.|lay/down||advmod(early, down)
 He got laid down in a turf war about supplying drugs.|lay/down|prt(laid, down)|prt(laid, down)
-She led him on about her desire to get married.|lead/on|dep(led, on)|dep(led, on)
+She led him on about her desire to get married.|lead/on||dep(about, on)
 The company's plans to close the factory leaked out and they were very embarrassed.|leak/out|prt(leaked, out)|prt(leaked, out)
-The government has denied leaning on the Attorney General to get his approval of the war.|lean/on||
-He leaped at the chance to visit.|leap/at||
+The government has denied leaning on the Attorney General to get his approval of the war.|lean/on|prep(leaning, on)|prep(leaning, on)||pobj(on, General)
+He leaped at the chance to visit.|leap/at|prep(leaped, at)|prep(leaped, at)||pobj(at, chance)
 leave the tv on; I want to hear the football results.|leave/on|prt(leave, on)|prt(leave, on)
 She failed to turn up and I felt badly let down.|let/down|prt(let, down)|prt(let, down)
 He's grown so much, we'll have to let his trousers down.|let/down|prt(let, down)|prt(let, down)
@@ -473,23 +473,23 @@ The police got them to line up against the wall.|line/up|prt(line, up)|prt(line,
 He lined the bottles up against the wall.|line/up|prt(lined, up)|prt(lined, up)
 We have lined up a lot of meetings for them.|line/up|prt(lined, up)|prt(lined, up)
 The train links up the cities.|link/up|prt(links, up)|prt(links, up)
-They put their coats on and listened out for the minicab.|listen/for||
-He tries hard to live by the Bible.|live/by||
+They put their coats on and listened out for the minicab.|listen/for|prep(listened, for)|prep(listened, for)||pobj(for, minicab)
+He tries hard to live by the Bible.|live/by|prep(live, by)|prep(live, by)||pobj(by, Bible)
 Their arrival livened things up.|liven/up|prt(livened, up)|prt(livened, up)
 I was feeling miserable at first, but livened myself up later on.|liven/up||advmod(on, up)
 I was loaded down with all the stuff I had to take there.|load/down|prt(loaded, down)|prt(loaded, down)
 He locked the gun away in a drawer.|lock/away|prt(locked, away)|prt(locked, away)
-They locked him away for life after the murders.|lock/away|advmod(locked, away)|advmod(locked, away)
+They locked him away for life after the murders.|lock/away||advmod(for, away)
 I had forgotten my password and couldn't log in.|log/in|prt(log, in)|prt(log, in)
-Their auntie looked after them while their mother was in hospital.|look/after||
+Their auntie looked after them while their mother was in hospital.|look/after|prep(looked, after)|prep(looked, after)||pobj(after, them)
 He was very shy at first but has loosened up and is more talkative now.|loosen/up|prt(loosened, up)|prt(loosened, up)
-She loves to lord it over her employees.|lord/over||
+She loves to lord it over her employees.|lord/over|prep(lord, over)|prep(lord, over)||pobj(over, employees)
 Many people lost out when the new regulations were enforced.|lose/out|prt(lost, out)|prt(lost, out)
-We lucked into getting the answer.|luck/into||
+We lucked into getting the answer.|luck/into|prep(lucked, into)|prep(lucked, into)||pcomp(into, getting)
 He secretly lusts after his friend�s wife.|lust/after||mark(wife, after)
-He lusts after a Rolex.|lust/after||
+He lusts after a Rolex.|lust/after|prep(lusts, after)|prep(lusts, after)||pobj(after, Rolex)
 He magicked the bill away and paid for us all before I could get my wallet out.|magic/away|advmod(magicked, away)|advmod(magicked, away)
-The police made after the stolen car.|make/after||
+The police made after the stolen car.|make/after|prep(made, after)|prep(made, after)||pobj(after, car)
 He manned down and didn't come with us.|man/down|prt(manned, down)|prt(manned, down)
 Students who gave obviously rehearsed answers were marked down, while those who spoke naturally were rewarded accordingly.|mark/down|prt(marked, down)|prt(marked, down)
 I'll buy a lot more if you mark them down a bit.|mark/down|advmod(mark, down)|advmod(mark, down)||pobj(down, bit)
@@ -498,22 +498,22 @@ He mashed up some bananas for the dessert.|mash/up|prt(mashed, up)|prt(mashed, u
 She mashed up the songs into a single track.|mash/up|prt(mashed, up)|prt(mashed, up)
 He mashed up my mp3 player and lost my files.|mash/up|prt(mashed, up)|prt(mashed, up)
 She maxed out her credit cards.|max/out|prt(maxed, out)|prt(maxed, out)
-The work doesn't look good if you measure it against what our competitors have done.|measure/against||
+The work doesn't look good if you measure it against what our competitors have done.|measure/against|prep(measure, against)|prep(measure, against)||pcomp(against, done)
 We're meeting up on Friday- I haven't seen them for ages.|meet/up|prt(meeting, up)|prt(meeting, up)
 They melted the gold statue down and turned it into gold bars.|melt/down|prt(melted, down)|prt(melted, down)
 The children were messing about with the tv remote control and broke it.|mess/about|dep(messing, about)|dep(messing, about)
 He is always messing me about and never does what he promises.|mess/about|prep(messing, about)|prep(messing, about)
 He's not faithful- he's been messing about since they were married.|mess/about|prt(messing, about)|prt(messing, about)
 They meted out savage penalties to anyone who broke the law.|mete/out|prt(meted, out)|prt(meted, out)
-There were a lot of people milling around waiting for the bus.|mill/around||
+There were a lot of people milling around waiting for the bus.|mill/around|prep(milling, around)|prep(milling, around)||pcomp(around, waiting)
 It'll be great; you'll be missing out if you don't come.|miss/out|prt(missing, out)|prt(missing, out)
-Make sure you don't miss anyone out when you call their names.|miss/out||
+Make sure you don't miss anyone out when you call their names.|miss/out|prep(miss, out)|prep(miss, out)||pcomp(out, call)
 I always mix those two sisters up because they look so like each other.|mix/up|prt(mix, up)|prt(mix, up)
 The dj mixed up the night with some hard techno.|mix/up|prt(mixed, up)|prt(mixed, up)
 They mocked up an example to show us what they would look like.|mock/up|prt(mocked, up)|prt(mocked, up)
 We moggied off early.|moggy/off||advmod(early, off)
 The police officer told the drunks to stop monkeying around and go home quietly.|monkey/around|prt(monkeying, around)|prt(monkeying, around)
-I mooched about the whole afternoon because I didn't feel like working.|mooch/about||
+I mooched about the whole afternoon because I didn't feel like working.|mooch/about|prep(mooched, about)|prep(mooched, about)||pobj(about, afternoon)
 He was left to mop up the mess after they resigned.|mop/up|prt(mop, up)|prt(mop, up)
 After the battle, it took them a couple of weeks to mop up the remaining rebels.|mop/up|prt(mop, up)|prt(mop, up)
 The sauce was so delicious that I ordered some bread to mop it up.|mop/up|prt(mop, up)|prt(mop, up)
@@ -527,12 +527,12 @@ I have to mug up before the exam.|mug/up|prt(mug, up)|prt(mug, up)
 She said that she'd had to mull it over before deciding what was|mull/over|prt(mull, over)|prt(mull, over)
 We tried to exclude him of the committee, but he muscled in.|muscle/in|prt(muscled, in)|prt(muscled, in)
 He was making a fuss, so I told him to naff off.|naff/off|prt(naff, off)|prt(naff, off)
-My boss is always nagging at me about my arriving a few minutes late for work.|nag/at||
+My boss is always nagging at me about my arriving a few minutes late for work.|nag/at|prep(nagging, at)|prep(nagging, at)||pobj(at, me)
 They are having trouble nailing down the contract.|nail/down|prt(nailing, down)|prt(nailing, down)
 I can't nail down what's wrong with their idea, but I'm sure it won't work.|nail/down|prt(nail, down)|prt(nail, down)
-I can't nail them down about when they're going to finish the project.|nail/down|advmod(nail, down)|advmod(nail, down)||prepc(down, going)
-I nailed the job down in the first interview.|nail/down|advmod(nailed, down)|npadvmod(down, job)||advmod(nailed, down)
-I was named after my uncle who died in the war.|name/after||
+I can't nail them down about when they're going to finish the project.|nail/down|advmod(nail, down)|advmod(nail, down)||prep(down, about)
+I nailed the job down in the first interview.|nail/down||npadvmod(down, job)||advmod(in, down)
+I was named after my uncle who died in the war.|name/after|prep(named, after)|prep(named, after)||pobj(after, uncle)
 I am not sure which university to apply to, but I have narrowed my list down to three.|narrow/down|prt(narrowed, down)|prt(narrowed, down)
 I'm going to nerd out and not go on the river trip.|nerd/out|prt(nerd, out)|prt(nerd, out)
 I'm going to nerd out and not go on the river trip.|nerd/out|prt(nerd, out)|prt(nerd, out)
@@ -542,32 +542,32 @@ I nodded off during the speech.|nod/off|prt(nodded, off)|prt(nodded, off)
 The police are nosing about to see if they can find anything against the gang.|nose/about|prt(nosing, about)|prt(nosing, about)
 She noted down my fax number so that she could send me the documents when she got to the office.|note/down|prt(noted, down)|prt(noted, down)
 The management and unions had a meeting to nut things out.|nut/out|prt(nut, out)|prt(nut, out)
-Didn't it occur to you to help me when you saw how much trouble I was in?|occur/to||aux(help, to)
+Didn't it occur to you to help me when you saw how much trouble I was in?|occur/to|prep(occur, to)|prep(occur, to)||pobj(to, you)||aux(help, to)
 She hates to open up and discuss her feelings.|open/up|prt(open, up)|prt(open, up)
 They open up at seven in the morning.|open/up|prt(open, up)|prt(open, up)
 Before they joined the wto, they had to open up their markets.|open/up|prt(open, up)|prt(open, up)
 She was operated on for eight hours.|operate/on|prt(operated, on)|prt(operated, on)
-I opted for an endowment mortgage and lost a lot of money.|opt/for||
-She owes her success to hard work and determination.|owe/to||
+I opted for an endowment mortgage and lost a lot of money.|opt/for|prep(opted, for)|prep(opted, for)||pobj(for, mortgage)
+She owes her success to hard work and determination.|owe/to|prep(owes, to)|prep(owes, to)||pobj(to, work)
 Nobody owned up to breaking the window.|own/up|prt(owned, up)|prt(owned, up)
 I packed away the suitcases in the loft after we had emptied them.|pack/away|prt(packed, away)|prt(packed, away)
 I'm too tired to come home; can I pad down here tonight?|pad/down||advmod(here, down)
 They paired off shortly after starting university.|pair/off|prt(paired, off)|prt(paired, off)
 I tried to pair him off with my sister.|pair/off|prt(pair, off)|prt(pair, off)
 The class paired off to practise the exam interviews.|pair/off|prt(paired, off)|prt(paired, off)
-We used to pal about when we were at school.|pal/about||
+We used to pal about when we were at school.|pal/about||prep(used, about)||pcomp(about, were)
 He tried to palm me off with a pathetic excuse.|palm/off|prt(palm, off)|prt(palm, off)
 He tried to palm his computer off as the latest model.|palm/off|prt(palm, off)|prt(palm, off)
 I don't know how things will pan out now the company's been taken over.|pan/out|prt(pan, out)|prt(pan, out)
-The government tried to paper over the problems in the proposal, but the press were very critical.|paper/over||
+The government tried to paper over the problems in the proposal, but the press were very critical.|paper/over||prep(tried, over)||pobj(over, problems)
 They have had to pare back the services they offer as their funding was reduced.|pare/back|prt(pare, back)|prt(pare, back)
-I found it very hard to part with my old cds when I digitized my collection.|part/with||
+I found it very hard to part with my old cds when I digitized my collection.|part/with|prep(part, with)|prep(part, with)||pobj(with, cds)
 The teacher passed the handout around.|pass/around|advmod(passed, around)|advmod(passed, around)
 The police patted them down for weapons but found nothing.|pat/down|prt(patted, down)|prt(patted, down)
 They patched together a coalition after the election.|patch/together|prt(patched, together)|prt(patched, together)
 I paid back the twenty pounds I'd borrowed.|pay/back|prt(paid, back)|prt(paid, back)
 I'm going to pay him back for that insult.|pay/back|prt(pay, back)|prt(pay, back)
-The food wasn't very nice, so I pecked at it to look polite.|peck/at||
+The food wasn't very nice, so I pecked at it to look polite.|peck/at|prep(pecked, at)|prep(pecked, at)||pobj(at, it)
 Some of the crowd peeled away to get out of the crush.|peel/away|prt(peeled, away)|prt(peeled, away)
 I pegged away for weeks before my exams.|peg/away|prt(pegged, away)|prt(pegged, away)
 I'll pencil Thursday night in, but if anything comes up, give me a ring..|pencil/in|prep(pencil, in)|prep(pencil, in)
@@ -575,8 +575,8 @@ You need to pep your writing up.|pep/up|prt(pep, up)|prt(pep, up)
 Her talk pepped us up.|pep/up|prt(pepped, up)|prt(pepped, up)
 She was ill in bed with flu, but she perked up a bit when some friends dropped by.|perk/up|advmod(perked, up)|advmod(perked, up)||pobj(up, bit)
 Everyone was keen at first, but the enthusiasm petered out when they saw how long it would take.|peter/out|prt(petered, out)|prt(petered, out)
-They are phasing in the reforms over the next two years.|phase/in||
-She phoned in sick this morning.|phone/in||
+They are phasing in the reforms over the next two years.|phase/in|prep(phasing, in)|prep(phasing, in)||pobj(in, reforms)
+She phoned in sick this morning.|phone/in|prep(phoned, in)|prep(phoned, in)||pobj(in, sick)
 Many listeners phoned in to complain about the interview.|phone/in|prt(phoned, in)|prt(phoned, in)
 They say the president's been phoning in since the election and is ignoring the big issues.|phone/in|prt(phoning, in)|prt(phoning, in)
 The critics picked the film apart.|pick/apart|advmod(picked, apart)|advmod(picked, apart)
@@ -586,15 +586,15 @@ I've asked him to set a date, but he's a hard man to pin down and won't give a d
 The government can't pin down where the leak came from.|pin/down|prt(pin, down)|prt(pin, down)
 He's been pining away since his wife died and is a shadow of his former self.|pine/away|prt(pining, away)|prt(pining, away)
 The lecturer asked the students to pipe down and pay attention.|pipe/down|prt(pipe, down)|prt(pipe, down)
-The war pitted neighbour against neighbour.|pit/against||
-He pitched for the job, but they gave it to someone else.|pitch/for||
+The war pitted neighbour against neighbour.|pit/against|prep(pitted, against)|prep(pitted, against)||pobj(against, neighbour)
+He pitched for the job, but they gave it to someone else.|pitch/for|prep(pitched, for)|prep(pitched, for)||pobj(for, job)
 They need to be planted out in the spring.|plant/out|prt(planted, out)|prt(planted, out)
 plate up and drizzle with salsa verde.|plate/up|prt(plate, up)|prt(plate, up)
 I disagreed with the idea but I had to play along because everyone else liked it.|play/along|prt(play, along)|prt(play, along)
 The ceo pleaded out and blamed the cfo for the fraud.|plead/out|prt(pleaded, out)|prt(pleaded, out)
 We ploughed back all the profits to grow the company.|plough/back|prt(ploughed, back)|prt(ploughed, back)
 We plowed back all the profits to grow the company.|plow/back|prt(plowed, back)|prt(plowed, back)
-He was plucking at his cuffs during the interview.|pluck/at||
+He was plucking at his cuffs during the interview.|pluck/at|prep(plucking, at)|prep(plucking, at)||pobj(at, cuffs)
 He plugged the tv in and turned it on full blast.|plug/in|prep(plugged, in)|prep(plugged, in)
 He plumped his bag down and  kicked his shoes off.|plump/down|prt(plumped, down)|prt(plumped, down)
 He pointed out that I only had two weeks to get the whole thing finished.|point/out|prt(pointed, out)|prt(pointed, out)
@@ -604,15 +604,15 @@ I had to pony fifty dollars up for the meal.|pony/up|prt(pony, up)|prt(pony, up)
 I was going to write my essay, but I pooped out and went to bed instead.|poop/out|prt(pooped, out)|prt(pooped, out)
 We were pootling along at thirty miles an hour.|pootle/along|prt(pootling, along)|prt(pootling, along)
 Why don't you pop down and see us during the holidays?|pop/down|prt(pop, down)|prt(pop, down)
-She pored over the report looking for mistakes.|pore/over||
-On Saturday mornings, I potter about the garden if the weather's fine.|potter/about||
+She pored over the report looking for mistakes.|pore/over|prep(pored, over)|prep(pored, over)||pobj(over, report)
+On Saturday mornings, I potter about the garden if the weather's fine.|potter/about|prep(potter, about)|prep(potter, about)||pobj(about, garden)
 It poured down all day so we had to remain indoors.|pour/down|advmod(poured, down)|advmod(poured, down)||dep(down, all)
 I powered down my computer and went for lunch.|power/down|prt(powered, down)|prt(powered, down)
 Geoff just prattled on instead of giving a straight answer.|prattle/on|prt(prattled, on)|prt(prattled, on)
 They pressed ahead with the elections despite the violence.|press/ahead|advmod(pressed, ahead)|advmod(pressed, ahead)
-Spiders prey on insects.|prey/on||
-They prey on older people.|prey/on||
-Speculators have priced in the risk of a war breaking out.|price/in||
+Spiders prey on insects.|prey/on|prep(prey, on)|prep(prey, on)||pobj(on, insects)
+They prey on older people.|prey/on|prep(prey, on)|prep(prey, on)||pobj(on, people)
+Speculators have priced in the risk of a war breaking out.|price/in|prep(priced, in)|prep(priced, in)||pobj(in, risk)
 He printed out the letter and checked through it carefully.|print/out|prt(printed, out)|prt(printed, out)
 The council have propped up the museum for years with grants.|prop/up|prt(propped, up)|prt(propped, up)
 We have to try to psych out our rivals.|psych/out|prt(psych, out)|prt(psych, out)
@@ -620,31 +620,31 @@ Boxers try to psych their opponents out before the fight to gain an advantage.|p
 She puckered up when he leant forwards to kiss her.|pucker/up|prt(puckered, up)|prt(puckered, up)
 He puckered up his lips when she moved forwards to kiss him.|pucker/up|prt(puckered, up)|prt(puckered, up)
 The lorry was going slowly but we managed to pull ahead.|pull/ahead|advmod(pull, ahead)|advmod(pull, ahead)
-They pushed him about because he couldn't fight back.|push/about||
-He found it difficult to put across what he wanted to say at the meeting.|put/across||
+They pushed him about because he couldn't fight back.|push/about|prep(pushed, about)|prep(pushed, about)||pcomp(about, fight)
+He found it difficult to put across what he wanted to say at the meeting.|put/across|prep(put, across)|prep(put, across)||pcomp(across, wanted)
 The girl's mother was quarreling out with her daughter about the party.|quarrel/out|prt(quarreling, out)|prt(quarreling, out)
 I queered the exam up.|queer/up|prt(queered, up)|prt(queered, up)
 The audience quietened down when the lights were switched off in the auditorium and the play was ready to begin.|quieten/down|prt(quietened, down)|prt(quietened, down)
-They quit on me just when things got rough.|quit/on||
-My phone has quit on me- can I borrow yours?|quit/on||
+They quit on me just when things got rough.|quit/on|prep(quit, on)|prep(quit, on)||pobj(on, me)
+My phone has quit on me- can I borrow yours?|quit/on|prep(quit, on)|prep(quit, on)||pobj(on, me)
 They raced off when the police arrived.|race/off|prt(raced, off)|prt(raced, off)
 He told her to rack off.|rack/off|prt(rack, off)|prt(rack, off)
-Bombs rained down on the city all night.|rain/on||
-She's raking in thousands a day.|rake/in||
+Bombs rained down on the city all night.|rain/on||prep(down, on)||pobj(on, city)
+She's raking in thousands a day.|rake/in|prep(raking, in)|prep(raking, in)||pobj(in, thousands)
 Quit rambling on- I�m tired of listening to you.|ramble/on|prt(rambling, on)|prt(rambling, on)
 The company has ramped its prices up because of higher oil prices.|ramp/up|prt(ramped, up)|prt(ramped, up)
 She rapped out the command.|rap/out|prt(rapped, out)|prt(rapped, out)
-She ratted on her neighbours to the police because they were smuggling alcohol from France.|rat/on||
-He always rats on his promises.|rat/on||
+She ratted on her neighbours to the police because they were smuggling alcohol from France.|rat/on|prep(ratted, on)|prep(ratted, on)||pobj(on, neighbours)
+He always rats on his promises.|rat/on|prep(rats, on)|prep(rats, on)||pobj(on, promises)
 The media are trying to ratchet up the pressure on the president.|ratchet/up|prt(ratchet, up)|prt(ratchet, up)
 She rattled off loads of statistics which nobody could understand.|rattle/off|prt(rattled, off)|prt(rattled, off)
 I reached out and caught the ball.|reach/out|prt(reached, out)|prt(reached, out)
 I read off the figures and she wrote them down in her notebook.|read/off|prt(read, off)|prt(read, off)
 He reasoned out the answer to the math problem.|reason/out|prt(reasoned, out)|prt(reasoned, out)
-Jeff says we can reckon on there being at least fifty people there tonight.|reckon/on||
-He reeled in a ten-pound salmon.|reel/in||
+Jeff says we can reckon on there being at least fifty people there tonight.|reckon/on|prep(reckon, on)|prep(reckon, on)||pcomp(on, being)
+He reeled in a ten-pound salmon.|reel/in|prep(reeled, in)|prep(reeled, in)||pobj(in, salmon)
 They hope the discounts will reel people in.|reel/in|prep(reel, in)|prep(reel, in)
-They had to rein the minister in after her dreadful performance on tv.|rein/in|dep(rein, in)|dep(rein, in)
+They had to rein the minister in after her dreadful performance on tv.|rein/in||dep(after, in)
 They rented their house out while the were abroad.|rent/out|prt(rented, out)|prt(rented, out)
 She got on her motorbike and rode off.|ride/off|prt(rode, off)|prt(rode, off)
 I phoned and left a message this morning but she still hasn't rung me back.|ring/back||advmod(me, back)
@@ -652,24 +652,24 @@ Tourists get ripped off a lot when they don't speak the language.|rip/off|prt(ri
 The army rolled back when they came under attack.|roll/back|prt(rolled, back)|prt(rolled, back)
 The government want to roll back the freedom of the press.|roll/back|prt(roll, back)|prt(roll, back)
 In the first race, the favourite romped in.|romp/in|prt(romped, in)|prt(romped, in)
-Nowadays, most hospitals have a policy of rooming in mothers and their babies.|room/in||
+Nowadays, most hospitals have a policy of rooming in mothers and their babies.|room/in|prep(rooming, in)|prep(rooming, in)||pobj(in, mothers)
 He rooted about in his briefcase, trying to find a pen.|root/about|prt(rooted, about)|prt(rooted, about)
 The teacher roped her students in to carry her stuff when she had to change classroom.|rope/in|prt(roped, in)|prt(roped, in)
 The mugger roughed him up when he refused to hand his wallet over.|rough/up|advmod(roughed, up)|advmod(roughed, up)
 Winning the fa Cup rounded off a wonderful season for Arsenal.|round/off|prt(rounded, off)|prt(rounded, off)
 The prime minister refused to row back and lost the vote.|row/back|advmod(row, back)|advmod(row, back)
 They're not friends, but we rub along.|rub/along|prt(rub, along)|prt(rub, along)
-The police have ruled out suicide and are treating it as a case of murder.|rule/out||
-I ran across an old friend in the library.|run/across||
+The police have ruled out suicide and are treating it as a case of murder.|rule/out|prep(ruled, out)|prep(ruled, out)||pobj(out, suicide)
+I ran across an old friend in the library.|run/across|prep(ran, across)|prep(ran, across)||pobj(across, friend)
 They rushed away when the police arrived.|rush/away|prt(rushed, away)|prt(rushed, away)
 We rustled up dinner from what was in the fridge.|rustle/up|prt(rustled, up)|prt(rustled, up)
 I sacked out in front of the tv.|sack/out|prt(sacked, out)|prt(sacked, out)
 She saddled up the horse and rode off.|saddle/up|prt(saddled, up)|prt(saddled, up)
 I was bored so I sagged off work early and went home.|sag/off|prt(sagged, off)|prt(sagged, off)
-He sailed into me for turning up an hour late.|sail/into||
+He sailed into me for turning up an hour late.|sail/into|prep(sailed, into)|prep(sailed, into)||pobj(into, me)
 The townspeople sallied forth to fight the invading army.|sally/forth|prt(sallied, forth)|prt(sallied, forth)
-She's making a lot of money, but salts it away rather than spending it.|salt/away|advmod(salts, away)|advmod(salts, away)
-I use Skype to save on my phone bills.|save/on||
+She's making a lot of money, but salts it away rather than spending it.|salt/away||advmod(than, away)
+I use Skype to save on my phone bills.|save/on|prep(save, on)|prep(save, on)||pobj(on, bills)
 He sawed off the legs of the chair.|saw/off|prt(sawed, off)|prt(sawed, off)
 They had to scale back the project because of the costs.|scale/back|prt(scale, back)|prt(scale, back)
 The cat scared the birds away.|scare/away|advmod(scared, away)|advmod(scared, away)
@@ -677,25 +677,25 @@ The company is scouting about for new staff.|scout/about|dep(scouting, about)|de
 I've been scraping along on temporary work since I lost my job.|scrape/along|prt(scraping, along)|prt(scraping, along)
 We screened off the area where we had the discussion from the rest of the meeting.|screen/off|prt(screened, off)|prt(screened, off)
 He spent the afternoon screwing aroud and got nothing done.|screw/around||
-He screwed around a lot at university.|screw/around||
+He screwed around a lot at university.|screw/around|prep(screwed, around)|prep(screwed, around)||pobj(around, lot)
 I'll see about whether we can manage it.|see/about|prt(see, about)|prt(see, about)
 They sold off their research subsidiary.|sell/off|prt(sold, off)|prt(sold, off)
 She sold off her furniture before she emigrated.|sell/off|prt(sold, off)|prt(sold, off)
 I sent my food back because it was overcooked.|send/back|advmod(sent, back)|advmod(sent, back)
-We set about the cleaning and got it done before lunchtime.|set/about||
-The gang set about her as she left the bank.|set/about||
+We set about the cleaning and got it done before lunchtime.|set/about|prep(set, about)|prep(set, about)||pobj(about, cleaning)
+The gang set about her as she left the bank.|set/about|prep(set, about)|prep(set, about)||pobj(about, her)
 After years of partying and drinking, she finally got married and settled down.|settle/down|prt(settled, down)|prt(settled, down)
 The government denied that they had sexed up the report to make the front page.|sex/up|prt(sexed, up)|prt(sexed, up)
 They shacked up a few months after they started going out.|shack/up|prt(shacked, up)|prt(shacked, up)
 We had to shack up with friends while our house was being decorated.|shack/up|prt(shack, up)|prt(shack, up)
-She shaded in the area under the tree.|shade/in||
-The police shook the house down looking for drugs.|shake/down||
+She shaded in the area under the tree.|shade/in|prep(shaded, in)|prep(shaded, in)||pobj(in, area)
+The police shook the house down looking for drugs.|shake/down|prep(shook, down)|prep(shook, down)||pcomp(down, looking)
 He shook the guy down with some story about needing the money for an operation.|shake/down|prt(shook, down)|prt(shook, down)
 Things are shaping up at work- everything's going well again.|shape/up|prt(shaping, up)|prt(shaping, up)
 If they don't start shaping up, they're going to lose their jobs.|shape/up|prt(shaping, up)|prt(shaping, up)
-A number of firms will share in the development.|share/in||
+A number of firms will share in the development.|share/in|prep(share, in)|prep(share, in)||pobj(in, development)
 He has shaved off his moustache and looks much younger.|shave/off|prt(shaved, off)|prt(shaved, off)
-He shaved a few thousand off the budget for the year.|shave/off||
+He shaved a few thousand off the budget for the year.|shave/off|prep(shaved, off)|prep(shaved, off)||pobj(off, budget)
 I had to shell out a hundred pounds on the dinner.|shell/out|prt(shell, out)|prt(shell, out)
 He was causing a lot of trouble, so they shipped him off to another branch|ship/off|prt(shipped, off)|prt(shipped, off)
 He shot away as soon as the bell rang for the end of the lesson.|shoot/away||advmod(soon, away)
@@ -703,20 +703,20 @@ If you shop around, you can find some real bargains for air tickets.|shop/around
 The central bank is trying to shore up the currency to stop it from sliding further.|shore/up||prt(shore, up)
 The battery shorted out when it got wet.|short/out|prt(shorted, out)|prt(shorted, out)
 His efforts to raise the issue were shouted down.|shout/down|prt(shouted, down)|prt(shouted, down)
-The estate agent showed us around the house but we didn't like it much.|show/around||
+The estate agent showed us around the house but we didn't like it much.|show/around|prep(showed, around)|prep(showed, around)||pobj(around, house)
 He shrugged off the criticism and carried on the same way.|shrug/off|prt(shrugged, off)|prt(shrugged, off)
 Many people have been shut away in psychiatric hospitals for disagreeing with the government.|shut/away|prt(shut, away)|prt(shut, away)
-Many learners shy away from using phrasal verbs.|shy/from||
-The lecturer sided with her students and got sacked for her pains.|side/with||
-He sidled up to me and whispered his name.|sidle/to||
-We had to sift through thousands of files before we found what we were looking for.|sift/through||
+Many learners shy away from using phrasal verbs.|shy/from|prep(shy, from)|prep(shy, from)||pcomp(from, using)
+The lecturer sided with her students and got sacked for her pains.|side/with|prep(sided, with)|prep(sided, with)||pobj(with, students)
+He sidled up to me and whispered his name.|sidle/to|prep(sidled, to)|prep(sidled, to)||pobj(to, me)
+We had to sift through thousands of files before we found what we were looking for.|sift/through|prep(sift, through)|prep(sift, through)||pobj(through, thousands)
 He signed away his rights to compensation when he signed the contract.|sign/away|prt(signed, away)|prt(signed, away)
 He told them to simmer down because they were disturbing the class next door.|simmer/down|prt(simmer, down)|prt(simmer, down)
 The teacher told the class to simmer down.|simmer/down|prt(simmer, down)|prt(simmer, down)
 I sang along when they played it on the radio.|sing/along|prt(sang, along)|prt(sang, along)
 Many people applied for the job but we will single out the best one.|single/out|prt(single, out)|prt(single, out)
 The truth finally sank in about her death when it was broadcast on tv.|sink/in|prep(sank, in)|prep(sank, in)||pcomp(in, about)
-We spent the afternoon sitting about chatting instead of doing any work.|sit/about||
+We spent the afternoon sitting about chatting instead of doing any work.|sit/about|prep(sitting, about)|prep(sitting, about)||pcomp(about, chatting)
 The doorstaff sized up everyone entering the club.|size/up|prt(sized, up)|prt(sized, up)
 Soft drinks manufacturers have sized up their products in recent years.|size/up|prt(sized, up)|prt(sized, up)
 She skinned up a fat spliff.|skin/up|prt(skinned, up)|prt(skinned, up)
@@ -725,9 +725,9 @@ I pretended I was ill and skived off on Monday.|skive/off|prt(skived, off)|prt(s
 Students usually begin the term well, then slack off near the end of the semester.|slack/off|prt(slack, off)|prt(slack, off)
 Work slackens off during the holiday period.|slacken/off|prt(slackens, off)|prt(slackens, off)
 The concert was terrible and all the papers slagged the band off.|slag/off|prt(slagged, off)|prt(slagged, off)
-That travel magazine is totally slanted toward the ultra-rich.|slant/toward||
-He's slept around a lot since his divorce.|sleep/around||
-They cut 10% off the original price.|slice/off||
+That travel magazine is totally slanted toward the ultra-rich.|slant/toward|prep(slanted, toward)|prep(slanted, toward)||pobj(toward, ultra-rich)
+He's slept around a lot since his divorce.|sleep/around|prep(slept, around)|prep(slept, around)||pobj(around, lot)
+They cut 10% off the original price.|slice/off||prep(cut, off)||pobj(off, price)
 Their hopes of getting back into the game slipped away after the second goal.|slip/away|prt(slipped, away)|prt(slipped, away)
 The year has slipped away and it is hard to believe it's over.|slip/away|prt(slipped, away)|prt(slipped, away)
 I slobbed about all day as I couldn't be bothered to do any work.|slob/about||advmod(day, about)
@@ -738,7 +738,7 @@ He sloughed off the pain and continued running.|slough/off|prt(sloughed, off)|pr
 The car slowed down when they saw the police.|slow/down|prt(slowed, down)|prt(slowed, down)
 It is important to slow down, rest, and eat sensibly.|slow/down|prt(slow, down)|prt(slow, down)
 They slugged it out for hours but never came to an agreement.|slug/out|prt(slugged, out)|prt(slugged, out)
-The government's decision smacks of hypocrisy.|smack/of||
+The government's decision smacks of hypocrisy.|smack/of|prep(smacks, of)|prep(smacks, of)||pobj(of, hypocrisy)
 The police smashed the door down to get into the house.|smash/down|prt(smashed, down)|prt(smashed, down)
 The police smoked the gang out and arrested them.|smoke/out|prt(smoked, out)|prt(smoked, out)
 They snaffled up all the food before we got there.|snaffle/up|prt(snaffled, up)|prt(snaffled, up)
@@ -746,7 +746,7 @@ He snapped off a bit of chocolate from the bar and gave it to me..|snap/off|prt(
 My line was all snarled up after I caught that last fish.|snarl/up|prt(snarled, up)|prt(snarled, up)
 Although the thieves tried to sneak out after dark, we were ready for them.|sneak/out|prt(sneak, out)|prt(sneak, out)
 I sniffed around to see if I could find a better deal.|sniff/around|prt(sniffed, around)|prt(sniffed, around)
-Reggie was caught after someone  snitched on him to the teacher.|snitch/on||
+Reggie was caught after someone  snitched on him to the teacher.|snitch/on|prep(snitched, on)|prep(snitched, on)||pobj(on, him)
 I snuffed out the candles before I went to bed.|snuff/out|prt(snuffed, out)|prt(snuffed, out)
 He got snuffed out in a gang war.|snuff/out|prt(snuffed, out)|prt(snuffed, out)
 I messed up the first question, which snuffed out my chances of getting a good grade.|snuff/out|prt(snuffed, out)|prt(snuffed, out)
@@ -756,14 +756,14 @@ Keith sobered up a bit when we left the pub and walked home.|sober/up|advmod(sob
 The bombardment softened up their defenses; I think we can move in tomorrow.|soften/up|prt(softened, up)|prt(softened, up)
 I paid for everything to soften them up before they made the decision.|soften/up|advmod(soften, up)|advmod(soften, up)
 Life got hard for my dog when he went blind, but he just soldiered on and never complained.|soldier/on|prt(soldiered, on)|prt(soldiered, on)
-Has the firm sorted out its tax problems yet?|sort/out||
+Has the firm sorted out its tax problems yet?|sort/out|prep(sorted, out)|prep(sorted, out)||pobj(out, problems)
 He sounded off about the quality of the food.|sound/off|prt(sounded, off)|prt(sounded, off)
 The council is spaffing away our taxes on bonuses and consultants.|spaff/away|prt(spaffing, away)|prt(spaffing, away)
 The riot was sparked off by the police raid on the club.|spark/off|prt(sparked, off)|prt(sparked, off)
 People are afraid to speak out in oppressive political regimes.|speak/out|prt(speak, out)|prt(speak, out)
 The car speeded up when the police car drew near.|speed/up|prt(speeded, up)|prt(speeded, up)
 The government wants to speed up the economic recovery.|speed/up|prt(speed, up)|prt(speed, up)
-He won't understand you unless you spell everything out for him.|spell/out|advmod(spell, out)|advmod(spell, out)
+He won't understand you unless you spell everything out for him.|spell/out||advmod(for, out)
 I had to spell my surname out to him as he didn't know how to spell it.|spell/out|prt(spell, out)|prt(spell, out)
 The volcano is spewing out lava and hot gases.|spew/out|prt(spewing, out)|prt(spewing, out)
 The crowd spilled out onto the streets after the match had ended.|spill/out|prt(spilled, out)|prt(spilled, out)
@@ -777,11 +777,11 @@ Hurry up, spit it out!  I can't wait all day for the truth.|spit/out||advmod(!, 
 Apollo 13 splashed down  after a harrowing flight.|splash/down|prt(splashed, down)|prt(splashed, down)
 The teacher split the class up into groups of four.|split/up|prt(split, up)|prt(split, up)
 They are always splitting up and then getting back together again.|split/up|prt(splitting, up)|prt(splitting, up)
-He's been spoiling for an argument all day.|spoil/for||
+He's been spoiling for an argument all day.|spoil/for|prep(spoiling, for)|prep(spoiling, for)||pobj(for, argument)
 I'll sponge it down before putting it away.|sponge/down|prt(sponge, down)|prt(sponge, down)
 The lock springs back when the key is turned.|spring/back|prt(springs, back)|prt(springs, back)
 We spruced the flat up before we put it on the market.|spruce/up|advmod(spruced, up)|npadvmod(up, flat)||advmod(spruced, up)
-The thought of the bonus spurred her on to complete the work on time.|spur/on|prt(spurred, on)|prt(spurred, on)
+The thought of the bonus spurred her on to complete the work on time.|spur/on|prt(spurred, on)||prep(spurred, on)|prt(spurred, on)||prep(spurred, on)||pobj(on, time)
 There are few things I have to square away before I can leave.|square/away|prt(square, away)|prt(square, away)
 Four of us had to squeeze up in the back of the car.|squeeze/up|prt(squeeze, up)|prt(squeeze, up)
 I stacked up the boxes.|stack/up|prt(stacked, up)|prt(stacked, up)
@@ -791,7 +791,7 @@ The budget figures don't stack up.|stack/up|prt(stack, up)|prt(stack, up)
 Planes were stacking up while the airport was closed after the bomb threat.|stack/up|prt(stacking, up)|prt(stacking, up)
 They haven't staffed the project up yet.|staff/up||advmod(yet, up)
 The government has started a campaign to stamp out drugs in schools.|stamp/out|prt(stamp, out)|prt(stamp, out)
-We stood about drinking coffee before the lecture.|stand/about||
+We stood about drinking coffee before the lecture.|stand/about|prep(stood, about)|prep(stood, about)||pobj(about, coffee)
 He was angry but I stared him down and he left without saying much.|stare/down|prt(stared, down)|prt(stared, down)
 They started off the meeting with an attack on our performance.|start/off|prt(started, off)|prt(started, off)
 She started off as a receptionist and ended up as the ceo.|start/off|prt(started, off)|prt(started, off)
@@ -801,18 +801,18 @@ I stashed some money away behind some books.|stash/away|prt(stashed, away)|prt(s
 The police stove the front door in and arrested them.|stave/in|prep(stove, in)|prep(stove, in)
 He said he didn't like them coming and wanted them to stay away.|stay/away|prt(stay, away)|prt(stay, away)
 We didn't want to wake them, so we stole away in the middle of the night.|steal/away|prt(stole, away)|prt(stole, away)
-He's trying to steer clear of his lecturer because he hasn't finished his assignment yet.|steer/of||
-The trouble stems from their refusal to discuss the matter.|stem/from||
+He's trying to steer clear of his lecturer because he hasn't finished his assignment yet.|steer/of||prep(clear, of)||pobj(of, lecturer)
+The trouble stems from their refusal to discuss the matter.|stem/from|prep(stems, from)|prep(stems, from)||pobj(from, refusal)
 Everyone thinks that the prime minister should step aside so that someone new can lead the party into the election.|step/aside|prt(step, aside)|prt(step, aside)
 He's late, but I'll stick around for another few minutes before I leave.|stick/around|prt(stick, around)|prt(stick, around)
 My back stiffens up in cold weather.|stiffen/up|prt(stiffens, up)|prt(stiffens, up)
 They used starch to stiffen the collars up.|stiffen/up|prt(stiffen, up)|prt(stiffen, up)
-He stirred things up by complaining to senior management about his line manager.|stir/up|advmod(stirred, up)|advmod(stirred, up)||prepc(up, complaining)
+He stirred things up by complaining to senior management about his line manager.|stir/up|advmod(stirred, up)|advmod(stirred, up)||prep(up, by)
 I stitched up the hole in my sleeve.|stitch/up|prt(stitched, up)|prt(stitched, up)
 We get the contract stitched up this week.|stitch/up|prt(stitched, up)|prt(stitched, up)
 The police stitched them up because they couldn't find any evidence against them.|stitch/up|prt(stitched, up)|prt(stitched, up)
 He lost his temper and stomped off home.|stomp/off|prt(stomped, off)|prt(stomped, off)
-Why don't you stop around my place on your way back?|stop/around||
+Why don't you stop around my place on your way back?|stop/around|prep(stop, around)|prep(stop, around)||pobj(around, place)
 They had a row and he stormed off.|storm/off|prt(stormed, off)|prt(stormed, off)
 She stowed away on the plane but was caught when it landed.|stow/away|prt(stowed, away)|prt(stowed, away)
 We stowed it away in the garage to keep it dry.|stow/away|advmod(stowed, away)|advmod(stowed, away)
@@ -823,7 +823,7 @@ Starting work has straightened him out and calmed him down.|straighten/out|prt(s
 He was stretchered off with a broken ankle.|stretcher/off|prt(stretchered, off)|prt(stretchered, off)
 At first, he ignored them, but when things got very serious, he struck back.|strike/back|advmod(struck, back)|advmod(struck, back)
 They kept saying they were interested, but they were just stringing me along|string/along|prt(stringing, along)|prt(stringing, along)
-Is it alright if I string along with you tonight?|string/along||
+Is it alright if I string along with you tonight?|string/along|advmod(string, along)|advmod(string, along)||prep(along, with)
 He stubbed his cigarette out in a saucer because he couldn't find an ashtray.|stub/out|prt(stubbed, out)|prt(stubbed, out)
 I stuffed the exam up.|stuff/up|prt(stuffed, up)|prt(stuffed, up)
 You'll never guess what I stumbled across when I was packing my stuff.|stumble/across|prt(stumbled, across)|prt(stumbled, across)
@@ -837,20 +837,20 @@ The corporation swallowed them up before they could become a rival.|swallow/up|p
 The project swallowed up all our money.|swallow/up|prt(swallowed, up)|prt(swallowed, up)
 Flames swallowed up the building.|swallow/up|prt(swallowed, up)|prt(swallowed, up)
 He swanned about at the party.|swan/about|prt(swanned, about)|prt(swanned, about)
-I swear by their products- they're the best on the market.|swear/by||
-She swept through the exams.|sweep/through||
-The disease swept through the population.|sweep/through||
+I swear by their products- they're the best on the market.|swear/by|prep(swear, by)|prep(swear, by)||pobj(by, products)
+She swept through the exams.|sweep/through|prep(swept, through)|prep(swept, through)||pobj(through, exams)
+The disease swept through the population.|sweep/through|prep(swept, through)|prep(swept, through)||pobj(through, population)
 They swung around to our idea after reading the press reports.|swing/around|advmod(swung, around)|advmod(swung, around)
 He swung round to see what had made the noise.|swing/around||
 The candidate syphoned off a lot of votes because of his anti-war stance.|syphon/off|prt(syphoned, off)|prt(syphoned, off)
 The minister had been syphoning off funds from his department for years.|syphon/off|prt(syphoning, off)|prt(syphoning, off)
-They tacked on a new ending to the film when they found that test audiences didn't like the original.|tack/on||
+They tacked on a new ending to the film when they found that test audiences didn't like the original.|tack/on|prep(tacked, on)|prep(tacked, on)||pobj(on, ending)
 You're off to the cinema; can we tag along?|tag/along|prt(tag, along)|prt(tag, along)
 His voice tailed away when he was speaking about what he'd done wrong.|tail/away|prt(tailed, away)|prt(tailed, away)
 The news of her death took me aback.|take/aback|advmod(took, aback)|advmod(took, aback)
-He talked them around to accepting his point of view.|talk/around|advmod(talked, around)|advmod(talked, around)||prepc(around, accepting)
-They talked around the issue without reaching a conclusion.|talk/around||
-I tapped him for a loan.|tap/for||
+He talked them around to accepting his point of view.|talk/around|advmod(talked, around)|advmod(talked, around)||prep(around, to)
+They talked around the issue without reaching a conclusion.|talk/around|prep(talked, around)|prep(talked, around)||pobj(around, issue)
+I tapped him for a loan.|tap/for|prep(tapped, for)|prep(tapped, for)||pobj(for, loan)
 They teamed up to publicise the issue.|team/up|prt(teamed, up)|prt(teamed, up)
 People were torn apart when news of the train crash came through.|tear/apart|advmod(torn, apart)|advmod(torn, apart)
 The new project will tee off next month.|tee/off|prt(tee, off)|prt(tee, off)
@@ -869,7 +869,7 @@ They're tightening up security for the president's visit.|tighten/up|prt(tighten
 The program timed out before I could reply.|time/out|prt(timed, out)|prt(timed, out)
 The program timed me out after twenty minutes.|time/out|prt(timed, out)|prt(timed, out)
 The police arrested the drug dealer after someone tipped them off.|tip/off|prt(tipped, off)|prt(tipped, off)
-She soon tired of the course and dropped out.|tire/of||
+She soon tired of the course and dropped out.|tire/of|prep(tired, of)|prep(tired, of)||pobj(of, course)
 It's geting late, so I'm going to toddle off home.|toddle/off|prt(toddle, off)|prt(toddle, off)
 The Minister tried to tone down what she had said when the press started attacking her.|tone/down||advmod(said, down)
 The company spent a lot on tooling the factory up.|tool/up|prt(tooling, up)|prt(tooling, up)
@@ -877,11 +877,11 @@ The gangsters got tooled up before they went into the club.|tool/up|prt(tooled, 
 It's getting late, so we're going to tootle off home.|tootle/off|prt(tootle, off)|prt(tootle, off)
 He complained for an hour and to top it off started shouting his head off.|top/off|prt(top, off)|prt(top, off)||prt(shouting, off)
 we tossed ideas about before the negotiations.|toss/about|prep(tossed, about)|prep(tossed, about)||pcomp(about, before)
-The plane touched down at Narita airport an hour late.|touch/down|advmod(touched, down)|advmod(touched, down)||prep(down, airport)||dep(down, hour)
+The plane touched down at Narita airport an hour late.|touch/down|advmod(touched, down)|advmod(touched, down)||prep(down, at)
 I parked in a no-parking zone and they towed my car away.|tow/away|advmod(towed, away)|advmod(towed, away)
-She toyed at getting them to help her but then did it alone.|toy/at||
+She toyed at getting them to help her but then did it alone.|toy/at|prep(toyed, at)|prep(toyed, at)||pcomp(at, getting)
 It took me ages to track them down in the crowd at the football game.|track/down|prt(track, down)|prt(track, down)
-Their house it too large now that their children have left home, so they're going to trade down to something smaller.|trade/down|advmod(trade, down)|advmod(trade, down)||prep(down, something)
+Their house it too large now that their children have left home, so they're going to trade down to something smaller.|trade/down|advmod(trade, down)|advmod(trade, down)||prep(down, to)
 I have been training my new assistant up.|train/up|prt(training, up)|prt(training, up)
 Despite the economic boom, few benefits have trickled down to the poor.|trickle/down|prt(trickled, down)|prt(trickled, down)
 Their remarks triggered him off and he started shouting at them.|trigger/off|prt(triggered, off)|prt(triggered, off)
@@ -892,27 +892,27 @@ The police trumped up the charges against him and he ended up in prison though h
 I called but they weren't in, so I'll try back later.|try/back||advmod(later, back)
 I tucked the money away in my drawer.|tuck/away|prt(tucked, away)|prt(tucked, away)
 We tucked away a huge dinner before we went out.|tuck/away|prt(tucked, away)|prt(tucked, away)
-Be sure to tune in next week for the next episode.|tune/in||
-Management turfed him out last week.|turf/out||
-I turfed out all my old cds as I never play them.|turf/out||
-The public turned against the government when they became arrogant and ceased to listen.|turn/against||
+Be sure to tune in next week for the next episode.|tune/in|prep(tune, in)|prep(tune, in)||pobj(in, week)
+Management turfed him out last week.|turf/out|prep(turfed, out)|prep(turfed, out)||pobj(out, week)
+I turfed out all my old cds as I never play them.|turf/out|prep(turfed, out)|prep(turfed, out)||pobj(out, cds)
+The public turned against the government when they became arrogant and ceased to listen.|turn/against|prep(turned, against)|prep(turned, against)||pobj(against, government)
 He typed the  text in and printed it off.|type/in|prep(typed, in)|prep(typed, in)
 The crowd urged the players on.|urge/on|prep(urged, on)|prep(urged, on)
-They urged the deal on the company.|urge/on||
+They urged the deal on the company.|urge/on|prep(urged, on)|prep(urged, on)||pobj(on, company)
 We used up all the olive oil.|use/up|prt(used, up)|prt(used, up)
 We always give a party usher in the new year.|usher/in||prt(give, in)
-Her appointment as ceo ushered in a whole new phase in the company's growth.|usher/in||
+Her appointment as ceo ushered in a whole new phase in the company's growth.|usher/in|prep(ushered, in)||prep(ushered, in)|prep(ushered, in)||pobj(in, phase)||prep(ushered, in)||pobj(in, growth)
 He vacuumed up all of the food.|vacuum/up|prt(vacuumed, up)|prt(vacuumed, up)
 The place is dull and you need to vamp it up.|vamp/up|prt(vamp, up)|prt(vamp, up)
 I had to vamp up a reason for being so late.|vamp/up|prt(vamp, up)|prt(vamp, up)
 I'm going to veg out in front of the tv tonight.|veg/out|prt(veg, out)|prt(veg, out)
 If the storm has finished, we could venture forth.|venture/forth|advmod(venture, forth)|advmod(venture, forth)
 He just waded in without listening to what anyone had to say.|wade/in|prt(waded, in)|prt(waded, in)
-The hooligans waded in when they saw fans from the other team.|wade/in||
+The hooligans waded in when they saw fans from the other team.|wade/in|prep(waded, in)|prep(waded, in)||pcomp(in, saw)
 I waited about for an hour, but they didn't come.|wait/about|prt(waited, about)|prt(waited, about)
 I woke up at half past six this morning.|wake/up|prt(woke, up)|prt(woke, up)
-You can't just walk away from your problems.|walk/from||
-She waltzed through the tests and got the highest score.|waltz/through||
+You can't just walk away from your problems.|walk/from|prep(walk, from)|prep(walk, from)||pobj(from, problems)
+She waltzed through the tests and got the highest score.|waltz/through|prep(waltzed, through)|prep(waltzed, through)||pobj(through, tests)
 She wandered off and got lost in the crowd.|wander/off|prt(wandered, off)|prt(wandered, off)
 The lecture was boring and my mind wandered off after ten minutes.|wander/off|prt(wandered, off)|prt(wandered, off)
 Jackie wasn't happy with her marriage and wanted out.|want/out|prt(wanted, out)|prt(wanted, out)
@@ -922,17 +922,17 @@ He wasted away as the cancer got worse.|waste/away|prt(wasted, away)|prt(wasted,
 Watch out- there's ice on the road.|watch/out||prt(Watch, out)
 The Freedom of Information Act was watered down by the Government and didn't give ordinary people much access to official data files|water/down|prt(watered, down)|prt(watered, down)
 They waved aside our objections and carried on with the plan.|wave/aside|prt(waved, aside)|prt(waved, aside)
-We will have to wean him off his obsession.|wean/off||
+We will have to wean him off his obsession.|wean/off|prep(wean, off)|prep(wean, off)||pobj(off, obsession)
 The lawn has been worn away by people walking across it and it's just bare soil now with hardly a blade of grass.|wear/away|prt(worn, away)|prt(worn, away)
-The company weeded out the unsuccessful sales reps.|weed/out||
-The requirements of her new job weighed down on her.|weigh/on||
+The company weeded out the unsuccessful sales reps.|weed/out|prep(weeded, out)|prep(weeded, out)||pobj(out, reps.)
+The requirements of her new job weighed down on her.|weigh/on|prep(weighed, on)|prep(weighed, on)||pobj(on, her)
 The way he spoke was weirding me out.|weird/out|prt(weirding, out)|prt(weirding, out)
 I felt tears welling up when I heard the news.|well/up|prt(welling, up)|prt(welling, up)
 Anger welled up inside us when we saw what they had done.|well/up|prt(welled, up)|prt(welled, up)
 Tears welled up when I heard they had died.|well/up|prt(welled, up)|prt(welled, up)
 When he heard the whistle, he wheeled around to see what was happening.|wheel/around|prt(wheeled, around)|prt(wheeled, around)
 We whiled a couple of hours away playing computer games.|while/away||advmod(playing, away)
-Ben whipped into the convenience store for a bag of crisps.|whip/into||
+Ben whipped into the convenience store for a bag of crisps.|whip/into|prep(whipped, into)|prep(whipped, into)||pobj(into, store)
 The police whisked the minister away when the trouble started.|whisk/away|advmod(whisked, away)|npadvmod(away, minister)||advmod(whisked, away)
 Could you pass the Tippex?  I need to white this mistake out.|white/out|prt(white, out)|prt(white, out)
 He wigged out when he heard that he had failed.|wig/out|prt(wigged, out)|prt(wigged, out)
@@ -940,23 +940,23 @@ He was supposed to be in charge but tried to wiggle out.|wiggle/out|prt(wiggle, 
 I was going to have the hottest curry on the menu, but I wimped out and had a mild lamb Korma instead.|wimp/out|prt(wimped, out)|prt(wimped, out)
 I'm going to wind down in the country this weekend and do nothing.|wind/down|prt(wind, down)|prt(wind, down)
 They wound the committee down after the inquiry.|wind/down|prt(wound, down)|prt(wound, down)
-It took me a while to winkle the truth out of him.|winkle/out||
+It took me a while to winkle the truth out of him.|winkle/out|prt(winkle, out)|prt(winkle, out)
 Revising for the exam last night wiped me out.|wipe/out|prt(wiped, out)|prt(wiped, out)
 A meteor crashing into the planet wiped the dinosaurs out.|wipe/out|prt(wiped, out)|prt(wiped, out)
 She wired her new stereo system up as soon as she got home.|wire/up||advmod(soon, up)
 His supervisor told him to wise up and start following the rules or else he'd lose his job.|wise/up|prt(wise, up)|prt(wise, up)
-The solicitor worded her up client before the police interview, so they go very little out of him.|word/up||
+The solicitor worded her up client before the police interview, so they go very little out of him.|word/up|prep(worded, up)|prep(worded, up)||pobj(up, client)
 She goes to the gym to work off her anger.|work/off|prt(work, off)|prt(work, off)
-She wrapped a scarf around her head because it was so cold.|wrap/around||
-He wrapped his arms around her.|wrap/around||
-He always manages to wriggle out of any extra work we get.|wriggle/of||
+She wrapped a scarf around her head because it was so cold.|wrap/around|prep(wrapped, around)|prep(wrapped, around)||pobj(around, head)
+He wrapped his arms around her.|wrap/around|prep(wrapped, around)|prep(wrapped, around)||pobj(around, her)
+He always manages to wriggle out of any extra work we get.|wriggle/of|prep(wriggle, of)|prep(wriggle, of)||pobj(of, work)
 I wrote her mobile number down on a scrap of paper and I've lost it.|write/down|prt(wrote, down)|prt(wrote, down)
 He yacked on for an hour.|yack/on|prt(yacked, on)|prt(yacked, on)
 She yammered on for ages.|yammer/on|prt(yammered, on)|prt(yammered, on)
-I tried hard to resist, but in the end I yielded to temptation and ate it all.|yield/to||aux(resist, to)
-The police have zeroed in on the man they believe to be responsible for the murder.|zero/on||
-The hurricane is zeroing in on Florida.|zero/on||
-We zipped around the supermarket to get the shopping done.|zip/around||
-I was bored at first but then zoned in when things started getting more interesting.|zone/in||
+I tried hard to resist, but in the end I yielded to temptation and ate it all.|yield/to|prep(yielded, to)|aux(resist, to)||prep(yielded, to)||pobj(to, temptation)
+The police have zeroed in on the man they believe to be responsible for the murder.|zero/on|prep(zeroed, on)|dep(on, in)||prep(zeroed, on)||pobj(on, man)
+The hurricane is zeroing in on Florida.|zero/on|prep(zeroing, on)|prep(zeroing, on)||pobj(on, Florida)
+We zipped around the supermarket to get the shopping done.|zip/around|prep(zipped, around)|prep(zipped, around)||pobj(around, supermarket)
+I was bored at first but then zoned in when things started getting more interesting.|zone/in|prep(zoned, in)|prep(zoned, in)||pcomp(in, started)
 I zonked out during the film and missed most of it.|zonk/out|prt(zonked, out)|prt(zonked, out)
 The camera zoomed in to show people's faces.|zoom/in|prt(zoomed, in)|prt(zoomed, in)
