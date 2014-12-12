@@ -26,11 +26,11 @@ namespace PhrasalVerbParser
             var stream = File.OpenRead(fullPathToSrcData);
             var lemmatizer = new Lemmatizer(stream);
 
-            // parsing of usingenglish phrasal verbs
             /*var parser = new UsingEnglishParser();
             var phrasalVerbs = parser.ParseAllPhrasalVerbs();
             Console.WriteLine("============");
             Console.WriteLine("Found {0} phrasal verbs", phrasalVerbs.Count);*/
+
 
             var phrasalVerbs = ReadPhrasalVerbs(phrasalVerbFilePath);
 
@@ -43,7 +43,6 @@ namespace PhrasalVerbParser
                 {
                     var cleanupExample = LowerCaseAllUpperCasedWords(usage.Example);
                     var dependencies = DependencyParser.ParseDepencyRelationshipsInSentence(cleanupExample);
-
                     
                     Console.WriteLine(cleanupExample);
                     //var relationships = dependencies.Where(d => d.RelationshipType == "prt");
@@ -85,34 +84,32 @@ namespace PhrasalVerbParser
             Console.WriteLine("============");
             Console.WriteLine("Persisting phrasal verbs to {0}", phrasalVerbFilePath);
             PersistPhrasalVerbs(phrasalVerbs, phrasalVerbFilePath);
-            Console.WriteLine("Persisted phrasal verbs");
+            Console.WriteLine("Persisted phrasal verbs");*/
 
             // persisting examples
             var pvExamplesFilePath = PathToApplication + "Resources/phrasalVerbsExamples.txt";
             PersistPhrasalVerbsAndExamples(phrasalVerbs, pvExamplesFilePath);
             Console.WriteLine("Persisted examples");
-
-            Console.WriteLine("============");
-            Console.WriteLine("Reading phrasal verbs from file");
-            var verbs = ReadPhrasalVerbs(phrasalVerbFilePath);
-            Console.WriteLine("Retrieved {0} verbs", verbs.Count);
-
-            var fleexPhrasalVerbs = ReadFleexPhrasalVerbs();
-
-            var fleexOnlyPv = fleexPhrasalVerbs.Except(verbs.Select(v => v.Name)).ToList();
-            Console.WriteLine("{0} phrasal verbs missing on using english:", fleexOnlyPv.Count);
-            foreach (var pv in fleexOnlyPv)
-            {
-                Console.WriteLine(pv);
-            }
-
             Console.WriteLine("-------------------------");
-            var missingPvOnFleex = verbs.Select(v => v.Name).Except(fleexPhrasalVerbs).ToList();
-            Console.WriteLine("{0} phrasal verbs missing on fleex", missingPvOnFleex.Count());
-            foreach (var pv in missingPvOnFleex)
+            
+            // stats on usingenglish phrasal verbs
+            var verbs = ReadPhrasalVerbs(phrasalVerbFilePath);
+            var nbOfSeparableVerbs = verbs.Count(v => v.Usages.All(u => u.SeparableMandatory));
+            var nbOfInseparableVerbs = verbs.Count(v => v.Usages.All(u => u.Inseparable));
+            Console.WriteLine("{0} separable verbs", nbOfSeparableVerbs);
+            Console.WriteLine("{0} inseparable verbs", nbOfInseparableVerbs);
+            Console.WriteLine("{0} verbs", verbs.Count);
+
+            // write a file with examples of phrasal verbs
+            /*var pathToOutputFile = PathToApplication + "Resources/phrasalVerbExamples.txt";
+            var verbs = ReadPhrasalVerbs(phrasalVerbFilePath);
+            var lines =
+                verbs.SelectMany(v => v.Usages.Select(u => new {Usage = u, v.Name}))
+                    .Select(a => string.Format("{0}|{1}", a.Name, a.Usage.Example));
+            foreach (var line in lines)
             {
-                Console.WriteLine(pv);
-            }*/
+                Console.WriteLine(line);
+            File.WriteAllLines(pathToOutputFile, lines);*/
 
             Console.WriteLine("=== END ===");
             Console.ReadKey();
