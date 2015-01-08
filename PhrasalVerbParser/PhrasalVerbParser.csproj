@@ -32,101 +32,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ejml-0.23">
-      <HintPath>..\packages\Stanford.NLP.Parser.3.5.0.0\lib\ejml-0.23.dll</HintPath>
-    </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.AWT.WinForms">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.AWT.WinForms.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Beans">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Beans.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Charsets">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Charsets.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Cldrdata">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Cldrdata.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Corba">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Corba.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Core">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Jdbc">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Jdbc.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Localedata">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Localedata.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Management">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Management.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Media">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Media.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Misc">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Misc.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Naming">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Naming.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Nashorn">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Nashorn.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Remoting">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Remoting.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Security">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.SwingAWT">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.SwingAWT.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Text">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Text.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Tools">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Tools.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.Util">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.Util.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.XML.API">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.XML.API.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.XML.Bind">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.XML.Bind.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.XML.Crypto">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.XML.Crypto.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.XML.Parse">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.XML.Parse.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.XML.Transform">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.XML.Transform.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.XML.WebServices">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.XML.WebServices.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.OpenJDK.XML.XPath">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.OpenJDK.XML.XPath.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.Runtime">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="IKVM.Runtime.JNI">
-      <HintPath>..\packages\IKVM.8.0.5449.0\lib\IKVM.Runtime.JNI.dll</HintPath>
     </Reference>
     <Reference Include="LemmaSharp">
       <HintPath>..\packages\LemmaGenerator.1.1.0\lib\net20\LemmaSharp.dll</HintPath>
     </Reference>
-    <Reference Include="stanford-parser">
-      <HintPath>..\packages\Stanford.NLP.Parser.3.5.0.0\lib\stanford-parser.dll</HintPath>
+    <Reference Include="OpenNLP">
+      <HintPath>..\packages\OpenNLP.1.2.0\lib\net45\OpenNLP.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpEntropy">
+      <HintPath>..\packages\OpenNLP.1.2.0\lib\net45\SharpEntropy.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -147,17 +63,77 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Resources\OpenNlp\Models\Coref\acronyms" />
+    <None Include="Resources\OpenNlp\Models\Coref\cmodel.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\cmodel_nr.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\defmodel.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\defmodel_nr.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\fmodel.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\fmodel_nr.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\gen.fem" />
+    <None Include="Resources\OpenNlp\Models\Coref\gen.mal" />
+    <None Include="Resources\OpenNlp\Models\Coref\gen.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\imodel.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\imodel_nr.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\num.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\plmodel.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\plmodel_nr.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\pmodel.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\pmodel_nr.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\pnmodel.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\pnmodel_nr.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\sim.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\tmodel.nbin" />
+    <None Include="Resources\OpenNlp\Models\Coref\tmodel_nr.nbin" />
+    <None Include="Resources\OpenNlp\Models\EnglishChunk.nbin" />
+    <None Include="Resources\OpenNlp\Models\EnglishPOS.nbin" />
+    <None Include="Resources\OpenNlp\Models\EnglishSD.nbin" />
+    <None Include="Resources\OpenNlp\Models\EnglishSD_new1.nbin" />
+    <None Include="Resources\OpenNlp\Models\EnglishSD_new2.nbin" />
+    <None Include="Resources\OpenNlp\Models\EnglishSD_original.nbin" />
+    <None Include="Resources\OpenNlp\Models\EnglishTok.nbin" />
+    <None Include="Resources\OpenNlp\Models\EnglishTok_original.nbin" />
+    <None Include="Resources\OpenNlp\Models\EnglishTok_small.nbin" />
+    <None Include="Resources\OpenNlp\Models\NameFind\date.nbin" />
+    <None Include="Resources\OpenNlp\Models\NameFind\location.nbin" />
+    <None Include="Resources\OpenNlp\Models\NameFind\money.nbin" />
+    <None Include="Resources\OpenNlp\Models\NameFind\organization.nbin" />
+    <None Include="Resources\OpenNlp\Models\NameFind\percentage.nbin" />
+    <None Include="Resources\OpenNlp\Models\NameFind\person.nbin" />
+    <None Include="Resources\OpenNlp\Models\NameFind\time.nbin" />
+    <None Include="Resources\OpenNlp\Models\organization.nbin" />
+    <None Include="Resources\OpenNlp\Models\Parser\build.nbin" />
+    <None Include="Resources\OpenNlp\Models\Parser\check.nbin" />
+    <None Include="Resources\OpenNlp\Models\Parser\chunk.nbin" />
+    <None Include="Resources\OpenNlp\Models\Parser\date.nbin" />
+    <None Include="Resources\OpenNlp\Models\Parser\head_rules" />
+    <None Include="Resources\OpenNlp\Models\Parser\tag.nbin" />
+    <None Include="Resources\OpenNlp\Models\Parser\tagdict" />
+    <None Include="Resources\OpenNlp\WordNet\dict\adj.exc" />
+    <None Include="Resources\OpenNlp\WordNet\dict\adv.exc" />
+    <None Include="Resources\OpenNlp\WordNet\dict\cntlist" />
+    <None Include="Resources\OpenNlp\WordNet\dict\cntlist.rev" />
+    <None Include="Resources\OpenNlp\WordNet\dict\data.adj" />
+    <None Include="Resources\OpenNlp\WordNet\dict\data.adv" />
+    <None Include="Resources\OpenNlp\WordNet\dict\data.noun" />
+    <None Include="Resources\OpenNlp\WordNet\dict\data.verb" />
+    <None Include="Resources\OpenNlp\WordNet\dict\frames.vrb" />
+    <None Include="Resources\OpenNlp\WordNet\dict\index.adj" />
+    <None Include="Resources\OpenNlp\WordNet\dict\index.adv" />
+    <None Include="Resources\OpenNlp\WordNet\dict\index.noun" />
+    <None Include="Resources\OpenNlp\WordNet\dict\index.sense" />
+    <None Include="Resources\OpenNlp\WordNet\dict\index.verb" />
+    <None Include="Resources\OpenNlp\WordNet\dict\log.grind.2.1" />
+    <None Include="Resources\OpenNlp\WordNet\dict\noun.exc" />
+    <None Include="Resources\OpenNlp\WordNet\dict\sentidx.vrb" />
+    <None Include="Resources\OpenNlp\WordNet\dict\sents.vrb" />
+    <None Include="Resources\OpenNlp\WordNet\dict\verb.exc" />
+    <None Include="Resources\OpenNlp\WordNet\dict\verb.Framestext" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Classes\7zip\Compress\LzmaAlone\LzmaAlone.csproj" />
     <Content Include="Classes\7zip\Compress\LzmaAlone\LzmaAlone.sln" />
     <Content Include="Resources\sentences.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TestStanfordParser\TestStanfordParser.csproj">
-      <Project>{599fbbaa-d247-427f-a321-f67f479c13fd}</Project>
-      <Name>TestStanfordParser</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

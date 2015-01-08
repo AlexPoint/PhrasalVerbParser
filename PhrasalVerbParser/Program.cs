@@ -9,17 +9,35 @@ using System.Threading.Tasks;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Serialization;
 using LemmaSharp.Classes;
+using OpenNLP.Tools.Trees;
 using PhrasalVerbParser.src;
-using TestStanfordParser.src;
 
 namespace PhrasalVerbParser
 {
     class Program
     {
-        private static string PathToApplication = Directory.GetCurrentDirectory() + "/../../";
+        private static readonly string PathToApplication = Directory.GetCurrentDirectory() + "/../../";
         
         static void Main(string[] args)
         {
+            var sentence = "You should Get up and give the elderly man your seat.";
+            var modelPath = PathToApplication + "Resources/OpenNlp/Models/";
+            var parser = new OpenNLP.Tools.Parser.EnglishTreebankParser(modelPath, true, false);
+            var parse = parser.DoParse(sentence);
+            // Extract dependencies from lexical tree
+            var tlp = new PennTreebankLanguagePack();
+            var gsf = tlp.GrammaticalStructureFactory();
+            var tree = new ParseTree(parse);
+            Console.WriteLine(tree);
+            var gs = gsf.NewGrammaticalStructure(tree);
+            var dependencies = gs.TypedDependencies();
+
+            foreach (var dep in dependencies)
+            {
+                Console.WriteLine(dep);
+            }
+
+
             var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
 
             var fullPathToSrcData = PathToApplication + "Resources/lemmatizer/en_lemmatizer_data.lem";
@@ -35,7 +53,7 @@ namespace PhrasalVerbParser
             var phrasalVerbs = ReadPhrasalVerbs(phrasalVerbFilePath);
 
             // parse dependencies
-            var tuples = new List<Tuple<string, string, List<DependencyRelationship>>>();
+            /*var tuples = new List<Tuple<string, string, List<DependencyRelationship>>>();
             var lines = new List<string>();
             foreach (var phrasalVerb in phrasalVerbs)
             {
@@ -66,9 +84,9 @@ namespace PhrasalVerbParser
                     tuples.Add(new Tuple<string, string, List<DependencyRelationship>>(phrasalVerb.Name, cleanupExample, relevantRelationships.ToList()));
                     Console.WriteLine("---------");
                 }
-            }
+            }*/
 
-            var outputFilePath = PathToApplication + "Resources/output.txt";
+            /*var outputFilePath = PathToApplication + "Resources/output.txt";
             File.WriteAllLines(outputFilePath, lines);
 
             var nbOfExamples = tuples.Count;
@@ -76,7 +94,7 @@ namespace PhrasalVerbParser
             var nbOfPrtDepDetected = tuples.Count(tup => tup.Item3.Any());
             Console.WriteLine("{0} sentences with prt detected", nbOfPrtDepDetected);
             var nbOfPrtNotDetected = tuples.Count(tup => !tup.Item3.Any());
-            Console.WriteLine("{0} sentences with prt not detected", nbOfPrtNotDetected);
+            Console.WriteLine("{0} sentences with prt not detected", nbOfPrtNotDetected);*/
 
             //Console.WriteLine("===================");
             
