@@ -38,11 +38,13 @@
     <Reference Include="LemmaSharp">
       <HintPath>..\packages\LemmaGenerator.1.1.0\lib\net20\LemmaSharp.dll</HintPath>
     </Reference>
-    <Reference Include="OpenNLP">
-      <HintPath>..\packages\OpenNLP.1.2.0\lib\net45\OpenNLP.dll</HintPath>
+    <Reference Include="OpenNLP, Version=1.0.5487.33886, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\OpenNLP.1.2.3\lib\net45\OpenNLP.dll</HintPath>
     </Reference>
-    <Reference Include="SharpEntropy">
-      <HintPath>..\packages\OpenNLP.1.2.0\lib\net45\SharpEntropy.dll</HintPath>
+    <Reference Include="SharpEntropy, Version=1.0.5487.29769, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\OpenNLP.1.2.3\lib\net45\SharpEntropy.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
