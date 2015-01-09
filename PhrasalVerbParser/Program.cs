@@ -59,17 +59,14 @@ namespace PhrasalVerbParser
             Console.WriteLine("===========================");
 
             // Print results
-            var nbOfFaselyDetectedPhrasalVerb = results.Count(tup => tup.Item3.Count != 1);
-            Console.WriteLine("{0} (/ {1}) phrasal verbs fasely detected", nbOfFaselyDetectedPhrasalVerb, results.Count);
-            Console.WriteLine("----------");
-            foreach (var group in results.Where(tup => tup.Item3.Count != 1).GroupBy(tup => tup.Item3.Count))
+            foreach (var group in results.Where(tup => tup.Item3.Count == 1).GroupBy(tup => tup.Item3.First().Reln().GetShortName()).OrderByDescending(grp => grp.Count()))
             {
-                Console.WriteLine(group.Key + ":");
-                foreach (var tuple in group)
+                Console.WriteLine(group.Key + " -> " + group.Count());
+                /*foreach (var tuple in group)
                 {
                     Console.WriteLine("{0} - {1}", tuple.Item1, tuple.Item2);
                 }
-                Console.WriteLine("--------------");
+                Console.WriteLine("--------------");*/
             }
 
             
