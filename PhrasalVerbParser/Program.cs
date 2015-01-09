@@ -26,33 +26,7 @@ namespace PhrasalVerbParser
             var fullPathToSrcData = PathToApplication + "Resources/lemmatizer/en_lemmatizer_data.lem";
             var stream = File.OpenRead(fullPathToSrcData);
             var lemmatizer = new Lemmatizer(stream);
-
-            var sentences = new List<string>()
-            {
-                "I could really do with a cup of tea.",
-                "The United Kingdom did away with the death penalty in 1965.",
-                "He ducked out of helping us last night.",
-                "The government is homing in on benefit fraud.",
-                "The company honed in on its rival and tried to take it over.",
-                "Many learners shy away from using phrasal verbs.",
-                "He's trying to steer clear of his lecturer because he hasn't finished his assignment yet.",
-                "You can't just walk away from your problems.",
-                "He always manages to wriggle out of any extra work we get.",
-                "The police have zeroed in on the man they believe to be responsible for the murder.",
-                "The hurricane is zeroing in on Florida."
-            };
-            foreach (var sentence in sentences)
-            {
-                Console.WriteLine(sentence);
-                var deps = ComputeDependencies(sentence);
-                foreach (var typedDependency in deps)
-                {
-                    Console.WriteLine(typedDependency + " (" + lemmatizer.Lemmatize(typedDependency.Gov().GetWord()) + ", " + lemmatizer.Lemmatize(typedDependency.Dep().GetWord()) + ")");
-                } 
-                Console.WriteLine("=============");
-            }
-
-            /*
+            
             // load phrasal verbs & examples
             var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
             var phrasalVerbs = ReadPhrasalVerbs(phrasalVerbFilePath);
@@ -71,7 +45,10 @@ namespace PhrasalVerbParser
                     // get relevant dependencies found
                     var parts = phrasalVerb.Name.Split(' ');
                     var root = parts.First();
-                    var last = parts.Last();
+                    // We take only the 2nd part
+                    // For phrasal verbs with several particles, that's a good approximation for now
+                    // (we could check that all the particles are also linked)
+                    var last = parts[1];
                     var relevantRelationships = dependencies
                         .Where(d => (root == lemmatizer.Lemmatize(d.Dep().GetWord()) && last == d.Gov().GetWord())
                                     || (root == lemmatizer.Lemmatize(d.Gov().GetWord()) && last == d.Dep().GetWord()))
@@ -93,7 +70,7 @@ namespace PhrasalVerbParser
                     Console.WriteLine("{0} - {1}", tuple.Item1, tuple.Item2);
                 }
                 Console.WriteLine("--------------");
-            }*/
+            }
 
             
             
