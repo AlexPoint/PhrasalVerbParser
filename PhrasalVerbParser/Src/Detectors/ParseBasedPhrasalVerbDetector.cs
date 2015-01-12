@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using LemmaSharp.Classes;
 using OpenNLP.Tools.Parser;
@@ -22,20 +23,38 @@ namespace PhrasalVerbParser.Src.Detectors
 
         public bool IsMatch(string sentence, PhrasalVerb phrasalVerb)
         {
-            var dependencies = ComputeDependencies(sentence);
-            
-            // get relevant dependencies found
-            var parts = phrasalVerb.Name.Split(' ');
-            var root = parts.First();
-            // We take only the 2nd part
-            // For phrasal verbs with several particles, that's a good approximation for now
-            // (we could check that all the particles are also linked)
-            var last = parts[1];
-            var relevantRelationships = dependencies
-                .Where(d => (root == lemmatizer.Lemmatize(d.Dep().GetWord()) && last == d.Gov().GetWord())
-                            || (root == lemmatizer.Lemmatize(d.Gov().GetWord()) && last == d.Dep().GetWord()))
-                            .ToList();
-            return relevantRelationships.Any();
+            var pv = MatchingPhrasalVerbs(sentence, new List<PhrasalVerb>() {phrasalVerb});
+            return pv.Any();
+        }
+
+        public List<PhrasalVerb> MatchingPhrasalVerbs(string sentence, List<PhrasalVerb> phrasalVerbs)
+        {
+            var dependencies = ComputeDependencies(sentence).ToList();
+            var matchingPhrasalVerbs = new List<PhrasalVerb>();
+
+            foreach (var phrasalVerb in phrasalVerbs)
+            {
+                // get relevant dependencies found
+                var parts = phrasalVerb.Name.Split(' ');
+                var root = parts.First();
+                // We take only the 2nd part
+                // For phrasal verbs with several particles, that's a good approximation for now
+                // (we could check that all the particles are also linked)
+                if (parts.Count() > 1)
+                {
+                    var last = parts[1];
+                    var relevantRelationships = dependencies
+                        .Where(d => (root == lemmatizer.Lemmatize(d.Gov().GetWord()) && last == d.Dep().GetWord())
+                                    || (root == lemmatizer.Lemmatize(d.Dep().GetWord()) && last == d.Gov().GetWord())
+                                    )
+                                    .ToList();
+                    if (relevantRelationships.Any())
+                    {
+                        matchingPhrasalVerbs.Add(phrasalVerb);
+                    } 
+                }
+            }
+            return matchingPhrasalVerbs;
         }
 
         private IEnumerable<TypedDependency> ComputeDependencies(string sentence)

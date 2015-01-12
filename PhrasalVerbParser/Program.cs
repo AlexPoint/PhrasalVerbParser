@@ -10,6 +10,7 @@ using System.Web.UI.WebControls.WebParts;
 using System.Xml.Serialization;
 using LemmaSharp.Classes;
 using OpenNLP.Tools.Parser;
+using OpenNLP.Tools.SentenceDetect;
 using OpenNLP.Tools.Tokenize;
 using OpenNLP.Tools.Trees;
 using PhrasalVerbParser.Src;
@@ -52,9 +53,40 @@ namespace PhrasalVerbParser
             var pathToManuallyValidatedPhrasalVerbs = PathToApplication + "Resources/manual/good.txt";
             var pathToManuallyUnvalidatedPhrasalVerbs = PathToApplication + "Resources/manual/bad.txt";
 
+            var sent = "The police trumped up the charges against him and he ended up in prison though he hadn't done it.";
+            var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs);
+
+            // pv detection
+            var examples = File.ReadAllLines(pathToManuallyValidatedPhrasalVerbs);
+            Console.WriteLine("Phrasal verbs not detected:");
+            foreach (var example in examples)
+            {
+                var sentence = example.Split('|').First();
+                var phrasalVerb = example.Split('|').Last();
+                var matchingPvs = parseBasedDetector.MatchingPhrasalVerbs(sentence, phrasalVerbs);
+                if (!matchingPvs.Any(p => p.Name == phrasalVerb))
+                {
+                    Console.WriteLine("{0}; {1}", phrasalVerb, sentence);
+                }
+            }
+
+            // false positive detection
+            /*var examples = File.ReadAllLines(pathToManuallyUnvalidatedPhrasalVerbs);
+            Console.WriteLine("Wrongly detected PV ");
+            foreach (var example in examples)
+            {
+                var sentence = example.Split('|').First();
+                var phrasalVerb = example.Split('|').Last();
+                var matchingPvs = parseBasedDetector.MatchingPhrasalVerbs(sentence, phrasalVerbs);
+                if (matchingPvs.Any(p => p.Name == phrasalVerb))
+                {
+                    Console.WriteLine("'{0}'; {1}", phrasalVerb, sentence);
+                }
+            }*/
+
+
             // manual input for loosely detected phrasal verb
-            var pathToFleexSentences = PathToApplication + "Resources/allFleexSentences.txt";
-            var sentences = File.ReadAllLines(pathToFleexSentences);
+            /*var sentences = new List<string>();
             foreach (var sentence in sentences)
             {
                 // detect all other phrasal verbs
@@ -80,7 +112,7 @@ namespace PhrasalVerbParser
                         }
                     }
                 }
-            }
+            }*/
 
 
             // detect the phrasal verbs in the examples with the various detectors
