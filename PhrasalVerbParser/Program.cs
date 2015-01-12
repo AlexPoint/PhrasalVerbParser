@@ -24,14 +24,15 @@ namespace PhrasalVerbParser
         
         static void Main(string[] args)
         {
+            /*// parse phrasal verb on usingEnglish.com
             var usingEnglishParser = new UsingEnglishParser();
             var allPhrasalVerbs = usingEnglishParser.ParseAllPhrasalVerbs();
-            Console.Write("Parsed {0} phrasal verbs on using english");
+            Console.Write("Parsed {0} phrasal verbs on using english");*/
 
             // Persist phrasal verbs
-            var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
+            /*var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
             PersistPhrasalVerbs(allPhrasalVerbs, phrasalVerbFilePath);
-            Console.WriteLine("Phrasal verbs persisted");
+            Console.WriteLine("Phrasal verbs persisted");*/
 
             // Lemmatizer
             var fullPathToSrcData = PathToApplication + "Resources/lemmatizer/en_lemmatizer_data.lem";
@@ -39,6 +40,7 @@ namespace PhrasalVerbParser
             var lemmatizer = new Lemmatizer(stream);
             
             // load phrasal verbs & examples
+            var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
             var phrasalVerbs = ReadPhrasalVerbs(phrasalVerbFilePath);
 
             //
@@ -59,21 +61,6 @@ namespace PhrasalVerbParser
                     var isDetectedByBasic = basicDetector.IsMatch(example, phrasalVerb);
                     var isDetectedByParseBased = parseBasedDetector.IsMatch(example, phrasalVerb);
                     results.Add(new Tuple<string, string, bool, bool>(phrasalVerb.Name, example, isDetectedByBasic, isDetectedByParseBased));
-                    /*var dependencies = ComputeDependencies(example);
-
-                    Console.WriteLine("{0} -> {1}", phrasalVerb.Name, example);
-                    // get relevant dependencies found
-                    var parts = phrasalVerb.Name.Split(' ');
-                    var root = parts.First();
-                    // We take only the 2nd part
-                    // For phrasal verbs with several particles, that's a good approximation for now
-                    // (we could check that all the particles are also linked)
-                    var last = parts[1];
-                    var relevantRelationships = dependencies
-                        .Where(d => (root == lemmatizer.Lemmatize(d.Dep().GetWord()) && last == d.Gov().GetWord())
-                                    || (root == lemmatizer.Lemmatize(d.Gov().GetWord()) && last == d.Dep().GetWord()))
-                                    .ToList();
-                    results.Add(new Tuple<string, string, List<TypedDependency>>(phrasalVerb.Name, example, relevantRelationships));*/
                 }
             }
             Console.WriteLine("===========================");
@@ -139,27 +126,6 @@ namespace PhrasalVerbParser
                 _parser = new EnglishTreebankParser(modelPath, true, false);
             }
             return _parser;
-        }
-
-        private static IEnumerable<TypedDependency> ComputeDependencies(string sentence)
-        {
-            var parser = GetParser();
-            var parse = parser.DoParse(sentence);
-            // Extract dependencies from lexical tree
-            var tlp = new PennTreebankLanguagePack();
-            var gsf = tlp.GrammaticalStructureFactory();
-            var tree = new ParseTree(parse);
-            //Console.WriteLine(tree);
-            try
-            {
-                var gs = gsf.NewGrammaticalStructure(tree);
-                return gs.TypedDependencies();
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Exception when computing deps for {0}", sentence);
-                return new List<TypedDependency>();
-            }
         }
 
         private static string LowerCaseAllUpperCasedWords(string sentence)
