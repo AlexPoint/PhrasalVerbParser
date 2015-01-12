@@ -5,7 +5,7 @@ using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PhrasalVerbParser.src
+namespace PhrasalVerbParser.Src
 {
     [Serializable]
     public class Usage
@@ -36,8 +36,8 @@ namespace PhrasalVerbParser.src
             if (string.IsNullOrEmpty(note)){ return; }
 
             // try to detect english type
-            var englishType = src.EnglishType.TryDetectEnglishType(note);
-            if (englishType != src.EnglishType.Unsupported)
+            var englishType = Src.EnglishType.TryDetectEnglishType(note);
+            if (englishType != Src.EnglishType.Unsupported)
             {
                 this.EnglishType = englishType;
                 return;

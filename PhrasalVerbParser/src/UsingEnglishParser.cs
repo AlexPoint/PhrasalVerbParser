@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
 
-namespace PhrasalVerbParser.src
+namespace PhrasalVerbParser.Src
 {
     public class UsingEnglishParser
     {

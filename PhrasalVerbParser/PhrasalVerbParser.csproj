@@ -58,9 +58,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\Usage.cs" />
-    <Compile Include="src\PhrasalVerb.cs" />
-    <Compile Include="src\UsingEnglishParser.cs" />
+    <Compile Include="Src\Detectors\BasicPhrasalVerbDetector.cs" />
+    <Compile Include="Src\Detectors\ParseBasedPhrasalVerbDetector.cs" />
+    <Compile Include="Src\Usage.cs" />
+    <Compile Include="Src\PhrasalVerb.cs" />
+    <Compile Include="Src\UsingEnglishParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

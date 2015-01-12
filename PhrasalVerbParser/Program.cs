@@ -10,8 +10,10 @@ using System.Web.UI.WebControls.WebParts;
 using System.Xml.Serialization;
 using LemmaSharp.Classes;
 using OpenNLP.Tools.Parser;
+using OpenNLP.Tools.Tokenize;
 using OpenNLP.Tools.Trees;
-using PhrasalVerbParser.src;
+using PhrasalVerbParser.Src;
+using PhrasalVerbParser.Src.Detectors;
 
 namespace PhrasalVerbParser
 {
@@ -22,24 +24,42 @@ namespace PhrasalVerbParser
         
         static void Main(string[] args)
         {
+            var usingEnglishParser = new UsingEnglishParser();
+            var allPhrasalVerbs = usingEnglishParser.ParseAllPhrasalVerbs();
+            Console.Write("Parsed {0} phrasal verbs on using english");
+
+            // Persist phrasal verbs
+            var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
+            PersistPhrasalVerbs(allPhrasalVerbs, phrasalVerbFilePath);
+            Console.WriteLine("Phrasal verbs persisted");
+
             // Lemmatizer
             var fullPathToSrcData = PathToApplication + "Resources/lemmatizer/en_lemmatizer_data.lem";
             var stream = File.OpenRead(fullPathToSrcData);
             var lemmatizer = new Lemmatizer(stream);
             
             // load phrasal verbs & examples
-            var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
             var phrasalVerbs = ReadPhrasalVerbs(phrasalVerbFilePath);
 
-            // 
-            var results = new List<Tuple<string, string, List<TypedDependency>>>();
+            //
+            var tokenizerModelPaths = PathToApplication + "Resources/OpenNlp/Models/EnglishTok.nbin";
+            var tokenizer = new EnglishMaximumEntropyTokenizer(tokenizerModelPaths);
+            var basicDetector = new BasicPhrasalVerbDetector(tokenizer, lemmatizer);
+            var parseBasedDetector = new ParseBasedPhrasalVerbDetector(GetParser(), lemmatizer);
+
+            // detect the phrasal verbs in the examples
+            var results = new List<Tuple<string, string, bool, bool>>();
             foreach (var phrasalVerb in phrasalVerbs)
             {
                 foreach (var usage in phrasalVerb.Usages)
                 {
                     // compute dependencies
                     var example = LowerCaseAllUpperCasedWords(usage.Example);
-                    var dependencies = ComputeDependencies(example);
+
+                    var isDetectedByBasic = basicDetector.IsMatch(example, phrasalVerb);
+                    var isDetectedByParseBased = parseBasedDetector.IsMatch(example, phrasalVerb);
+                    results.Add(new Tuple<string, string, bool, bool>(phrasalVerb.Name, example, isDetectedByBasic, isDetectedByParseBased));
+                    /*var dependencies = ComputeDependencies(example);
 
                     Console.WriteLine("{0} -> {1}", phrasalVerb.Name, example);
                     // get relevant dependencies found
@@ -53,36 +73,28 @@ namespace PhrasalVerbParser
                         .Where(d => (root == lemmatizer.Lemmatize(d.Dep().GetWord()) && last == d.Gov().GetWord())
                                     || (root == lemmatizer.Lemmatize(d.Gov().GetWord()) && last == d.Dep().GetWord()))
                                     .ToList();
-                    results.Add(new Tuple<string, string, List<TypedDependency>>(phrasalVerb.Name, example, relevantRelationships));
+                    results.Add(new Tuple<string, string, List<TypedDependency>>(phrasalVerb.Name, example, relevantRelationships));*/
                 }
             }
             Console.WriteLine("===========================");
 
             // Print results
-            foreach (var group in results.Where(tup => tup.Item3.Count == 1).GroupBy(tup => tup.Item3.First().Reln().GetShortName()).OrderByDescending(grp => grp.Count()))
+            Console.WriteLine("{0} ({1}%) detected by basic detector", results.Count(tup => tup.Item3), (float)(results.Count(tup => tup.Item3) * 100) / results.Count);
+            Console.WriteLine("{0} ({1}) detected by parse based detector", results.Count(tup => tup.Item4), (float)(results.Count(tup => tup.Item4) * 100) / results.Count);
+            Console.WriteLine("----------");
+            Console.WriteLine("Missed basic detection:");
+            foreach (var result in results.Where(tup => !tup.Item3))
             {
-                Console.WriteLine(group.Key + " -> " + group.Count());
-                /*foreach (var tuple in group)
-                {
-                    Console.WriteLine("{0} - {1}", tuple.Item1, tuple.Item2);
-                }
-                Console.WriteLine("--------------");*/
+                Console.WriteLine("{0} - {1}", result.Item1, result.Item2);
             }
-
+            Console.WriteLine("----------");
+            Console.WriteLine("Missed parse based detection:");
+            foreach (var result in results.Where(tup => !tup.Item4))
+            {
+                Console.WriteLine("{0} - {1}", result.Item1, result.Item2);
+            }
             
-            
-            /*var outputFilePath = PathToApplication + "Resources/output.txt";
-            File.WriteAllLines(outputFilePath, lines);
 
-            var nbOfExamples = tuples.Count;
-            Console.WriteLine("{0} sentence examples", nbOfExamples);
-            var nbOfPrtDepDetected = tuples.Count(tup => tup.Item3.Any());
-            Console.WriteLine("{0} sentences with prt detected", nbOfPrtDepDetected);
-            var nbOfPrtNotDetected = tuples.Count(tup => !tup.Item3.Any());
-            Console.WriteLine("{0} sentences with prt not detected", nbOfPrtNotDetected);*/
-
-            //Console.WriteLine("===================");
-            
             /*// persisting list of phrasal verbs
             Console.WriteLine("============");
             Console.WriteLine("Persisting phrasal verbs to {0}", phrasalVerbFilePath);
@@ -158,17 +170,6 @@ namespace PhrasalVerbParser
 
 
         // Reading / Writing phrasal verbs ----------------------------
-
-        private static void PersistPhrasalVerbsAndExamples(List<PhrasalVerb> verbs, string filePath)
-        {
-            var lines = verbs.SelectMany(v => v.Usages)
-                .Select(
-                    u =>
-                        string.Format("{0}|{1}",
-                            verbs.First(pv => pv.Usages.Select(uv => uv.Example).Contains(u.Example)).Name, u.Example))
-                .ToList();
-            File.WriteAllLines(filePath, lines);
-        }
 
         private static List<string> ReadFleexPhrasalVerbs()
         {
