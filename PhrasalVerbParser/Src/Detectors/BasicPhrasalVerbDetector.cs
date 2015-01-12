@@ -42,16 +42,19 @@ namespace PhrasalVerbParser.Src.Detectors
                 else
                 {
                     // match all particles
-                    var particle = phrasalVerb.Particles[particleToMatch];
-                    var isMatch = string.Equals(token, particle, StringComparison.InvariantCultureIgnoreCase);
-                    if (isMatch)
+                    if (phrasalVerb.Particles.Count > particleToMatch)
                     {
-                        particleToMatch++;
-                        if (particleToMatch >= phrasalVerb.Particles.Count)
+                        var particle = phrasalVerb.Particles[particleToMatch];
+                        var isMatch = string.Equals(token, particle, StringComparison.InvariantCultureIgnoreCase);
+                        if (isMatch)
                         {
-                            // we matched all particles
-                            return true;
-                        }
+                            particleToMatch++;
+                            if (particleToMatch >= phrasalVerb.Particles.Count)
+                            {
+                                // we matched all particles
+                                return true;
+                            }
+                        } 
                     }
                 }
             }

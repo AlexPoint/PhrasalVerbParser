@@ -49,8 +49,42 @@ namespace PhrasalVerbParser
             var basicDetector = new BasicPhrasalVerbDetector(tokenizer, lemmatizer);
             var parseBasedDetector = new ParseBasedPhrasalVerbDetector(GetParser(), lemmatizer);
 
-            // detect the phrasal verbs in the examples
-            var results = new List<Tuple<string, string, bool, bool>>();
+            var pathToManuallyValidatedPhrasalVerbs = PathToApplication + "Resources/manual/good.txt";
+            var pathToManuallyUnvalidatedPhrasalVerbs = PathToApplication + "Resources/manual/bad.txt";
+
+            // manual input for loosely detected phrasal verb
+            var pathToFleexSentences = PathToApplication + "Resources/allFleexSentences.txt";
+            var sentences = File.ReadAllLines(pathToFleexSentences);
+            foreach (var sentence in sentences)
+            {
+                // detect all other phrasal verbs
+                foreach (var pv in phrasalVerbs)
+                {
+                    var isMatch = basicDetector.IsMatch(sentence, pv);
+                    if (isMatch)
+                    {
+                        Console.WriteLine("{0} --> '{1}'; 'y' for OK, n otherwise", pv.Name, sentence);
+                        var key = Console.ReadKey();
+                        while (key.KeyChar != 'y' && key.KeyChar != 'n')
+                        {
+                            Console.WriteLine("'y' / 'n' only");
+                            key = Console.ReadKey();
+                        }
+                        Console.WriteLine();
+                        string filePathToWrite = key.KeyChar == 'y'
+                            ? pathToManuallyValidatedPhrasalVerbs
+                            : pathToManuallyUnvalidatedPhrasalVerbs;
+                        using (var writer = new StreamWriter(filePathToWrite, true))
+                        {
+                            writer.WriteLine("{0}|{1}", sentence, pv.Name);
+                        }
+                    }
+                }
+            }
+
+
+            // detect the phrasal verbs in the examples with the various detectors
+            /*var results = new List<Tuple<string, string, bool, bool>>();
             foreach (var phrasalVerb in phrasalVerbs)
             {
                 foreach (var usage in phrasalVerb.Usages)
@@ -79,7 +113,7 @@ namespace PhrasalVerbParser
             foreach (var result in results.Where(tup => !tup.Item4))
             {
                 Console.WriteLine("{0} - {1}", result.Item1, result.Item2);
-            }
+            }*/
             
 
             /*// persisting list of phrasal verbs
@@ -134,7 +168,7 @@ namespace PhrasalVerbParser
             return replacedSentence;
         }
 
-
+        
         // Reading / Writing phrasal verbs ----------------------------
 
         private static List<string> ReadFleexPhrasalVerbs()
