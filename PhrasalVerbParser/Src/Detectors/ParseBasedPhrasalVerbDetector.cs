@@ -44,8 +44,9 @@ namespace PhrasalVerbParser.Src.Detectors
                 {
                     var last = parts[1];
                     var relevantRelationships = dependencies
-                        .Where(d => (root == lemmatizer.Lemmatize(d.Gov().GetWord()) && last == d.Dep().GetWord())
-                                    || (root == lemmatizer.Lemmatize(d.Dep().GetWord()) && last == d.Gov().GetWord())
+                        .Where(d => (string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase) 
+                            && string.Equals(last, d.Dep().GetWord(), StringComparison.InvariantCultureIgnoreCase))
+                                    //|| (root == lemmatizer.Lemmatize(d.Dep().GetWord()) && last == d.Gov().GetWord())
                                     )
                                     .ToList();
                     if (relevantRelationships.Any())
