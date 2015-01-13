@@ -37,22 +37,55 @@ namespace PhrasalVerbParser.Src.Detectors
                 // get relevant dependencies found
                 var parts = phrasalVerb.Name.Split(' ');
                 var root = parts.First();
+                // find dependencies for this root
+                var relevantDepedencies = dependencies
+                    .Where(d => string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase))
+                    .ToList();
+
                 // We take only the 2nd part
                 // For phrasal verbs with several particles, that's a good approximation for now
                 // (we could check that all the particles are also linked)
-                if (parts.Count() > 1)
+                if (relevantDepedencies.Any() && parts.Count() > 1)
                 {
-                    var last = parts[1];
-                    var relevantRelationships = dependencies
-                        .Where(d => (string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase) 
-                            && string.Equals(last, d.Dep().GetWord(), StringComparison.InvariantCultureIgnoreCase))
-                                    //|| (root == lemmatizer.Lemmatize(d.Dep().GetWord()) && last == d.Gov().GetWord())
-                                    )
-                                    .ToList();
-                    if (relevantRelationships.Any())
+                    var particle1 = parts[1];
+                    /*var firstDep = relevantDepedencies
+                        .Where(d => d.Dep().Index() > d.Gov().Index())
+                        .OrderBy(d => d.Reln().GetShortName() == "prt")
+                        /*.ThenBy(d => d.Reln().GetShortName() == "prep")
+                        .ThenBy(d => d.Reln().GetShortName() == "advmod")#1#
+                        .ThenBy(d => d.Dep().Index())
+                        //.OrderBy(d => d.Dep().Index())
+                        .FirstOrDefault();
+                    if (firstDep != null &&
+                        string.Equals(firstDep.Dep().GetWord(), particle1, StringComparison.InvariantCultureIgnoreCase))
                     {
                         matchingPhrasalVerbs.Add(phrasalVerb);
-                    } 
+                    }*/
+                    var prtDependencies = relevantDepedencies.Where(d => d.Reln().GetShortName() == "prt").ToList();
+                    if (prtDependencies.Any())
+                    {
+                        // if root has a prt dependency, don't look at other relations
+                        if (prtDependencies.Any(d =>
+                                    string.Equals(particle1, d.Dep().GetWord(),
+                                        StringComparison.InvariantCultureIgnoreCase)))
+                        {
+                            matchingPhrasalVerbs.Add(phrasalVerb);
+                        }
+                    }
+                    else
+                    {
+                        // otherwise, look at all the other relations
+                        var relevantRelationships = dependencies
+                        .Where(d => (string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase)
+                            && string.Equals(particle1, d.Dep().GetWord(), StringComparison.InvariantCultureIgnoreCase))
+                            //|| (root == lemmatizer.Lemmatize(d.Dep().GetWord()) && last == d.Gov().GetWord())
+                                    )
+                                    .ToList();
+                        if (relevantRelationships.Any())
+                        {
+                            matchingPhrasalVerbs.Add(phrasalVerb);
+                        }
+                    }
                 }
             }
             return matchingPhrasalVerbs;

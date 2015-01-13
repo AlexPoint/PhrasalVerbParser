@@ -53,10 +53,10 @@ namespace PhrasalVerbParser
             var pathToManuallyValidatedPhrasalVerbs = PathToApplication + "Resources/manual/good.txt";
             var pathToManuallyUnvalidatedPhrasalVerbs = PathToApplication + "Resources/manual/bad.txt";
 
-            var sent = "The police trumped up the charges against him and he ended up in prison though he hadn't done it.";
+            var sent = "And so for animals that come to the surface to breathe, such as this elephant seal, it's an opportunity to send data back to shore and tell us where exactly it is in the ocean.";
             var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs);
 
-            /*// missing pv detections
+            // missing pv detections
             var manuallyValidatedExampls = File.ReadAllLines(pathToManuallyValidatedPhrasalVerbs);
             Console.WriteLine("Phrasal verbs not detected:");
             var notDetected = new List<Tuple<string, string>>();
@@ -96,11 +96,11 @@ namespace PhrasalVerbParser
             {
                 Console.WriteLine("'{0}'; {1}", tuple.Item2, tuple.Item1);
             }
-            Console.WriteLine("----------");*/
+            Console.WriteLine("----------");
 
 
             // manual input for loosely detected phrasal verb
-            var pathToSentenceFile = PathToApplication + "Resources/fleexSubtitlesSentencesExtract.txt";
+            /*var pathToSentenceFile = PathToApplication + "Resources/fleexSubtitlesSentencesExtract.txt";
             var sentences = File.ReadAllLines(pathToSentenceFile);
             foreach (var sentence in sentences)
             {
@@ -129,7 +129,7 @@ namespace PhrasalVerbParser
                         }
                     }
                 }
-            }
+            }*/
 
 
             // detect the phrasal verbs in the examples with the various detectors
