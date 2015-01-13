@@ -5,7 +5,10 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using LemmaSharp.Classes;
+using OpenNLP.Tools;
 using OpenNLP.Tools.Parser;
+using OpenNLP.Tools.PosTagger;
+using OpenNLP.Tools.Tokenize;
 using OpenNLP.Tools.Trees;
 
 namespace PhrasalVerbParser.Src.Detectors
@@ -14,11 +17,17 @@ namespace PhrasalVerbParser.Src.Detectors
     {
         private readonly EnglishTreebankParser parser;
         private readonly Lemmatizer lemmatizer;
+        private readonly EnglishMaximumEntropyTokenizer tokenizer;
+        private readonly EnglishMaximumEntropyPosTagger tagger;
 
-        public ParseBasedPhrasalVerbDetector(EnglishTreebankParser parser, Lemmatizer lemmatizer)
+
+        public ParseBasedPhrasalVerbDetector(EnglishTreebankParser parser, Lemmatizer lemmatizer, 
+            EnglishMaximumEntropyTokenizer tokenizer, EnglishMaximumEntropyPosTagger tagger)
         {
             this.parser = parser;
             this.lemmatizer = lemmatizer;
+            this.tokenizer = tokenizer;
+            this.tagger = tagger;
         }
 
         public bool IsMatch(string sentence, PhrasalVerb phrasalVerb)
@@ -29,9 +38,16 @@ namespace PhrasalVerbParser.Src.Detectors
 
         public List<PhrasalVerb> MatchingPhrasalVerbs(string sentence, List<PhrasalVerb> phrasalVerbs)
         {
-            var dependencies = ComputeDependencies(sentence).ToList();
-            var matchingPhrasalVerbs = new List<PhrasalVerb>();
+            // tokenize sentence
+            var tokens = tokenizer.Tokenize(sentence);
+            var taggedWords = tagger.Tag(tokens)/*.Where(t => Regex.IsMatch(t, "[A-Z]+")).ToList()*/;
+            // create parse tree
+            var parse = parser.DoParse(tokens);
+            // retrieve dependencies
+            var dependencies = ComputeDependencies(parse).ToList();
 
+            // compute matching phrasal verbs
+            var matchingPhrasalVerbs = new List<PhrasalVerb>();
             foreach (var phrasalVerb in phrasalVerbs)
             {
                 // get relevant dependencies found
@@ -39,7 +55,8 @@ namespace PhrasalVerbParser.Src.Detectors
                 var root = parts.First();
                 // find dependencies for this root
                 var relevantDepedencies = dependencies
-                    .Where(d => string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase))
+                    .Where(d => string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase)
+                    && d.Gov().Index() >= 1 && IsVerb(taggedWords[d.Gov().Index() - 1]))
                     .ToList();
 
                 // We take only the 2nd part
@@ -91,14 +108,18 @@ namespace PhrasalVerbParser.Src.Detectors
             return matchingPhrasalVerbs;
         }
 
-        private IEnumerable<TypedDependency> ComputeDependencies(string sentence)
+        private bool IsVerb(string tag)
         {
-            var parse = parser.DoParse(sentence);
+            return tag == "VB" || tag == "VBD" || tag == "VBG" || tag == "VBN"
+                   || tag == "VBP" || tag == "VBZ";
+        }
+
+        private IEnumerable<TypedDependency> ComputeDependencies(Parse parse)
+        {
             // Extract dependencies from lexical tree
             var tlp = new PennTreebankLanguagePack();
             var gsf = tlp.GrammaticalStructureFactory();
             var tree = new ParseTree(parse);
-            //Console.WriteLine(tree);
             try
             {
                 var gs = gsf.NewGrammaticalStructure(tree);
@@ -106,7 +127,7 @@ namespace PhrasalVerbParser.Src.Detectors
             }
             catch (Exception)
             {
-                Console.WriteLine("Exception when computing deps for {0}", sentence);
+                Console.WriteLine("Exception when computing deps for {0}", parse);
                 return new List<TypedDependency>();
             }
         }

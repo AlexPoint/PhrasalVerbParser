@@ -6,10 +6,12 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Web.UI;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Serialization;
 using LemmaSharp.Classes;
 using OpenNLP.Tools.Parser;
+using OpenNLP.Tools.PosTagger;
 using OpenNLP.Tools.SentenceDetect;
 using OpenNLP.Tools.Tokenize;
 using OpenNLP.Tools.Trees;
@@ -47,13 +49,16 @@ namespace PhrasalVerbParser
             //
             var tokenizerModelPaths = PathToApplication + "Resources/OpenNlp/Models/EnglishTok.nbin";
             var tokenizer = new EnglishMaximumEntropyTokenizer(tokenizerModelPaths);
+            var englishPosPath = PathToApplication + "Resources/OpenNlp/Models/EnglishPOS.nbin";
+            var tagDictPath = PathToApplication + "Resources/OpenNlp/Models/Parser/tagdict";
+            var tagger = new EnglishMaximumEntropyPosTagger(englishPosPath, tagDictPath);
             var basicDetector = new BasicPhrasalVerbDetector(tokenizer, lemmatizer);
-            var parseBasedDetector = new ParseBasedPhrasalVerbDetector(GetParser(), lemmatizer);
+            var parseBasedDetector = new ParseBasedPhrasalVerbDetector(GetParser(), lemmatizer, tokenizer, tagger);
 
             var pathToManuallyValidatedPhrasalVerbs = PathToApplication + "Resources/manual/good.txt";
             var pathToManuallyUnvalidatedPhrasalVerbs = PathToApplication + "Resources/manual/bad.txt";
 
-            var sent = "And so for animals that come to the surface to breathe, such as this elephant seal, it's an opportunity to send data back to shore and tell us where exactly it is in the ocean.";
+            var sent = "Many people have been shut away in psychiatric hospitals for disagreeing with the government.";
             var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs);
 
             // missing pv detections
