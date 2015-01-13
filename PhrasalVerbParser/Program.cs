@@ -56,14 +56,14 @@ namespace PhrasalVerbParser
             var sent = "The police trumped up the charges against him and he ended up in prison though he hadn't done it.";
             var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs);
 
-            // missing pv detections
+            /*// missing pv detections
             var manuallyValidatedExampls = File.ReadAllLines(pathToManuallyValidatedPhrasalVerbs);
             Console.WriteLine("Phrasal verbs not detected:");
             var notDetected = new List<Tuple<string, string>>();
             foreach (var example in manuallyValidatedExampls)
             {
-                var sentence = example.Split('|').First();
-                var phrasalVerb = example.Split('|').Last();
+                var sentence = example.Split('|').Last();
+                var phrasalVerb = example.Split('|').First();
                 var matchingPvs = parseBasedDetector.MatchingPhrasalVerbs(sentence, phrasalVerbs);
                 if (!matchingPvs.Any(p => p.Name == phrasalVerb))
                 {
@@ -83,8 +83,8 @@ namespace PhrasalVerbParser
             var wronglyDetected = new List<Tuple<string, string>>();
             foreach (var example in manuallyUnvalidatedExamples)
             {
-                var sentence = example.Split('|').First();
-                var phrasalVerb = example.Split('|').Last();
+                var sentence = example.Split('|').Last();
+                var phrasalVerb = example.Split('|').First();
                 var matchingPvs = parseBasedDetector.MatchingPhrasalVerbs(sentence, phrasalVerbs);
                 if (matchingPvs.Any(p => p.Name == phrasalVerb))
                 {
@@ -96,11 +96,12 @@ namespace PhrasalVerbParser
             {
                 Console.WriteLine("'{0}'; {1}", tuple.Item2, tuple.Item1);
             }
-            Console.WriteLine("----------");
+            Console.WriteLine("----------");*/
 
 
             // manual input for loosely detected phrasal verb
-            /*var sentences = new List<string>();
+            var pathToSentenceFile = PathToApplication + "Resources/fleexSubtitlesSentencesExtract.txt";
+            var sentences = File.ReadAllLines(pathToSentenceFile);
             foreach (var sentence in sentences)
             {
                 // detect all other phrasal verbs
@@ -109,7 +110,9 @@ namespace PhrasalVerbParser
                     var isMatch = basicDetector.IsMatch(sentence, pv);
                     if (isMatch)
                     {
-                        Console.WriteLine("{0} --> '{1}'; 'y' for OK, n otherwise", pv.Name, sentence);
+                        var capitalizedRoot = Regex.Replace(sentence, "\\b" + pv.Root, pv.Root.ToUpper());
+                        var capitalizedParticle = Regex.Replace(capitalizedRoot, "\\b" + pv.Particle1 + "\\b", pv.Particle1.ToUpper());
+                        Console.WriteLine("{0} --> '{1}'; 'y' for OK, n otherwise", pv.Name, capitalizedParticle);
                         var key = Console.ReadKey();
                         while (key.KeyChar != 'y' && key.KeyChar != 'n')
                         {
@@ -122,11 +125,11 @@ namespace PhrasalVerbParser
                             : pathToManuallyUnvalidatedPhrasalVerbs;
                         using (var writer = new StreamWriter(filePathToWrite, true))
                         {
-                            writer.WriteLine("{0}|{1}", sentence, pv.Name);
+                            writer.WriteLine("{0}|{1}", pv.Name, sentence);
                         }
                     }
                 }
-            }*/
+            }
 
 
             // detect the phrasal verbs in the examples with the various detectors
