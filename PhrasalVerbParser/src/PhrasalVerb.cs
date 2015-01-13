@@ -43,6 +43,16 @@ namespace PhrasalVerbParser.Src
                     new List<string>() : this.Name.Split(' ').Skip(1).ToList();
             }
         }
+
+        public bool Inseparable
+        {
+            get { return this.Usages.All(u => u.Inseparable); }
+        }
+
+        public bool SeparableMandatory
+        {
+            get { return this.Usages.All(u => u.SeparableMandatory); }
+        }
         
 
         public void Print()
@@ -53,6 +63,11 @@ namespace PhrasalVerbParser.Src
                 Console.WriteLine("------");
                 usage.Print();
             }
+        }
+
+        public override string ToString()
+        {
+            return this.Name;
         }
     }
 

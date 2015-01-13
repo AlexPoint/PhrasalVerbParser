@@ -56,7 +56,10 @@ namespace PhrasalVerbParser.Src.Detectors
                 // find dependencies for this root
                 var relevantDepedencies = dependencies
                     .Where(d => string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase)
-                    && d.Gov().Index() >= 1 && IsVerb(taggedWords[d.Gov().Index() - 1]))
+                        && (!phrasalVerb.Inseparable || d.Dep().Index() == d.Gov().Index() + 1) // for non separable verbs
+                        && (!phrasalVerb.SeparableMandatory || d.Dep().Index() > d.Gov().Index() + 1)// for separable mandatory verbs
+                    //&& d.Gov().Index() >= 1 && IsVerb(taggedWords[d.Gov().Index() - 1])
+                    )
                     .ToList();
 
                 // We take only the 2nd part
@@ -65,19 +68,6 @@ namespace PhrasalVerbParser.Src.Detectors
                 if (relevantDepedencies.Any() && parts.Count() > 1)
                 {
                     var particle1 = parts[1];
-                    /*var firstDep = relevantDepedencies
-                        .Where(d => d.Dep().Index() > d.Gov().Index())
-                        .OrderBy(d => d.Reln().GetShortName() == "prt")
-                        /*.ThenBy(d => d.Reln().GetShortName() == "prep")
-                        .ThenBy(d => d.Reln().GetShortName() == "advmod")#1#
-                        .ThenBy(d => d.Dep().Index())
-                        //.OrderBy(d => d.Dep().Index())
-                        .FirstOrDefault();
-                    if (firstDep != null &&
-                        string.Equals(firstDep.Dep().GetWord(), particle1, StringComparison.InvariantCultureIgnoreCase))
-                    {
-                        matchingPhrasalVerbs.Add(phrasalVerb);
-                    }*/
                     var prtDependencies = relevantDepedencies.Where(d => d.Reln().GetShortName() == "prt").ToList();
                     if (prtDependencies.Any())
                     {

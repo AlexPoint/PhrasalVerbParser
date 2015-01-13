@@ -58,6 +58,11 @@ namespace PhrasalVerbParser
             var pathToManuallyValidatedPhrasalVerbs = PathToApplication + "Resources/manual/good.txt";
             var pathToManuallyUnvalidatedPhrasalVerbs = PathToApplication + "Resources/manual/bad.txt";
 
+            Console.WriteLine("{0} ({1}%) separable mandatory phrasal verbs", phrasalVerbs.Count(pv =>pv.SeparableMandatory), 
+                (float)(phrasalVerbs.Count(pv => pv.SeparableMandatory) * 100)/ phrasalVerbs.Count());
+            Console.WriteLine("{0} ({1}%) inseparable phrasal verbs", phrasalVerbs.Count(pv =>pv.Inseparable), 
+                (float)(phrasalVerbs.Count(pv => pv.Inseparable) * 100)/ phrasalVerbs.Count());
+
             var sent = "Many people have been shut away in psychiatric hospitals for disagreeing with the government.";
             var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs);
 
