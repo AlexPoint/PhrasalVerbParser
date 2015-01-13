@@ -56,33 +56,47 @@ namespace PhrasalVerbParser
             var sent = "The police trumped up the charges against him and he ended up in prison though he hadn't done it.";
             var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs);
 
-            // pv detection
-            var examples = File.ReadAllLines(pathToManuallyValidatedPhrasalVerbs);
+            // missing pv detections
+            var manuallyValidatedExampls = File.ReadAllLines(pathToManuallyValidatedPhrasalVerbs);
             Console.WriteLine("Phrasal verbs not detected:");
-            foreach (var example in examples)
+            var notDetected = new List<Tuple<string, string>>();
+            foreach (var example in manuallyValidatedExampls)
             {
                 var sentence = example.Split('|').First();
                 var phrasalVerb = example.Split('|').Last();
                 var matchingPvs = parseBasedDetector.MatchingPhrasalVerbs(sentence, phrasalVerbs);
                 if (!matchingPvs.Any(p => p.Name == phrasalVerb))
                 {
-                    Console.WriteLine("{0}; {1}", phrasalVerb, sentence);
+                    notDetected.Add(new Tuple<string, string>(sentence, phrasalVerb));
                 }
             }
+            Console.WriteLine("{0}% phrasal verbs not detected", (float)(notDetected.Count * 100)/ manuallyValidatedExampls.Count());
+            foreach (var tuple in notDetected)
+            {
+                Console.WriteLine("{0}; {1}", tuple.Item2, tuple.Item1);
+            }
+            Console.WriteLine("----------");
 
             // false positive detection
-            /*var examples = File.ReadAllLines(pathToManuallyUnvalidatedPhrasalVerbs);
+            var manuallyUnvalidatedExamples = File.ReadAllLines(pathToManuallyUnvalidatedPhrasalVerbs);
             Console.WriteLine("Wrongly detected PV ");
-            foreach (var example in examples)
+            var wronglyDetected = new List<Tuple<string, string>>();
+            foreach (var example in manuallyUnvalidatedExamples)
             {
                 var sentence = example.Split('|').First();
                 var phrasalVerb = example.Split('|').Last();
                 var matchingPvs = parseBasedDetector.MatchingPhrasalVerbs(sentence, phrasalVerbs);
                 if (matchingPvs.Any(p => p.Name == phrasalVerb))
                 {
-                    Console.WriteLine("'{0}'; {1}", phrasalVerb, sentence);
+                    wronglyDetected.Add(new Tuple<string, string>(sentence, phrasalVerb));
                 }
-            }*/
+            }
+            Console.WriteLine("{0}% of wrongly detected examples:", (float)(wronglyDetected.Count * 100)/manuallyUnvalidatedExamples.Count());
+            foreach (var tuple in wronglyDetected)
+            {
+                Console.WriteLine("'{0}'; {1}", tuple.Item2, tuple.Item1);
+            }
+            Console.WriteLine("----------");
 
 
             // manual input for loosely detected phrasal verb
