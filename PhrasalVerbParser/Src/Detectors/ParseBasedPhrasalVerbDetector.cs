@@ -55,9 +55,17 @@ namespace PhrasalVerbParser.Src.Detectors
                 var root = parts.First();
                 // find dependencies for this root
                 var relevantDepedencies = dependencies
-                    .Where(d => string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase)
-                        && (!phrasalVerb.Inseparable || d.Dep().Index() == d.Gov().Index() + 1) // for non separable verbs
-                        && (!phrasalVerb.SeparableMandatory || d.Dep().Index() > d.Gov().Index() + 1)// for separable mandatory verbs
+                    .Where(
+                        d =>
+                            ((string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()),
+                                StringComparison.InvariantCultureIgnoreCase) && d.Gov().Index() < d.Dep().Index())
+                             ||
+                             (string.Equals(root, lemmatizer.Lemmatize(d.Dep().GetWord()),
+                                 StringComparison.InvariantCultureIgnoreCase) && d.Dep().Index() < d.Gov().Index()))
+                            && (!phrasalVerb.Inseparable || Math.Abs(d.Dep().Index() - d.Gov().Index()) == 1)
+                                // for non separable verbs
+                            && (!phrasalVerb.SeparableMandatory || Math.Abs(d.Dep().Index() - d.Gov().Index()) > 1)
+                    // for separable mandatory verbs
                     //&& d.Gov().Index() >= 1 && IsVerb(taggedWords[d.Gov().Index() - 1])
                     )
                     .ToList();
@@ -72,9 +80,9 @@ namespace PhrasalVerbParser.Src.Detectors
                     if (prtDependencies.Any())
                     {
                         // if root has a prt dependency, don't look at other relations
-                        if (prtDependencies.Any(d =>
-                                    string.Equals(particle1, d.Dep().GetWord(),
-                                        StringComparison.InvariantCultureIgnoreCase)))
+                        if (prtDependencies
+                            .Any(d => string.Equals(particle1, d.Dep().GetWord(),StringComparison.InvariantCultureIgnoreCase)
+                                || string.Equals(particle1, d.Gov().GetWord(), StringComparison.InvariantCultureIgnoreCase)))
                         {
                             matchingPhrasalVerbs.Add(phrasalVerb);
                         }
@@ -82,12 +90,10 @@ namespace PhrasalVerbParser.Src.Detectors
                     else
                     {
                         // otherwise, look at all the other relations
-                        var relevantRelationships = dependencies
-                        .Where(d => (string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase)
-                            && string.Equals(particle1, d.Dep().GetWord(), StringComparison.InvariantCultureIgnoreCase))
-                            //|| (root == lemmatizer.Lemmatize(d.Dep().GetWord()) && last == d.Gov().GetWord())
-                                    )
-                                    .ToList();
+                        var relevantRelationships = relevantDepedencies
+                            .Where(d => string.Equals(particle1, d.Dep().GetWord(), StringComparison.InvariantCultureIgnoreCase)
+                                || string.Equals(particle1, d.Gov().GetWord(), StringComparison.InvariantCultureIgnoreCase))
+                            .ToList();
                         if (relevantRelationships.Any())
                         {
                             matchingPhrasalVerbs.Add(phrasalVerb);

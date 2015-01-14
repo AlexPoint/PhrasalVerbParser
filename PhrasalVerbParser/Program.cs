@@ -63,7 +63,7 @@ namespace PhrasalVerbParser
             Console.WriteLine("{0} ({1}%) inseparable phrasal verbs", phrasalVerbs.Count(pv =>pv.Inseparable), 
                 (float)(phrasalVerbs.Count(pv => pv.Inseparable) * 100)/ phrasalVerbs.Count());
 
-            var sent = "Many people have been shut away in psychiatric hospitals for disagreeing with the government.";
+            var sent = "I did hear something about that.";
             var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs);
 
             // missing pv detections
