@@ -89,11 +89,9 @@ namespace PhrasalVerbParser.Src
             var doc = _web.Load(url);
             var urls = doc.DocumentNode
                 .Descendants("blockquote")
-                .Select(
-                    e =>
-                        e.ChildNodes.Where(n => n.Name == "a" && n.HasAttributes && n.Attributes.Contains("href"))
-                            .Select(n => n.Attributes["href"].Value)
-                            .FirstOrDefault())
+                .SelectMany(e => e.ChildNodes
+                    .Where(n => n.Name == "a" && n.HasAttributes && n.Attributes.Contains("href"))
+                            .Select(n => n.Attributes["href"].Value))
                 .Where(l => !string.IsNullOrEmpty(l))
                 .Select(l => RootUrl + l)
                 .ToList();

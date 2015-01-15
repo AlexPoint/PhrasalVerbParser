@@ -60,7 +60,7 @@ namespace PhrasalVerbParser.Src
             Console.WriteLine(this.Name);
             foreach (var usage in Usages)
             {
-                Console.WriteLine("------");
+                Console.WriteLine("--");
                 usage.Print();
             }
         }

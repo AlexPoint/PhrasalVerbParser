@@ -27,10 +27,10 @@ namespace PhrasalVerbParser
         
         static void Main(string[] args)
         {
-            /*// parse phrasal verb on usingEnglish.com
+            // parse phrasal verb on usingEnglish.com
             var usingEnglishParser = new UsingEnglishParser();
             var allPhrasalVerbs = usingEnglishParser.ParseAllPhrasalVerbs();
-            Console.Write("Parsed {0} phrasal verbs on using english");*/
+            Console.Write("Parsed {0} phrasal verbs on using english", allPhrasalVerbs);
 
             // Persist phrasal verbs
             /*var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
