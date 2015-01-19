@@ -1,1517 +1,3028 @@
-blow out
-lay off
-look forward to
-look into
-look over
-set off
-pick up
-stand out
-wear out
-wrap up
-come across
-come along
-write off
-get on with
-get over
-give up
-go after
-go along with
-go through
-take off
-go by
-hold up
-make it up to
-act on
-act out
-act up
-act upon
-carry out
-get into
-check in
-set out
-set up
-ring back
-ring up
-send for
-pull out
-put in
-put off
-put up with
-abide by
-take over
-back up
-break down
-cut back
-deal in
-make up
-account for
-mop up
-fall off
-fill out
-get together
-break in
-add on
-add up
-angle for
-answer back
-ask after
-ask around
-ask for
-ask out
-ask round
-back down
-back into
-back off
-back out
-bail out
-balls up
-bang on
-bang out
-bang up
-barge in
-bawl out
-be on about
-bear up
-bear with
-beaver away
-beef up
-belt out
-bend over backwards
-big up
-bitch up
-black out
-blank out
-blare out
-blast off
-blaze away
-block out
-blow away
-blow off
-blow over
-blurt out
-board out
-bog in
-boil down
-boil up
-book in
-bottle away
-bottle out
-bottle up
-bounce back
-bounce off
-bowl over
-branch out
-break out
-break up
-brick in
-bring about
-bring forward
-bring on
-bring round
-bring up
-brush off
-brush up
-bubble over
-buck up
-bucket down
-buckle down
-buckle up
-buff up
-bug out
-build up
-bump into
-bump off
-bump up
-buoy up
-burn out
-butt in
-butt out
-butter up
-buy into
-buy out
-buy up
-buzz off
-call on
-call out
-call up
-carried away
-carry off
-carry on
-carry over
-carry through
-cart off
-carve out
-cash in
-cash up
-cast aside
-catch on
-cave in
-chalk out
-chalk up to
-chance upon
-change over
-charge up
-chase off
-chat up
-cheat on
-check off
-cheer up
-chew off
-chew on
-chew out
-chew up
-chicken out
-chill out
-chime in
-chip in
-choke off
-choke up
-choose up
-chop down
-chow down
-chuck in
-chuck out
-clam up
-clamp down on
-clean out
-clean up
-clear out
-climb down
-clog up
-close in on
-come around
-come down
-come down with
-come in
-come into
-come on
-come out
-come through
-come to
-come up
-come up with
-conjure up
-cop out
-cotton on
-cough up
-count on
-cover up
-crack on
-crack up
-crank out
-crank up
-creep into
-crop up
-cross off
-cross out
-cut down
-cut in
-cut off
-cut out
-cut up
-dash off
-dawn on
-die down
-die off
-die out
-dig in
-dig out
-dig up
-dip into
-dip out
-disagree with
-dive in
-divvy up
-do away with
-do in
-do up
-dole out
-doss about
-doss around
-double back
-double over
-drag on
-draw back
-draw down
-draw even
-draw in
-dredge up
-dress down
-drift apart
-drift off
-drill down
-drive away
-drive off
-drive out
-drop in
-drop off
-drop out
-drown out
-drum up
-dry out
-dumb down
-dump on
-eat out
-eat up
-edge out
-egg on
-end up
-eye up
-fall apart
-fall behind
-fall for
-fall into
-fall out
-fall over
-fall through
-farm out
-feed off
-feel up
-feel up to
-fence in
-figure out
-fill in
-fill up
-find out
-firm up
-fish out
-fit out
-fit up
-flag down
-flame up
-flesh out
-floor it
-fluff up
-fold up
-follow through
-gang up
-gang up on
-gear up
-get along
-get away with
-get back at
-get by
-get in
-get it
-get it on
-get it up
-get off with
-get through to
-get to
-give back
-give in
-give over
-gloss over
-go ahead
-go down
-go down on
-go for
-go for it
-go in with
-go it alone
-go off
-go on
-go out
-go over
-go through with
-go to
-go together
-go under
-go with
-go without
-goof off
-grind down
-grind out
-grow on
-grow out of
-grow up
-hand down
-hand over
-hang about
-hang around
-hang on
-hang out
-hang together
-hang up
-have it in for
-have it off
-have up
-head up
-hear out
-hit it off
-hit on
-hit up
-hit upon
-hold back
-hold down
-hold forth
-hold off
-hold on
-hold out
-hold over
-home in on
-horse around
-hunker down
-iron out
-jack around
-jack in
-jack up
-jaw away
-jerk around
-jerk off
-jot down
-juice up
-jump at
-jump on
-keel over
-keep on
-keep up
-kick back
-kick in
-kick off
-kick out
-kick up
-kiss off
-kiss up to
-knock down
-knock off
-knock out
-knock together
-knuckle down
-knuckle under
-lap up
-latch onto
-lay on
-lead on
-leak out
-lean on
-let down
-let off
-let on
-level off
-light up
-lighten up
-listen up
-live it up
-live off
-live on
-live with
-load up
-log off
-look after
-look back
-look on
-look out
-look through
-look to
-look up
-look up to
-lord it over
-luck out
-make for
-make it
-make over
-man down
-man up
-measure up
-meet with
-mess around
-mess up
-mess with
-miss out
-mix up
-monkey around
-mouth off
-move on
-move out
-naff off
-nail down
-narrow down
-nod off
-nut out
-own up
-pack in
-pad out
-palm off
-pan out
-pare down
-pass on
-pass up
-patch up
-peel out
-peg down
-peg it
-pencil in
-peter out
-phase out
-pick apart
-pick on
-pick out
-pick up on
-pig out
-pile on
-pile up
-pin down
-pipe down
-pit against
-pitch in
-play along
-play around
-play back
-play down
-play up
-play with
-plow on
-plug in
-point out
-polish off
-pony up
-pop up
-press on
-pull ahead
-pull away
-pull back
-pull in
-pull off
-pull over
-pull up
-push in
-put back
-put down
-put down for
-put down to
-put on
-put out
-put through
-put up
-rack off
-rack up
-rain off
-rake it in
-rake off
-rake over
-rake up
-rattle off
-read out
-reel in
-reel off
-rein in
-rent out
-ride out
-rip off
-root around
-rub down
-rub in
-rub it in
-rub off on
-rule out
-run across
-run around
-run in
-run off
-run on
-run over
-run through
-run to
-run up
-rush out
-rustle up
-sack out
-sag off
-scrape through
-scrape together
-see through
-sell out
-send up
-set apart
-set aside
-set back
-settle for
-settle in
-settle on
-sex up
-shack up
-shape up
-shell out
-show off
-show up
-shrug off
-shut down
-shut in
-sign in
-sign off
-sign on
-simmer down
-sing along
-sink in
-sit back
-sit in
-sit in for
-sit on
-sit out
-sit through
-size up
-slag off
-sleep in
-sleep on
-slip by
-slip into
-slip up
-slow down
-slow up
-smack of
-smash up
-smoke out
-sniff out
-soften up
-soldier on
-sort out
-speak out
-speak up
-speed up
-spill out
-spin out
-spit it out
-splash down
-split up
-spring for
-spruce up
-square away
-stack up
-stamp out
-stand by
-stand down
-stand for
-stand in for
-stand up
-start over
-stave off
-stay on
-step aside
-step back
-step down
-step forward
-step on it
-step out
-step up
-stick around
-stick by
-stick out
-stick to
-stick together
-stick up
-stick with
-straighten out
-strike up
-string along
-string up
-stub out
-stuff up
-stump up
-suck in
-suck up
-sum up
-swear by
-tag along
-take aback
-take after
-take in
-take it out on
-take on
-take out
-take to
-talk back
-talk down
-talk up
-tear apart
-tear away
-tear up
-tee off
-tell apart
-tell off
-think over
-think up
-throw in
-throw off
-throw out
-throw up
-tick off
-tick over
-tide over
-tie up
-time out
-tip off
-toddle off
-tone down
-top up
-toss around
-toss up
-touch off
-touch on
-touch up
-track down
-trip out
-trot out
-trump up
-tune in
-tune out
-turf out
-turn against
-turn down
-turn in
-turn into
-turn off
-turn on
-turn out
-turn over
-turn up
-veg out
-wait up
-walk away from
-walk in on
-walk off with
-walk through
-want out
-wash out
-waste away
-watch out
-watch over
-water down
-wear down
-weed out
-weigh in
-whip through
-whisk away
-wind down
-wind up
-wipe out
-work out
-wriggle out of
-zero in on
-zip up
-zonk out
-ache for
-add up to
-aim at
-allow for
-answer for
-argue out
-ask in
-ball up
-bang about
-bang around
-bang on about
-bank on
-bash about
-bash in
-bash out
-bash up
-be after
-be along
-auction off
-back away
-bag out
-bail out on
-be fed up
-be in on
-be snowed under
-be up to
-bear down on
-bear on
-bear out
-beat down
-beat out
-beat up
-bed down
-bed out
-belt up
-bend down
-bend over
-bliss out
-block off
-block up
-blow down
-blow up
-board up
-bog down
-boil down to
-boil over
-bone up on
-book up
-boot up
-border on
-boss about
-boss around
-botch up
-bottom out
-bowl out
-box in
-box up
-brace up
-break away
-break off
-bring around
-bring back
-bring down
-bring forth
-bring in
-bring off
-bring out
-break through
-buckle under
-budge up
-bulk out
-bulk up
-bundle off
-bundle up
-bunk off
-burn down
-burn off
-burn up
-brick up
-brighten up
-bust up
-buy off
-call back
-call for
-call forth
-call in
-call off
-calm down
-cancel out
-cap off
-care for
-carry forward
-carve up
-cash out
-cast off
-cast out
-cast up
-catch out
-catch up
-chase down
-chase up
-chalk up
-check into
-check out
-check over
-cheer on
-chew over
-claw back
-clear away
-clear off
-clear up
-click through
-cling on
-chuck away
-chuck up
-churn out
-chop up
-close down
-close in
-close out
-close up
-cloud over
-clown about
-clown around
-cock up
-come about
-come apart
-come back
-come before
-come by
-come down on
-close off
-come forth
-come off
-come off it
-come out in
-come out with
-come over
-come round
-cool down
-cool off
-coop up
-cop it
-cop off
-cost up
-could do with
-come upon
-conk out
-come from
-come in for
-count down
-count in
-count off
-count out
-count up
-count upon
-cozy up
-crack down on
-crash out
-cream off
-creep out
-crumb down
-cry off
-cry out
-damp down
-damp off
-dash down
-cut it out
-die away
-die back
-dig into
-dine out
-dish out
-dish up
-divide up
-do with
-do without
-dob in
-doss down
-double up
-doze off
-draw on
-draw out
-draw up
-dream up
-dress up
-drink up
-drop away
-drop back
-drop by
-drop round
-duff up
-dwell on
-dwell upon
-ease off
-ease up
-eat away
-eat in
-eat into
-drone on
-dry off
-dry up
-edge up
-eke out
-enter into
-face off
-face up to
-faff about
-faff around
-fall about
-fall back
-fall back on
-fall down
-fall in
-fall under
-fart about
-fart around
-empty out
-fasten up
-fatten up
-fawn over
-feed up
-fence off
-fend off
-ferret out
-fess up
-fiddle about
-fiddle around
-fiddle away
-fight back
-fight it out
-fight off
-file away
-filter out
-finish off
-finish up
-fink out
-fire away
-fire off
-fire up
-finish with
-fit in
-fix up
-fizzle out
-flag up
-flake out
-flame out
-flare up
-flick over
-flick through
-flip off
-flip out
-follow up
-fool about
-fool around
-fool with
-forge ahead
-freak out
-free up
-freeze out
-freeze over
-freeze up
-freshen up
-fluff out
-fob off
-frown on
-fuel up
-fit into
-follow on
-geek out
-get about
-get across
-get after
-get ahead
-get along with
-get around
-get around to
-get at
-get away
-get away from
-get back to
-get back
-get down
-get in on
-get in with
-get it together
-get off
-get off on
-get on
-get onto
-get out
-get out of
-get over with
-get round
-get through
-get up
-get up to
-gin up
-ginger up
-give away
-give it to
-give it up for
-give off
-give out
-give way
-give up on
-go about
-go against
-go around
-go away
-go back
-go back on
-go in
-go in for
-go into
-go it
-go forth
-go out with
-go round
-go up
-grass on
-grass up
-grey out
-grow into
-gun for
-gussy up
-goof around
-goof up
-hack off
-ham up
-hammer out
-hand in
-hand out
-hang back
-hang in there
-hang over
-hate on
-have in
-have on
-head off
-hear of
-heat up
-help out
-hide away
-hide out
-hinge on
-hive off
-hold against
-hit back
-hang onto
-hole up
-hone in on
-hook up
-hose down
-hush up
-jazz up
-joke around
-jump in
-keep around
-keep at
-keep away
-keep back
-keep down
-keep from
-keep in
-keep off
-keep out
-keep to
-hunt down
-keep up with
-key in
-key up
-kick around
-kick down
-kill off
-knock about
-knock around
-knock back
-knock up
-latch on
-latch on to
-laugh off
-lay down
-lay into
-lay out
-lash out
-leave out
-let in
-let out
-lie around
-lie down
-lie with
-lash down
-light out
-limber up
-line up
-link up
-live down
-live through
-live up to
-lock away
-lock in
-log on
-log out
-look down on
-look for
-lock out
-lock up
-log in
-loosen up
-lose out
-make after
-make away with
-make do with
-make into
-make off
-make off with
-make out
-look round
-make up for
-mark off
-mark out
-mark up
-max out
-mark down
-melt down
-mess about
-mess around with
-mete out
-mill around
-mock up
-mount up
-move down
-move in
-muddle through
-muddle up
-mug up
-mull over
-muscle in
-muscle in on
-name after
-nerd out
-move up
-nod through
-nose out
-note down
-open up
-pack away
-pack it in
-pack off
-pack out
-pack up
-pad down
-pair off
-opt in
-opt out
-pair up
-pal up
-paper over
-part with
-pass away
-pass by
-pass down
-pass for
-pass off
-pass out
-pass over
-pass round
-pass through
-pat down
-pay back
-pay off
-peck at
-peel away
-pay for
-peel off
-pick off
-pick through
-peg away
-peg out
-pep up
-perk up
-phase in
-pin up
-pipe up
-pit out
-play at
-play away
-play off
-play on
-play out
-plough back
-plough into
-plough on
-plough through
-plow back
-plow into
-plow through
-pitch into
-plant out
-pluck up
-plump down
-plump up
-pootle along
-pop in
-pop off
-pop out
-pore over
-potter about
-potter around
-pour down
-pour forth
-power down
-power off
-power up
-press ahead
-polish up
-poop out
-prey on
-price in
-price up
-print out
-prop up
-psych out
-psych up
-pucker up
-pull apart
-pull down
-pull together
-pull yourself together
-put across
-put away
-put by
-put over
-queer up
-quieten down
-pull on
-pull through
-rake in
-rat on
-rat out
-rat through
-ratchet up
-reach out
-ramp up
-read off
-reckon on
-reel out
-ride up
-ring in
-ring off
-ring out
-ring round
-roll back
-roll in
-roll on
-roll out
-roll up
-rope off
-rough up
-round off
-row back
-rub along
-rub out
-rub up against
-rub up on
-run after
-room in
-root about
-root for
-root out
-root up
-rope in
-run along
-run away
-run down
-run into
-run up against
-run with
-rush off
-saddle up
-sail through
-salt away
-scale back
-scale down
-scale up
-save up
-saw off
-scare off
-scrape along
-scrape by
-scout out
-scrape up
-screen out
-screw over
-screw up
-see into
-see off
-see out
-see to
-sell off
-sell on
-sell up
-send back
-send out
-send out for
-set about
-set forth
-set in
-set on
-set upon
-settle down
-settle up
-shake down
-shake off
-shake out
-shake up
-ship out
-shoot off
-shoot out
-shoot up
-shop around
-short out
-shout down
-shout out
-send off
-show round
-shut off
-shut out
-shut up
-shy away from
-side with
-sign out
-sign up
-sing out
-sing up
-single out
-sit around
-sit down
-skin up
-skive off
-slack off
-slacken off
-sleep off
-sleep over
-slip away
-slip down
-slip in
-slip off
-sit in on
-slip out
-slope off
-slug it out
-smash down
-snaffle up
-snap out of
-snap up
-snarl up
-sneak out
-sneak up on
-snuff out
-sober up
-sound off
-sound out
-spark off
-spark up
-spell out
-spew up
-spill over
-spin off
-spirit away
-splash out
-sponge down
-spring up
-spur on
-square off
-spring back
-square up
-stand aside
-stand back
-stand up for
-stand up to
-stare down
-start off
-squeeze up
-staff up
-start out
-start up
-stave in
-stay in
-stay over
-stay up
-steal away
-steer clear of
-step in
-stick down
-stick up for
-stir up
-stitch up
-stomp off
-stomp on
-stop by
-stop off
-stop over
-stop up
-stow away
-straighten up
-strike back
-strike down
-string together
-stumble across
-stumble upon
-suck into
-summon up
-suss out
-swear down
-swing by
-strike out
-tag on
-tail away
-tail off
-take apart
-take away
-take back
-take down
-take up
-talk around
-talk over
-talk round
-talk out
-tap into
-tear down
-tear into
-tear off
-tap out
-tap up
-tee up
-tell on
-think through
-throw away
-throw on
-throw over
-throw together
-tidy up
-tie back
-tie down
-tie in
-tick away
-tip over
-top off
-top out
-toss off
-touch down
-toy with
-trade down
-trade in
-tire out
-tool up
-trade up
-trip up
-trot off
-try on
-try out
-tuck in
-tuck into
-tune up
-turn away
-turn to
-type in
-train up
-trickle down
-urge on
-use up
-usher in
-vamp up
-wade through
-wade in
-wait on
-wait out
-wait upon
-wake up
-walk out
-walk out on
-warm up
-wash away
-wash down
-wash over
-wash up
-wear away
-wear off
-weigh up
-weird out
-well up
-wheel around
-walk into
-walk off
-while away
-whip up
-white out
-wig out
-whip out
-wimp out
-winkle out
-wise up
-word up
-work off
-work on
-work over
-write down
-write in
-write out
-write up
-zone out
-zoom in
-zoom out
-get round to
-fritter away
-liven up
-swallow up
-beam up
-bleed out
-zip it
-meet up
-push about
-suit up
+abandon to	1	NULL	NULL
+abide by	0	1	0
+abound in	1	NULL	NULL
+abound with	1	NULL	NULL
+abut on	1	NULL	NULL
+account for	1	1	0
+account to	1	NULL	NULL
+ache for	1	1	0
+act on	0	0	0
+act out	0	0	0
+act up	0	0	0
+act upon	0	1	0
+add on	0	0	0
+add up	0	0	0
+add up to	0	1	0
+agree with	0	1	0
+aim at	1	1	0
+air out	0	NULL	NULL
+allow for	1	1	0
+allow of	1	1	0
+angle for	0	1	0
+answer back	0	0	1
+answer for	1	1	0
+ante in	1	NULL	NULL
+ante up	0	NULL	NULL
+argue down	1	0	0
+argue out	1	0	0
+arrive at	0	NULL	NULL
+ask about	1	1	0
+ask after	0	1	0
+ask around	1	0	0
+ask for	1	1	0
+ask in	1	0	1
+ask out	0	0	1
+ask over	1	0	0
+ask round	1	0	1
+auction off	0	0	0
+average up	1	NULL	NULL
+baby up	1	NULL	NULL
+back away	0	0	0
+back down	0	0	0
+back in	1	NULL	NULL
+back into	0	0	1
+back off	0	0	0
+back on to	1	NULL	NULL
+back onto	1	NULL	NULL
+back out	0	0	0
+back out of	1	0	0
+back up	0	0	0
+bag out	1	0	0
+bail out	0	0	0
+bail out of	0	0	0
+bail out on	1	1	0
+bail up	1	0	0
+bake up	1	NULL	NULL
+balance out	0	NULL	NULL
+bale out	1	NULL	NULL
+bale up	1	NULL	NULL
+ball up	0	0	0
+balls up	1	0	0
+bang about	1	0	0
+bang around	1	0	0
+bang away	1	NULL	NULL
+bang on	0	0	0
+bang on about	1	1	0
+bang out	0	0	0
+bang up	0	0	0
+bank on	1	1	0
+bank up	1	NULL	NULL
+bar off	1	NULL	NULL
+bar up	1	NULL	NULL
+bargain down	1	0	1
+bargain for	0	1	0
+bargain on	0	1	0
+barge in	0	0	0
+barge into	0	1	0
+bash about	1	0	1
+bash in	1	0	0
+bash out	1	0	0
+bash up	1	0	0
+bat around	1	NULL	NULL
+bat away	1	NULL	NULL
+bat in	1	NULL	NULL
+bat out	1	NULL	NULL
+batten down	0	NULL	NULL
+bawl out	1	0	0
+be after	1	1	0
+be along	1	0	0
+be away	0	0	0
+be cut out for	1	1	0
+be cut up	1	0	0
+be down	1	0	0
+be down on	1	1	0
+be down with	1	1	0
+be fed up	1	0	0
+be in	1	0	0
+be in for	1	NULL	NULL
+be in on	1	1	0
+be not on	1	0	0
+be off	0	0	0
+be on	1	0	0
+be on about	0	1	0
+be on to	1	NULL	NULL
+be onto	1	1	0
+be out	1	0	0
+be out of	1	1	0
+be out to	1	1	0
+be snowed under	1	0	0
+be taken aback	1	0	0
+be taken with	0	1	0
+be there for	1	NULL	NULL
+be up	1	0	0
+be up for	1	1	0
+be up to	1	1	0
+beam up	1	0	0
+bear down	0	NULL	NULL
+bear down on	0	1	0
+bear in with	1	NULL	NULL
+bear off from	1	NULL	NULL
+bear on	0	1	0
+bear out	0	0	0
+bear up	0	0	0
+bear up under	1	1	0
+bear with	0	1	0
+beat down	0	0	0
+beat off	0	NULL	NULL
+beat out	0	1	0
+beat up	0	0	0
+beaver away	0	0	0
+beaver away at	1	1	0
+become of	0	NULL	NULL
+bed down	0	0	0
+bed in	1	NULL	NULL
+bed out	1	0	0
+beef up	0	0	0
+beg off	1	NULL	NULL
+believe in	0	NULL	NULL
+bell out	1	NULL	NULL
+belong to	1	1	0
+belong with	1	1	0
+belt out	0	0	0
+belt up	1	0	0
+bend down	0	0	0
+bend over	0	0	0
+bend over backwards	0	0	0
+bet up	1	NULL	NULL
+big up	1	0	0
+bind up	0	NULL	NULL
+bitch off	1	NULL	NULL
+bitch up	1	0	0
+bite in	1	NULL	NULL
+black out	0	0	0
+black up	1	NULL	NULL
+blank out	0	0	0
+blare out	1	0	0
+blast away	0	NULL	NULL
+blast off	0	0	0
+blaze away	1	0	0
+blaze up	1	NULL	NULL
+bleed out	1	0	0
+bleep out	1	NULL	NULL
+blend in	0	NULL	NULL
+bling out	1	NULL	NULL
+bliss out	1	0	0
+block in	0	0	0
+block off	0	0	0
+block out	0	0	0
+block up	0	0	0
+bloody up	1	NULL	NULL
+blossom out	1	NULL	NULL
+blot out	0	NULL	NULL
+blow away	0	0	0
+blow down	0	0	0
+blow in	0	0	0
+blow off	0	0	0
+blow out	0	0	0
+blow over	0	0	0
+blow up	0	0	0
+blurt out	0	0	0
+board out	1	0	0
+board up	1	0	0
+bog down	0	0	0
+bog in	1	0	0
+bog into	1	1	0
+bog off	1	NULL	NULL
+bog off!	1	NULL	NULL
+boil down	0	0	0
+boil down to	1	1	0
+boil off	0	NULL	NULL
+boil over	0	0	0
+boil up	0	0	0
+bolster up	1	1	0
+bomb around	1	NULL	NULL
+bomb out	1	NULL	NULL
+bone up	1	0	0
+bone up on	0	1	0
+book in	0	0	1
+book into	0	0	1
+book out	1	0	0
+book up	0	0	0
+boot out	0	NULL	NULL
+boot up	0	0	0
+border on	0	1	0
+boss about	1	0	1
+boss around	1	0	1
+botch up	1	0	0
+bottle away	1	0	0
+bottle out	1	0	0
+bottle up	0	0	0
+bottom out	0	0	0
+bounce back	0	0	0
+bounce into	1	0	1
+bounce off	0	0	1
+bow down	0	NULL	NULL
+bow out	0	NULL	NULL
+bowl out	1	0	0
+bowl over	0	0	0
+box in	0	0	0
+box out	1	NULL	NULL
+box up	0	0	0
+brace aback	1	NULL	NULL
+brace about	1	NULL	NULL
+brace by	1	NULL	NULL
+brace up	0	0	0
+branch off	0	NULL	NULL
+branch out	0	0	0
+brave out	1	NULL	NULL
+brazen out	1	NULL	NULL
+break away	0	0	0
+break down	0	0	0
+break in	0	0	0
+break into	0	0	0
+break off	0	0	0
+break out	0	0	0
+break out in	0	1	0
+break out of	1	1	0
+break through	0	1	0
+break up	0	0	0
+breast up	1	NULL	NULL
+breathe in	0	NULL	NULL
+breathe out	0	NULL	NULL
+breeze along	1	0	0
+breeze in	0	0	0
+breeze into	1	1	0
+breeze through	1	1	0
+brick in	1	0	0
+brick up	1	0	0
+bridle up	1	NULL	NULL
+brighten up	0	0	0
+brim over	1	NULL	NULL
+bring about	0	0	0
+bring along	0	0	0
+bring around	1	0	0
+bring back	0	0	0
+bring down	0	0	0
+bring forth	0	0	0
+bring forward	0	0	1
+bring in	0	0	0
+bring off	0	0	0
+bring on	0	0	0
+bring out	0	0	0
+bring out in	1	0	1
+bring round	0	0	1
+bring up	0	0	0
+bring upon	1	NULL	NULL
+brown out	0	NULL	NULL
+brush aside	0	NULL	NULL
+brush by	1	NULL	NULL
+brush down	1	NULL	NULL
+brush off	0	0	0
+brush up	0	0	0
+bubble over	0	0	0
+bubble up	1	NULL	NULL
+buck for	1	NULL	NULL
+buck off	1	NULL	NULL
+buck up	0	0	0
+bucket down	1	0	0
+buckle down	0	0	0
+buckle under	0	0	0
+buckle up	0	0	0
+buddy up	1	NULL	NULL
+budge up	1	0	0
+buff out	1	NULL	NULL
+buff up	1	0	0
+buff up on	1	1	0
+bug off	1	NULL	NULL
+bug off!	1	NULL	NULL
+bug out	1	0	0
+bugger off	0	NULL	NULL
+bugger up	1	NULL	NULL
+build up	0	0	0
+bulk out	1	0	1
+bulk up	0	0	0
+bum around	0	NULL	NULL
+bump into	0	1	0
+bump off	0	0	0
+bump up	0	0	0
+bunch up	0	NULL	NULL
+bundle off	1	0	0
+bundle out	1	0	0
+bundle up	0	0	0
+bung up	1	NULL	NULL
+bunk off	1	0	0
+buoy up	1	0	0
+burn down	0	0	0
+burn off	0	0	0
+burn out	0	0	0
+burn up	0	0	0
+burst forth	0	NULL	NULL
+burst into	0	1	0
+burst out	0	NULL	NULL
+bust out	0	NULL	NULL
+bust up	0	0	0
+bustle with	1	NULL	NULL
+butt in	0	0	0
+butt out	1	0	0
+butter up	0	0	0
+button up	0	NULL	NULL
+buy in	0	0	0
+buy into	0	1	0
+buy off	0	0	0
+buy off on	1	NULL	NULL
+buy out	0	0	0
+buy up	0	0	0
+buzz around	1	1	0
+buzz off	0	0	0
+buzz off!	1	NULL	NULL
+buzz up	1	NULL	NULL
+call after	1	1	0
+call around	1	0	0
+call back	0	0	1
+call for	0	1	0
+call forth	0	0	0
+call in	0	0	0
+call off	0	0	0
+call on	0	0	0
+call out	0	0	0
+call round	1	0	0
+call up	0	0	0
+calm down	0	0	0
+can do with	1	NULL	NULL
+can do without	1	NULL	NULL
+cancel out	0	0	0
+cap off	1	0	0
+care for	0	1	0
+carried away	0	0	0
+carry away	0	NULL	NULL
+carry forward	0	0	0
+carry off	0	0	0
+carry on	0	0	0
+carry on with	1	1	0
+carry out	0	0	0
+carry over	0	0	0
+carry through	0	0	0
+cart off	1	0	0
+carve out	0	0	0
+carve up	0	0	0
+cash in	0	0	0
+cash in on	0	1	0
+cash out	1	0	0
+cash up	1	0	0
+cast about for	0	1	0
+cast around for	1	1	0
+cast aside	0	0	0
+cast away	0	NULL	NULL
+cast off	0	0	0
+cast out	0	0	0
+cast round for	1	1	0
+cast up	1	0	0
+catch at	1	1	0
+catch on	0	0	0
+catch out	0	0	0
+catch up	0	0	0
+catch up in	1	1	0
+catch up on	0	1	0
+catch up with	0	1	0
+cater for	0	1	0
+cater to	0	1	0
+cave in	0	0	0
+chalk off	1	NULL	NULL
+chalk out	1	0	0
+chalk up	0	0	0
+chalk up to	1	0	1
+chance upon	0	1	0
+change over	0	0	0
+change up	0	NULL	NULL
+charge down	1	NULL	NULL
+charge up	0	0	0
+charge with	1	0	1
+chase down	1	0	0
+chase off	1	0	0
+chase up	0	0	0
+chat up	0	0	0
+cheat on	0	1	0
+cheat out of	1	0	1
+check by	1	1	0
+check in	0	0	0
+check into	0	0	0
+check off	0	0	0
+check out	0	0	0
+check out of	1	1	0
+check over	0	0	1
+check through	0	NULL	NULL
+check up	0	NULL	NULL
+cheer on	0	0	0
+cheer up	0	0	0
+cheese down	1	NULL	NULL
+chew off	1	0	0
+chew on	1	1	0
+chew out	0	0	0
+chew over	1	0	0
+chew up	0	0	0
+chicken out	0	0	0
+chill out	0	0	0
+chime in	0	0	0
+chink up	1	NULL	NULL
+chip away	1	NULL	NULL
+chip away at	1	1	0
+chip in	0	0	0
+chip up	1	NULL	NULL
+chirk up	1	NULL	NULL
+choke off	0	0	0
+choke out	1	0	0
+choke up	0	0	0
+choose up	1	0	0
+chop down	0	0	0
+chop up	0	0	0
+chow down	1	0	0
+chow down on	1	1	0
+chub up	1	NULL	NULL
+chuck away	1	0	0
+chuck in	0	0	0
+chuck out	0	0	0
+chuck up	1	0	0
+chum up	1	NULL	NULL
+churn out	0	0	0
+clag up	1	0	0
+clam up	0	0	0
+clamp down on	1	1	0
+clap on	1	NULL	NULL
+claw back	0	0	0
+claw off	1	NULL	NULL
+clay up	1	NULL	NULL
+clean off	0	0	0
+clean out	0	0	0
+clean up	0	0	0
+clear away	0	0	0
+clear off	0	0	0
+clear out	0	0	0
+clear up	0	0	0
+click through	1	1	0
+climb down	0	0	0
+climb up	0	NULL	NULL
+cling on	0	0	0
+cling on to	0	1	0
+cling to	1	1	0
+clock in	0	NULL	NULL
+clock off	1	NULL	NULL
+clock out	0	NULL	NULL
+clock up	1	NULL	NULL
+clog up	0	0	0
+close down	0	0	0
+close in	0	0	0
+close in on	0	1	0
+close in upon	1	1	0
+close off	0	0	0
+close on	1	1	0
+close out	0	0	0
+close up	0	0	0
+cloud over	0	0	0
+cloud up	1	NULL	NULL
+clown about	0	0	0
+clown around	1	0	0
+clue in	1	NULL	NULL
+clump up	1	NULL	NULL
+clutter up	0	NULL	NULL
+coach up	1	NULL	NULL
+coast along	1	0	0
+cobble together	1	0	0
+cock up	0	0	0
+coil up	1	NULL	NULL
+collect up	1	NULL	NULL
+color in	1	NULL	NULL
+color up	1	NULL	NULL
+colour in	1	NULL	NULL
+colour up	1	NULL	NULL
+comb over	1	NULL	NULL
+comb through	1	NULL	NULL
+come about	0	0	0
+come across	0	0	0
+come after	0	NULL	NULL
+come along	0	0	0
+come apart	0	0	0
+come around	0	0	0
+come around to	1	0	0
+come at	1	NULL	NULL
+come away	0	NULL	NULL
+come back	0	0	0
+come before	0	1	0
+come between	0	NULL	NULL
+come by	0	0	0
+come down	0	0	0
+come down on	0	1	0
+come down to	0	1	0
+come down upon	1	1	0
+come down with	0	1	0
+come for	1	NULL	NULL
+come forth	1	0	0
+come forth with	1	1	0
+come forward	0	NULL	NULL
+come from	0	1	0
+come in	0	0	0
+come in for	1	1	0
+come into	0	1	0
+come into use	1	0	0
+come of	1	NULL	NULL
+come off	0	0	0
+come off it	0	1	0
+come on	0	0	0
+come on over	1	NULL	NULL
+come on to	1	NULL	NULL
+come out	0	0	0
+come out in	1	1	0
+come out of	0	1	0
+come out with	0	1	0
+come over	0	1	0
+come round	0	0	0
+come through	0	0	0
+come through with	1	1	0
+come to	0	0	0
+come together	0	NULL	NULL
+come under	0	NULL	NULL
+come up	0	0	0
+come up against	0	1	0
+come up to	0	NULL	NULL
+come up with	0	1	0
+come upon	0	1	0
+comment out	1	NULL	NULL
+conjure up	0	0	0
+conk out	0	0	0
+consist in	0	NULL	NULL
+consist of	0	NULL	NULL
+contract in	1	0	0
+contract out	0	0	0
+contract out of	1	1	0
+cook off	1	NULL	NULL
+cook up	0	NULL	NULL
+cool down	0	0	0
+cool off	0	0	0
+coop up	0	0	0
+cop it	1	0	0
+cop off	1	0	0
+cop out	0	0	0
+cope with	0	NULL	NULL
+cordon off	0	NULL	NULL
+cost up	1	0	0
+cotton on	0	0	0
+cotton to	1	NULL	NULL
+cough up	0	0	0
+could do with	1	1	0
+could do without	1	NULL	NULL
+count against	0	1	0
+count among	1	0	1
+count down	0	0	0
+count for	1	1	0
+count in	0	0	1
+count off	1	0	0
+count on	0	1	0
+count out	0	0	0
+count towards	1	1	0
+count up	0	0	0
+count upon	0	1	0
+couple up	1	NULL	NULL
+cover for	1	1	0
+cover up	0	0	0
+cozy up	0	0	0
+cozy up to	1	1	0
+crack down on	1	1	0
+crack on	1	0	0
+crack onto	1	NULL	NULL
+crack through	1	NULL	NULL
+crack up	0	0	0
+crank out	1	0	0
+crank up	0	0	0
+crash out	1	0	0
+cream off	1	0	0
+cream up	1	NULL	NULL
+creep in	0	0	0
+creep into	0	1	0
+creep out	0	0	0
+creep out on	1	1	0
+creep over	0	1	0
+creep someone out	1	NULL	NULL
+creep up	0	NULL	NULL
+creep up on	0	1	0
+crop up	0	0	0
+cross off	0	0	0
+cross out	0	0	0
+cross over	0	NULL	NULL
+cross up	1	0	1
+crowd out	1	NULL	NULL
+crowd up	1	NULL	NULL
+cruise through	1	1	0
+crumb down	1	0	0
+crush out	1	NULL	NULL
+cry down	1	NULL	NULL
+cry off	1	1	0
+cry out	0	0	0
+cry out against	1	NULL	NULL
+cry out for	0	NULL	NULL
+cube out	1	NULL	NULL
+cuddle up	0	NULL	NULL
+cue up	1	NULL	NULL
+curl up	0	NULL	NULL
+cut across	0	1	0
+cut back	0	0	0
+cut back on	0	1	0
+cut down	0	0	0
+cut down on	0	1	0
+cut in	0	0	0
+cut it out	0	0	1
+cut off	0	0	0
+cut out	0	0	0
+cut out on	1	1	0
+cut up	0	0	0
+damp down	0	0	0
+damp off	1	0	0
+dash down	1	0	0
+dash off	0	0	0
+dawn on	0	1	0
+deal in	0	0	0
+deal out	0	NULL	NULL
+deal with	0	1	0
+decide on	1	1	0
+decide upon	1	1	0
+deck out	0	NULL	NULL
+descend upon	1	NULL	NULL
+dick around	1	NULL	NULL
+die away	0	0	0
+die back	1	0	0
+die down	0	0	0
+die for	1	1	0
+die off	0	0	0
+die out	0	0	0
+dig in	0	0	0
+dig into	1	1	0
+dig out	0	0	0
+dig up	0	0	0
+dine out	0	0	0
+dine out on	1	1	0
+dip a toe into	1	NULL	NULL
+dip in	1	0	1
+dip into	0	1	0
+dip out	1	0	0
+disagree with	1	1	0
+dish out	0	0	0
+dish up	0	0	0
+dispose of	0	NULL	NULL
+dive in	0	0	0
+dive into	0	1	0
+divide up	0	0	0
+divvy out	1	0	0
+divvy up	0	0	0
+do away with	0	1	0
+do down	1	NULL	NULL
+do for	1	NULL	NULL
+do in	0	0	1
+do off	1	NULL	NULL
+do out	0	NULL	NULL
+do out of	0	0	1
+do over	0	NULL	NULL
+do the dishes	0	NULL	NULL
+do the laundry	1	NULL	NULL
+do up	0	0	0
+do with	1	1	0
+do without	0	1	0
+dob in	1	0	0
+doctor up	1	NULL	NULL
+dole out	0	0	0
+doll up	0	NULL	NULL
+dope out	1	NULL	NULL
+doss about	1	0	0
+doss around	1	0	0
+doss down	1	0	0
+double as	1	1	0
+double back	0	0	0
+double over	0	0	0
+double up	0	0	0
+double up as	1	1	0
+doze off	0	0	0
+drag down	0	NULL	NULL
+drag in	0	NULL	NULL
+drag on	0	0	0
+drag out	0	NULL	NULL
+drag up	0	NULL	NULL
+draw away	0	NULL	NULL
+draw back	0	0	0
+draw down	1	0	0
+draw even	1	0	0
+draw in	0	0	0
+draw into	0	1	0
+draw off	0	NULL	NULL
+draw on	0	0	0
+draw out	0	0	0
+draw up	0	0	0
+dream of	1	1	0
+dream on	0	NULL	NULL
+dream up	0	0	0
+dredge up	0	0	0
+dress down	0	0	0
+dress up	0	0	0
+drift apart	0	0	0
+drift off	0	0	0
+drill down	0	0	0
+drill down through	1	1	0
+drill into	1	0	1
+drink in	0	NULL	NULL
+drink off	1	NULL	NULL
+drink to	1	NULL	NULL
+drink up	0	0	0
+drive at	0	NULL	NULL
+drive away	0	0	0
+drive back	1	0	0
+drive by	0	0	0
+drive off	0	0	0
+drive out	0	0	0
+drive up	0	0	0
+drone on	0	0	0
+drop around	1	0	0
+drop away	1	0	0
+drop back	1	0	0
+drop by	0	0	0
+drop in	0	0	0
+drop off	0	0	0
+drop out	0	0	0
+drop over	1	0	0
+drop round	1	0	0
+drop someone in it	1	0	1
+drop through	1	0	0
+drown in	1	0	1
+drown out	0	0	0
+drum into	1	0	1
+drum out	1	0	1
+drum up	0	1	0
+dry off	0	0	0
+dry out	0	0	0
+dry up	0	0	0
+duck out	0	NULL	NULL
+duck out of	1	1	0
+dude up	1	NULL	NULL
+duff up	0	0	0
+dumb down	0	0	0
+dummy out	1	NULL	NULL
+dummy up	1	NULL	NULL
+dump on	0	1	0
+dump out	1	NULL	NULL
+dust down	0	0	0
+dust off	0	0	0
+dust up	1	NULL	NULL
+dwell on	1	1	0
+dwell upon	1	1	0
+earth up	1	NULL	NULL
+ease off	0	1	0
+ease up	1	0	0
+eat away	0	0	0
+eat in	0	0	0
+eat into	0	1	0
+eat out	0	0	0
+eat up	0	0	0
+ebb away	1	0	0
+edge out	0	0	0
+edge up	1	0	0
+eff off	1	NULL	NULL
+egg on	0	0	0
+eke out	0	0	0
+embark on	1	1	0
+embark upon	1	1	0
+empty out	0	0	0
+end in	1	1	0
+end up	0	1	0
+end up with	0	1	0
+enquire after	1	NULL	NULL
+enter for	1	1	0
+enter into	0	1	0
+even out	0	NULL	NULL
+even up	0	NULL	NULL
+explain away	0	NULL	NULL
+eye up	1	0	0
+face down	0	NULL	NULL
+face off	1	0	0
+face up to	0	1	0
+fade away	0	NULL	NULL
+faff about	1	0	0
+faff around	1	0	0
+fail over	1	NULL	NULL
+fair off	1	NULL	NULL
+fake out	1	NULL	NULL
+fall about	1	0	0
+fall apart	0	0	0
+fall away	0	NULL	NULL
+fall back	0	0	0
+fall back on	1	1	0
+fall behind	0	0	0
+fall down	0	0	0
+fall for	0	1	0
+fall in	0	0	0
+fall in with	0	NULL	NULL
+fall into	0	1	0
+fall off	0	0	0
+fall on	1	NULL	NULL
+fall out	0	0	0
+fall over	0	0	0
+fall through	0	0	0
+fall together	1	NULL	NULL
+fall under	1	1	0
+fall upon	1	NULL	NULL
+fan out	0	NULL	NULL
+farm out	1	0	0
+fart about	1	0	0
+fart around	1	0	0
+fasten down	1	0	0
+fasten on	1	1	0
+fasten onto	1	1	0
+fasten up	1	0	0
+fathom out	1	0	0
+fatten up	1	0	0
+fawn on	1	1	0
+fawn over	1	1	0
+feed into	0	NULL	NULL
+feed off	0	1	0
+feed on	0	0	0
+feed out of	1	NULL	NULL
+feed up	0	0	1
+feel around	1	NULL	NULL
+feel for	0	NULL	NULL
+feel out	1	NULL	NULL
+feel up	0	0	0
+feel up to	1	1	0
+fence in	0	0	0
+fence off	1	0	0
+fend away	1	NULL	NULL
+fend for	1	1	0
+fend off	1	0	0
+ferret out	0	0	0
+fess up	1	0	0
+fess up to	1	1	0
+fetch away	1	NULL	NULL
+fetch up	1	0	0
+fiddle about	0	0	0
+fiddle around	0	0	0
+fiddle away	1	0	0
+fiddle with	0	NULL	NULL
+fight back	0	0	0
+fight it out	0	1	0
+fight off	0	0	0
+figure on	1	1	0
+figure out	0	0	0
+file away	0	0	0
+file down	1	NULL	NULL
+file for	1	1	0
+file in	1	NULL	NULL
+file off	1	NULL	NULL
+file out	1	NULL	NULL
+fill in	0	0	0
+fill in for	1	1	0
+fill in on	1	0	1
+fill out	0	0	0
+fill up	0	0	0
+film out	1	NULL	NULL
+filter down	1	NULL	NULL
+filter in	1	0	0
+filter out	0	0	0
+filter up	1	NULL	NULL
+find out	0	0	0
+finish off	0	0	0
+finish up	0	0	0
+finish up with	1	1	0
+finish with	0	0	0
+fink on	1	1	0
+fink out	1	0	0
+fire away	0	0	0
+fire off	0	0	0
+fire out	1	NULL	NULL
+fire up	0	0	0
+firm up	0	0	0
+fish for	1	1	0
+fish out	0	0	0
+fit in	0	0	0
+fit in with	0	1	0
+fit into	0	1	0
+fit out	0	0	0
+fit out with	1	0	0
+fit up	0	0	0
+fix up	0	0	0
+fizzle out	0	0	0
+flag down	0	0	0
+flag up	1	0	0
+flail about	1	NULL	NULL
+flake out	0	0	0
+flame out	1	0	0
+flame up	1	0	0
+flare out	1	0	0
+flare up	0	0	0
+flare up at	1	NULL	NULL
+flesh out	0	0	0
+flick off	1	NULL	NULL
+flick over	1	0	0
+flick through	0	1	0
+flip off	1	0	0
+flip out	0	0	0
+flip through	1	1	0
+flog off	1	0	0
+floor it	1	0	0
+flounce off	1	0	0
+flounce out	1	0	0
+fluff out	1	0	0
+fluff up	1	0	0
+flunk out	1	NULL	NULL
+flush out	0	NULL	NULL
+fly about	1	0	0
+fly around	1	0	0
+fly at	1	1	0
+fly by	1	0	0
+fly into	1	1	0
+fly off	0	NULL	NULL
+fob off	1	0	0
+fob off on	1	0	1
+fob off onto	1	0	1
+fob off with	1	0	0
+focus on	1	1	0
+fog up	1	NULL	NULL
+foist off	1	NULL	NULL
+fold up	1	0	0
+follow on	0	0	0
+follow on from	1	1	0
+follow out	1	NULL	NULL
+follow through	0	0	0
+follow up	0	0	0
+fool about	1	0	0
+fool around	0	0	0
+fool away	1	NULL	NULL
+fool up	1	NULL	NULL
+fool with	0	1	0
+footle about	1	NULL	NULL
+footle around	1	NULL	NULL
+footle away	1	NULL	NULL
+forge ahead	0	0	0
+fork off	1	NULL	NULL
+fork out	0	NULL	NULL
+fork over	0	NULL	NULL
+foul out	1	NULL	NULL
+foul up	0	NULL	NULL
+frame up	0	NULL	NULL
+freak out	0	0	0
+free up	0	0	0
+freeze out	0	0	0
+freeze over	0	0	0
+freeze up	0	0	0
+freshen up	0	0	0
+frighten away	1	0	0
+frighten off	0	0	0
+fritter away	0	0	0
+front for	0	1	0
+front off	1	0	0
+front onto	1	1	0
+front out	1	0	0
+front up	1	0	0
+frost up	1	NULL	NULL
+frown at	0	NULL	NULL
+frown on	1	1	0
+frown upon	0	NULL	NULL
+fuck about	1	NULL	NULL
+fuck around	0	NULL	NULL
+fuck off	1	NULL	NULL
+fuck over	1	NULL	NULL
+fuck round	1	NULL	NULL
+fuck someone up	1	NULL	NULL
+fuck up	0	NULL	NULL
+fuck with	1	NULL	NULL
+fuel up	0	0	0
+fuzz out	1	NULL	NULL
+gad about	1	0	0
+gad around	1	0	0
+gag for	1	1	0
+gang up	0	0	0
+gang up against	1	1	0
+gang up on	0	1	0
+gay up	1	NULL	NULL
+gear to	1	1	0
+gear towards	1	1	0
+gear up	0	0	0
+geek out	1	0	0
+get about	0	0	0
+get above	1	1	0
+get across	1	0	0
+get across to	1	1	0
+get after	1	1	0
+get ahead	0	0	0
+get ahead of	0	1	0
+get along	0	0	0
+get along in	1	1	0
+get along with	0	1	0
+get around	0	0	0
+get around to	1	1	0
+get at	0	1	0
+get away	0	0	0
+get away from	0	1	0
+get away with	0	1	0
+get away!	1	NULL	NULL
+get back	0	0	0
+get back at	0	1	0
+get back into	1	1	0
+get back to	0	1	0
+get back together	1	0	0
+get behind	0	1	0
+get behind with	1	1	0
+get by	0	0	0
+get by on	1	1	0
+get by with	1	1	0
+get down	0	0	0
+get down on	1	1	0
+get down to	0	1	0
+get down with	1	NULL	NULL
+get in	0	0	0
+get in on	0	1	0
+get in with	0	1	0
+get into	0	1	0
+get it	0	0	0
+get it off	1	0	0
+get it off with	1	1	0
+get it on	1	0	0
+get it on with	1	1	0
+get it together	1	0	0
+get it up	1	0	0
+get off	0	0	0
+get off it	1	1	0
+get off on	1	1	0
+get off with	0	1	0
+get off!	1	NULL	NULL
+get on	0	0	0
+get on at	1	1	0
+get on for	1	1	0
+get on to	0	1	0
+get on up	1	NULL	NULL
+get on with	0	1	0
+get one's leg over	1	NULL	NULL
+get onto	0	1	0
+get open	1	NULL	NULL
+get out	0	0	0
+get out of	0	0	0
+get out of here	0	NULL	NULL
+get out!	1	NULL	NULL
+get outta	1	NULL	NULL
+get over	0	0	0
+get over on	1	NULL	NULL
+get over with	1	0	1
+get rid of	0	NULL	NULL
+get round	0	0	0
+get round to	0	NULL	NULL
+get through	0	0	0
+get through to	0	1	0
+get to	0	1	0
+get together	0	0	0
+get up	0	0	0
+get up to	0	1	0
+get used	1	NULL	NULL
+ghost away	1	0	0
+gin up	1	0	0
+ginger up	1	0	0
+give about	1	NULL	NULL
+give against	1	NULL	NULL
+give away	0	0	0
+give back	0	0	0
+give by	1	NULL	NULL
+give forth	1	NULL	NULL
+give in	0	0	0
+give in to	1	1	0
+give into	1	NULL	NULL
+give it to	1	1	0
+give it up for	1	1	0
+give it up to	1	1	0
+give of	1	1	0
+give off	0	0	0
+give onto	1	1	0
+give out	0	0	0
+give over	0	0	0
+give over to	1	0	1
+give over!	1	NULL	NULL
+give up	0	0	0
+give up on	0	1	0
+give up to	1	0	1
+give way	0	0	0
+give way to	0	1	0
+give yourself up	1	1	0
+give yourself up to	1	0	1
+glance away	1	NULL	NULL
+glance off	0	NULL	NULL
+glance over	1	NULL	NULL
+glaze up	1	NULL	NULL
+glom on	1	NULL	NULL
+glom onto	1	NULL	NULL
+gloss over	0	1	0
+gnaw at	1	1	0
+gnaw away at	1	1	0
+go about	0	0	0
+go across	0	0	0
+go after	0	1	0
+go against	0	1	0
+go ahead	0	0	0
+go ahead with	1	1	0
+go along	0	NULL	NULL
+go along with	0	1	0
+go around	0	0	0
+go at	0	1	0
+go away	0	0	0
+go back	0	0	0
+go back on	0	1	0
+go before	0	0	0
+go below	1	0	0
+go by	0	0	0
+go down	0	0	0
+go down on	0	1	0
+go down to	1	1	0
+go down with	1	1	0
+go for	0	1	0
+go for it	1	1	0
+go forth	0	0	0
+go forward	0	0	0
+go in	0	0	0
+go in for	0	1	0
+go in off	1	NULL	NULL
+go in with	0	1	0
+go into	0	1	0
+go it	1	0	0
+go it alone	1	0	0
+go off	0	0	0
+go off with	1	1	0
+go on	0	0	0
+go on about	0	1	0
+go on at	1	1	0
+go on to	1	1	0
+go on with	0	1	0
+go one	1	0	0
+go out	0	0	0
+go out for	1	1	0
+go out to	1	1	0
+go out with	0	1	0
+go over	0	0	0
+go over to	1	1	0
+go past	0	1	0
+go round	0	0	0
+go through	0	0	0
+go through with	0	1	0
+go to	0	1	0
+go together	0	0	0
+go towards	1	1	0
+go under	0	0	0
+go up	0	0	0
+go up against	1	NULL	NULL
+go up to	0	1	0
+go with	0	1	0
+go without	0	1	0
+goof around	0	0	0
+goof off	0	0	0
+goof up	0	0	0
+grasp at	1	1	0
+grass on	1	1	0
+grass up	1	0	0
+grease up	1	NULL	NULL
+grey out	0	0	0
+grind away	1	0	0
+grind down	0	0	0
+grind into	1	0	0
+grind on	1	0	0
+grind out	0	0	0
+grind up	0	0	0
+gross out	0	NULL	NULL
+grow apart	0	0	0
+grow away from	0	1	0
+grow back	0	0	0
+grow from	1	1	0
+grow into	0	1	0
+grow on	1	1	0
+grow out	0	0	0
+grow out of	0	1	0
+grow to	1	0	0
+grow together	1	0	0
+grow up	0	0	0
+grow up on	1	1	0
+grow upon	1	1	0
+gulp down	0	NULL	NULL
+gum up	0	NULL	NULL
+gun for	0	1	0
+gunk up	1	NULL	NULL
+gussie up	1	NULL	NULL
+gussy up	1	0	0
+gutter out	1	NULL	NULL
+hack around	1	0	0
+hack into	1	1	0
+hack off	0	0	0
+hack up	0	0	0
+hail down	1	NULL	NULL
+ham up	1	0	0
+hammer away at	0	1	0
+hammer into	1	0	1
+hammer out	0	0	0
+hand back	0	0	0
+hand down	0	0	0
+hand in	0	0	0
+hand off	0	NULL	NULL
+hand on	0	0	0
+hand out	0	0	0
+hand over	0	0	0
+hand round	1	NULL	NULL
+hang about	0	0	0
+hang about!	1	NULL	NULL
+hang around	0	0	0
+hang back	0	0	0
+hang back from	1	1	0
+hang in	0	NULL	NULL
+hang in there	1	0	0
+hang it up	1	0	0
+hang on	0	0	0
+hang onto	1	1	0
+hang out	0	0	0
+hang out for	1	1	0
+hang over	1	1	0
+hang together	0	0	0
+hang up	0	0	0
+hang up on	0	1	0
+hang with	1	1	0
+hanker after	1	1	0
+hanker for	1	1	0
+happen along	1	NULL	NULL
+happen on	0	NULL	NULL
+hark back	1	NULL	NULL
+harp on	0	0	0
+hash out	0	0	0
+hate on	1	1	0
+haul down	1	NULL	NULL
+have against	1	0	1
+have around	1	0	1
+have down as	1	0	1
+have in	1	0	0
+have it away	1	1	0
+have it in for	0	1	0
+have it off	1	1	0
+have it out with	1	1	0
+have off	1	0	0
+have on	1	0	0
+have over	0	0	1
+have round	1	0	1
+have up	1	0	1
+haze over	1	NULL	NULL
+head for	0	1	0
+head off	0	0	0
+head out	0	0	0
+head up	0	0	0
+heap up	0	NULL	NULL
+hear about	0	1	0
+hear from	0	1	0
+hear of	0	0	0
+hear out	0	0	1
+hearken back	1	NULL	NULL
+heat up	0	0	0
+help out	0	0	0
+hew out	1	NULL	NULL
+hide away	0	0	0
+hide out	0	0	0
+hike up	0	NULL	NULL
+hinge on	0	1	0
+hinge upon	0	1	0
+hit back	0	1	0
+hit for	1	0	1
+hit it off	0	0	0
+hit it off with	1	1	0
+hit on	0	1	0
+hit out	0	NULL	NULL
+hit out at	1	1	0
+hit up	0	0	0
+hit up on	1	1	0
+hit upon	1	1	0
+hit with	1	0	1
+hitch up	0	NULL	NULL
+hive off	1	0	0
+hold against	0	0	1
+hold back	0	0	0
+hold back from	1	1	0
+hold cheap	1	NULL	NULL
+hold down	0	0	0
+hold forth	0	0	0
+hold off	0	0	0
+hold on	0	0	0
+hold on to	0	1	0
+hold onto	0	0	0
+hold out	0	0	0
+hold out against	1	1	0
+hold out for	1	1	0
+hold out on	1	1	0
+hold over	0	0	0
+hold together	0	0	0
+hold up	0	0	0
+hold with	1	1	0
+hole up	0	0	0
+home in on	0	1	0
+hone in on	1	1	0
+hook in	0	NULL	NULL
+hook into	0	0	1
+hook up	0	0	0
+hook up to	1	1	0
+hoon around	1	0	0
+hoover up	1	NULL	NULL
+hop up	1	NULL	NULL
+horse around	0	0	0
+hose down	0	0	0
+hot up	0	NULL	NULL
+hound out	1	0	0
+hover around	1	0	0
+howl out	1	NULL	NULL
+hunker down	0	0	0
+hunt down	0	0	0
+hunt out	0	0	0
+hunt up	1	0	0
+hurry up	0	NULL	NULL
+hush down	1	NULL	NULL
+hush up	0	0	0
+ice over	0	NULL	NULL
+ice up	0	NULL	NULL
+inquire after	0	NULL	NULL
+inquire of	1	NULL	NULL
+instance in	1	NULL	NULL
+iron out	0	0	0
+issue forth	1	0	0
+jabber away	1	0	0
+jack around	1	0	1
+jack in	0	0	0
+jack off	0	NULL	NULL
+jack up	0	0	0
+jam on	1	0	0
+jaw away	1	0	0
+jazz up	0	0	0
+jerk around	1	0	0
+jerk off	0	0	0
+jet off	0	NULL	NULL
+Jew down	1	NULL	NULL
+jew down	1	NULL	NULL
+jill off	1	NULL	NULL
+jockey into	1	0	1
+jog on	1	NULL	NULL
+join in	0	NULL	NULL
+join up	0	NULL	NULL
+joke around	0	0	0
+jot down	0	0	0
+juice up	0	0	0
+jump about	0	NULL	NULL
+jump around	1	NULL	NULL
+jump at	0	1	0
+jump down	1	NULL	NULL
+jump in	0	0	0
+jump off	0	1	0
+jump on	0	1	0
+jump up	0	NULL	NULL
+keel over	0	0	0
+keep around	1	0	1
+keep at	0	1	0
+keep away	0	0	0
+keep away from	1	NULL	NULL
+keep back	0	0	0
+keep down	1	0	0
+keep from	0	1	0
+keep in	1	0	0
+keep in with	1	1	0
+keep off	0	1	0
+keep on	0	1	0
+keep out	0	0	0
+keep out of	1	NULL	NULL
+keep to	0	1	0
+keep up	0	0	0
+keep up at	1	1	0
+keep up with	0	1	0
+key down	1	0	0
+key in	0	0	0
+key in on	1	1	0
+key off	1	NULL	NULL
+key on	1	1	0
+key to	1	1	0
+key up	1	0	0
+kick about	1	0	0
+kick around	0	0	0
+kick around with	1	1	0
+kick back	0	0	0
+kick down	1	0	0
+kick in	0	0	0
+kick off	0	0	0
+kick out	0	0	0
+kick up	0	0	0
+kid around	0	NULL	NULL
+kill off	0	0	0
+kip down	1	0	0
+kip down on	1	1	0
+kiss and make up	0	NULL	NULL
+kiss off	0	0	0
+kiss up to	0	1	0
+kit out	0	NULL	NULL
+kneel before	1	NULL	NULL
+knock about	0	0	1
+knock around	0	0	1
+knock back	0	0	0
+knock down	0	0	0
+knock it off!	1	NULL	NULL
+knock off	0	0	0
+knock on	1	NULL	NULL
+knock out	0	0	0
+knock over	0	1	0
+knock together	0	0	0
+knock up	0	0	0
+knuckle down	0	0	0
+knuckle under	1	0	0
+konk out	1	NULL	NULL
+lace into	1	NULL	NULL
+lace up	1	NULL	NULL
+land in	1	0	1
+land up	0	NULL	NULL
+lap up	0	0	0
+large it up	1	0	1
+lark about	1	0	0
+lark around	1	0	0
+lark it up	1	0	0
+lash down	1	0	0
+lash into	1	1	0
+lash out	0	0	0
+lash out against	1	1	0
+lash out at	0	1	0
+lash out on	1	0	1
+last out	1	NULL	NULL
+latch on	0	0	0
+latch on to	1	1	0
+latch onto	1	1	0
+laugh down	1	NULL	NULL
+laugh off	1	0	0
+lay about	1	NULL	NULL
+lay by	1	NULL	NULL
+lay down	0	0	0
+lay hold of	1	NULL	NULL
+lay into	0	1	0
+lay low	1	NULL	NULL
+lay off	0	0	0
+lay on	0	0	0
+lay out	0	0	0
+lay over	1	NULL	NULL
+lay up	0	NULL	NULL
+laze about	0	NULL	NULL
+laze around	0	NULL	NULL
+lead astray	0	NULL	NULL
+lead on	0	0	0
+lead to	0	1	0
+leaf out	1	NULL	NULL
+leaf through	0	NULL	NULL
+leak out	0	0	0
+lean on	1	1	0
+lean towards	0	NULL	NULL
+leap at	1	1	0
+leap on	1	1	0
+leap out at	1	1	0
+leap upon	1	1	0
+leave behind	0	NULL	NULL
+leave off	0	NULL	NULL
+leave on	1	0	1
+leave out	0	0	0
+leave over	0	NULL	NULL
+let down	0	0	0
+let in	1	0	0
+let in on	1	0	1
+let off	0	0	0
+let on	0	0	0
+let out	0	0	0
+let up	0	NULL	NULL
+level off	0	0	0
+level out	0	0	0
+level up	0	NULL	NULL
+lez out	1	NULL	NULL
+lick out	1	NULL	NULL
+lick up	1	NULL	NULL
+lie around	0	0	0
+lie back	0	NULL	NULL
+lie before	1	NULL	NULL
+lie down	0	0	0
+lie in	0	NULL	NULL
+lie off	1	NULL	NULL
+lie with	1	1	0
+lift off	1	0	0
+lift up	1	NULL	NULL
+light into	1	NULL	NULL
+light out	1	0	0
+light up	0	0	0
+lighten up	0	0	0
+limber up	0	0	0
+limber up for	1	1	0
+line up	0	0	0
+link up	0	0	0
+link up with	1	1	0
+lip off	1	NULL	NULL
+liquor up	1	NULL	NULL
+listen in	1	NULL	NULL
+listen out for	0	1	0
+listen up	1	0	0
+live by	1	1	0
+live down	0	0	1
+live for	1	1	0
+live in	0	0	0
+live it up	0	0	1
+live off	0	1	0
+live on	0	0	0
+live out	0	0	0
+live through	1	1	0
+live together	0	0	0
+live up	1	NULL	NULL
+live up to	0	1	0
+live with	0	1	0
+liven up	0	0	0
+load down	1	0	0
+load up	0	0	0
+load up on	1	1	0
+loaf about	0	NULL	NULL
+loaf around	1	NULL	NULL
+lock away	0	0	0
+lock down	1	0	0
+lock in	1	0	0
+lock on	1	NULL	NULL
+lock onto	1	1	0
+lock out	0	0	0
+lock up	0	0	0
+lock yourself away	1	1	0
+log in	0	0	0
+log into	1	1	0
+log off	0	1	0
+log on	0	1	0
+log out	0	0	0
+look after	0	1	0
+look ahead	0	NULL	NULL
+look at	1	NULL	NULL
+look back	0	0	0
+look down on	0	1	0
+look down upon	1	NULL	NULL
+look for	0	1	0
+look forward	0	NULL	NULL
+look forward to	0	1	0
+look in	1	1	0
+look in on	0	1	0
+look into	0	1	0
+look off	0	NULL	NULL
+look on	0	0	0
+look on as	1	0	1
+look out	0	0	0
+look out for	0	1	0
+look over	0	0	0
+look round	1	1	0
+look through	0	1	0
+look to	0	1	0
+look up	0	0	0
+look up to	1	1	0
+look upon	0	NULL	NULL
+look upon as	1	0	1
+loop in	1	NULL	NULL
+loosen up	0	0	0
+lord it over	0	1	0
+lose out	0	0	0
+lose out on	1	1	0
+lose out to	1	1	0
+louse around	1	NULL	NULL
+louse up	1	NULL	NULL
+luck in	1	NULL	NULL
+luck into	1	1	0
+luck out	0	0	0
+lump together	1	NULL	NULL
+lust after	0	1	0
+magic away	1	0	0
+make after	1	0	0
+make away with	1	1	0
+make do with	0	1	0
+make for	0	1	0
+make into	1	1	0
+make it	0	0	0
+make it up to	0	1	0
+make of	1	1	0
+make off	0	0	0
+make off with	0	1	0
+make out	0	0	0
+make over	0	0	0
+make to	1	NULL	NULL
+make towards	1	1	0
+make up	0	0	0
+make up for	0	1	0
+make up to	0	0	1
+make way	0	NULL	NULL
+make with	1	1	0
+man down	1	0	0
+man up	1	0	0
+map out	0	NULL	NULL
+mark down	0	0	0
+mark down as	1	0	1
+mark off	0	0	0
+mark out	0	0	0
+mark out for	1	0	1
+mark out from	1	0	1
+mark up	1	0	0
+marry in	1	0	0
+marry off	1	0	0
+marry out	1	0	0
+mash up	0	0	0
+max out	0	0	0
+measure against	1	0	1
+measure off	1	0	0
+measure out	1	0	0
+measure up	0	0	0
+measure up to	1	1	0
+meet up	0	0	0
+meet with	0	1	0
+melt away	0	NULL	NULL
+melt down	0	0	0
+melt into	0	NULL	NULL
+melt up	1	NULL	NULL
+mess about	1	0	0
+mess about with	1	1	0
+mess around	0	0	0
+mess around with	1	0	0
+mess over	1	0	0
+mess up	0	0	0
+mess with	0	1	0
+mete out	0	0	0
+mike up	1	NULL	NULL
+mill about	1	NULL	NULL
+mill around	0	0	0
+mind out	1	NULL	NULL
+miss out	0	0	0
+miss out on	0	1	0
+mix up	0	0	0
+mock up	0	0	0
+moggy off	1	0	0
+monkey around	0	0	0
+mooch about	1	0	0
+mooch around	1	0	0
+mop up	0	0	0
+mope about	1	0	0
+mope around	1	0	0
+mount up	0	0	0
+mouse over	1	NULL	NULL
+mouth off	1	0	0
+move about	0	NULL	NULL
+move ahead	1	0	0
+move along	0	0	0
+move away	0	0	0
+move away from	0	1	0
+move down	1	0	0
+move forward	0	NULL	NULL
+move in	0	0	0
+move in on	0	1	0
+move into	0	1	0
+move on	0	0	0
+move out	0	0	0
+move towards	1	1	0
+move up	0	0	0
+mow down	0	NULL	NULL
+muck about	0	NULL	NULL
+muck around	1	NULL	NULL
+muck in	1	NULL	NULL
+muck out	0	NULL	NULL
+muddle along	1	0	0
+muddle through	0	0	0
+muddle up	1	0	0
+mug off	1	NULL	NULL
+mug up	1	0	0
+mug up on	1	1	0
+mull over	0	0	0
+muscle in	0	0	0
+muscle in on	0	1	0
+muscle into	1	1	0
+muscle out	0	0	0
+muscle up	1	NULL	NULL
+mush up	1	NULL	NULL
+muster up	1	NULL	NULL
+naff off	1	0	0
+nag at	1	1	0
+nail down	0	0	0
+name after	0	1	0
+narrow down	0	0	0
+neck down	1	NULL	NULL
+neck up	1	NULL	NULL
+nerd out	1	0	0
+nip off	1	0	0
+nip out	1	0	0
+nod off	0	0	0
+nod through	1	0	0
+nose about	1	0	0
+nose around	0	0	0
+nose out	0	0	0
+notch up	0	NULL	NULL
+note down	0	0	0
+nudge out	1	NULL	NULL
+nut out	1	0	0
+occur to	1	1	0
+offer up	0	NULL	NULL
+oil up	1	NULL	NULL
+open up	0	0	0
+operate on	1	1	0
+opt for	1	1	0
+opt in	0	0	0
+opt into	1	1	0
+opt out	0	1	0
+owe to	1	0	1
+own up	0	0	0
+pack away	0	0	0
+pack in	0	0	0
+pack it in	1	0	0
+pack off	1	0	0
+pack on	1	NULL	NULL
+pack out	1	0	0
+pack up	0	0	0
+pad down	1	0	0
+pad out	0	0	0
+pair off	0	0	0
+pair off with	1	1	0
+pair up	1	0	0
+pal about	1	0	0
+pal around	1	0	0
+pal up	1	0	0
+palm off	0	0	0
+pan out	0	0	0
+paper over	0	1	0
+parcel out	1	NULL	NULL
+pare back	1	0	0
+pare down	1	0	0
+part with	0	1	0
+partial out	1	NULL	NULL
+pass around	0	0	0
+pass as	1	1	0
+pass away	0	0	0
+pass back	1	0	0
+pass by	0	0	0
+pass down	1	0	0
+pass for	1	1	0
+pass off	0	0	0
+pass on	0	0	0
+pass on to	1	1	0
+pass out	0	0	0
+pass over	0	0	0
+pass round	1	0	0
+pass through	0	1	0
+pass to	1	1	0
+pass up	0	0	0
+pat down	1	0	1
+patch together	0	0	0
+patch up	0	0	0
+pay back	0	0	0
+pay down	1	0	0
+pay for	1	0	1
+pay into	1	0	1
+pay off	0	0	0
+pay out	0	NULL	NULL
+pay up	0	NULL	NULL
+peace out	1	NULL	NULL
+peal out	1	NULL	NULL
+peck at	0	1	0
+pee off	1	NULL	NULL
+peel away	0	0	0
+peel away from	1	1	0
+peel off	0	0	0
+peel off from	1	1	0
+peel out	1	0	0
+peep out	0	NULL	NULL
+peg away	1	0	0
+peg back	1	NULL	NULL
+peg down	1	0	0
+peg it	1	0	0
+peg out	0	0	0
+pelt down	1	NULL	NULL
+pencil in	1	0	0
+pep up	0	0	0
+perk up	0	0	0
+peter out	0	0	0
+phase down	1	NULL	NULL
+phase in	0	0	0
+phase out	0	0	0
+phone in	1	0	0
+phone up	0	NULL	NULL
+pick apart	1	0	0
+pick at	0	1	0
+pick off	0	0	0
+pick on	0	1	0
+pick out	0	0	0
+pick through	1	1	0
+pick up	0	0	0
+pick up after	1	1	0
+pick up on	0	1	0
+pick yourself up	1	1	0
+piece out	1	NULL	NULL
+piece together	0	NULL	NULL
+pig off	1	0	0
+pig out	0	0	0
+pile in	0	0	0
+pile into	1	1	0
+pile on	1	0	0
+pile out	1	0	0
+pile up	0	0	0
+pimp out	1	NULL	NULL
+pimp up	1	NULL	NULL
+pin back	1	NULL	NULL
+pin down	0	0	0
+pin on	0	0	1
+pin up	0	0	0
+pine away	1	0	0
+pipe down	0	0	0
+pipe up	0	0	0
+piss about	1	NULL	NULL
+piss around	1	NULL	NULL
+piss down	1	NULL	NULL
+piss off	0	NULL	NULL
+piss up	1	NULL	NULL
+pit against	1	0	1
+pit out	1	0	0
+pitch for	1	1	0
+pitch in	0	0	0
+pitch into	0	1	0
+pitch upon	1	NULL	NULL
+plan on	0	NULL	NULL
+plan out	0	NULL	NULL
+plant out	1	0	0
+plate up	1	0	0
+play along	0	0	0
+play around	0	0	0
+play at	0	1	0
+play away	1	0	0
+play back	0	0	0
+play down	0	0	0
+play in	1	NULL	NULL
+play off	0	0	0
+play on	0	0	0
+play out	0	0	0
+play up	0	0	0
+play up to	1	0	0
+play upon	0	1	0
+play with	0	1	0
+plead out	1	0	0
+plough back	1	0	0
+plough into	1	1	0
+plough on	1	0	0
+plough through	0	1	0
+plough up	1	0	0
+plow back	1	0	0
+plow into	1	1	0
+plow on	1	0	0
+plow through	1	1	0
+plow up	1	0	0
+pluck at	1	1	0
+pluck up	1	0	0
+plug away	0	NULL	NULL
+plug in	0	0	0
+plug out	1	NULL	NULL
+plug up	1	NULL	NULL
+plump down	1	0	0
+plump for	0	1	0
+plump up	1	0	0
+plump yourself down	1	1	0
+point out	0	0	0
+poke about	1	0	0
+poke along	1	NULL	NULL
+poke around	1	0	0
+polish off	0	0	0
+polish up	0	0	0
+pony up	1	0	0
+poop out	1	0	0
+poop out on	1	1	0
+pootle along	1	0	0
+pop down	1	0	0
+pop in	0	0	0
+pop off	0	0	0
+pop out	0	0	0
+pop up	0	0	0
+pore over	0	1	0
+post up	0	NULL	NULL
+potter about	1	0	0
+potter around	1	0	0
+pour down	0	0	0
+pour forth	0	0	0
+pour out	0	NULL	NULL
+power down	0	0	0
+power off	0	0	0
+power on	1	NULL	NULL
+power up	0	0	0
+prattle on	1	0	0
+press ahead	1	0	0
+press for	1	1	0
+press forward with	1	1	0
+press into	1	1	0
+press on	0	0	0
+press upon	1	1	0
+pretty up	1	NULL	NULL
+prevail upon	1	NULL	NULL
+prey on	1	1	0
+prey upon	1	1	0
+price in	1	0	0
+price out	1	NULL	NULL
+price up	1	0	0
+print out	0	0	0
+prone out	1	NULL	NULL
+prop up	0	0	0
+prove out	1	NULL	NULL
+psych out	0	0	0
+psych up	1	0	0
+pucker up	0	0	0
+puff out	0	NULL	NULL
+puff up	0	NULL	NULL
+puke up	1	NULL	NULL
+pull ahead	1	0	0
+pull apart	0	0	1
+pull away	0	0	0
+pull back	0	0	0
+pull down	0	0	0
+pull for	0	1	0
+pull in	0	0	0
+pull off	0	0	0
+pull on	0	0	0
+pull out	0	0	0
+pull over	0	0	0
+pull through	0	0	0
+pull to	1	0	1
+pull together	0	0	0
+pull up	0	0	0
+pull yourself together	0	1	0
+pump out	0	NULL	NULL
+pump up	0	NULL	NULL
+punch in	1	NULL	NULL
+punch out	0	NULL	NULL
+push about	1	0	1
+push around	0	0	1
+push forward	0	NULL	NULL
+push in	0	1	0
+push off	0	0	0
+push on	0	0	0
+push out	0	0	1
+push through	0	0	0
+push under	1	NULL	NULL
+pussy out	1	NULL	NULL
+put about	0	NULL	NULL
+put across	0	0	0
+put aside	0	NULL	NULL
+put away	0	0	0
+put back	0	0	0
+put by	0	0	0
+put down	0	0	0
+put down for	1	0	1
+put down to	0	0	1
+put forth	0	NULL	NULL
+put forward	0	0	0
+put horns on	1	NULL	NULL
+put in	0	0	0
+put in for	1	1	0
+put in with	1	NULL	NULL
+put off	0	0	0
+put on	0	0	0
+put oneself across	1	NULL	NULL
+put out	0	0	0
+put over	0	0	0
+put someone down as	1	NULL	NULL
+put through	0	0	1
+put towards	1	0	1
+put up	0	0	0
+put up to	1	0	1
+put up with	1	1	0
+putter around	1	NULL	NULL
+quarrel out	1	0	0
+quarrel with	1	1	0
+queer up	1	0	0
+quiet down	0	NULL	NULL
+quieten down	1	0	0
+quit on	1	1	0
+rabbit on	0	NULL	NULL
+race off	1	0	0
+rack off	1	0	0
+rack out	1	0	0
+rack up	0	0	0
+rain down	0	NULL	NULL
+rain down on	1	1	0
+rain off	1	0	0
+rain out	1	0	0
+raise up	0	NULL	NULL
+rake in	0	0	0
+rake it in	1	0	1
+rake off	1	0	0
+rake over	1	0	0
+rake together	1	NULL	NULL
+rake up	0	0	0
+rally around	0	NULL	NULL
+rally round	0	NULL	NULL
+ramble on	0	0	0
+ramp up	0	0	0
+rap out	1	0	0
+rark up	1	NULL	NULL
+rat on	0	1	0
+rat out	0	0	1
+rat through	1	1	0
+ratchet up	1	0	0
+rattle off	0	0	0
+rattle through	1	NULL	NULL
+ravin down	1	NULL	NULL
+reach out	0	0	0
+reach out for	1	1	0
+reach out to	1	1	0
+read off	1	0	0
+read out	0	0	0
+read up	0	NULL	NULL
+read up on	1	1	0
+ready up	1	NULL	NULL
+rear up	1	NULL	NULL
+reason out	0	0	0
+reckon for	1	NULL	NULL
+reckon on	1	1	0
+reckon upon	1	NULL	NULL
+reckon with	1	NULL	NULL
+reckon without	1	NULL	NULL
+redd up	1	NULL	NULL
+reel in	0	0	0
+reel off	0	0	0
+reel out	1	0	0
+reel up	1	NULL	NULL
+reflect on	1	NULL	NULL
+reflect upon	1	NULL	NULL
+rein in	0	0	0
+rein up	1	NULL	NULL
+rely on	1	NULL	NULL
+rem out	1	NULL	NULL
+rent out	0	0	0
+rev up	0	NULL	NULL
+rhyme off	1	NULL	NULL
+rid out	1	NULL	NULL
+rid up	1	NULL	NULL
+ride down	1	NULL	NULL
+ride off	1	0	0
+ride on	0	1	0
+ride out	1	0	0
+ride up	0	0	0
+rig out	1	NULL	NULL
+ring around	1	NULL	NULL
+ring back	1	0	1
+ring in	0	0	0
+ring off	0	0	0
+ring out	1	0	0
+ring round	1	0	0
+ring up	0	0	0
+ring with	1	1	0
+rip off	0	0	0
+rip on	1	1	0
+rip up	0	NULL	NULL
+ripen up	1	NULL	NULL
+rise up	0	NULL	NULL
+roar on	1	NULL	NULL
+rock along	1	NULL	NULL
+rock on	1	NULL	NULL
+rock out	1	NULL	NULL
+rock up	1	NULL	NULL
+rocket up	1	NULL	NULL
+roll around	0	NULL	NULL
+roll back	0	0	0
+roll by	0	0	0
+roll in	0	0	0
+roll on	0	0	0
+roll on!	1	NULL	NULL
+roll out	0	0	0
+roll over	0	NULL	NULL
+roll up	0	0	0
+roll up!	1	NULL	NULL
+romp in	1	0	0
+romp through	1	1	0
+room in	1	0	0
+root about	1	0	0
+root around	0	1	0
+root for	0	1	0
+root out	0	0	0
+root up	1	0	0
+rope in	0	0	0
+rope into	1	1	0
+rope off	0	0	0
+rope up	1	NULL	NULL
+rough out	0	NULL	NULL
+rough up	0	0	0
+roughen up	1	NULL	NULL
+round down	1	NULL	NULL
+round off	0	0	0
+round out	0	NULL	NULL
+round up	0	NULL	NULL
+row back	1	0	0
+rub along	0	0	0
+rub down	1	0	0
+rub in	1	0	0
+rub it in	1	0	1
+rub off	0	NULL	NULL
+rub off on	1	1	0
+rub out	0	0	0
+rub up	1	NULL	NULL
+rub up against	1	1	0
+rub up on	1	1	0
+rug up	1	NULL	NULL
+rule in	1	NULL	NULL
+rule on	1	NULL	NULL
+rule out	0	0	0
+rule over	1	NULL	NULL
+rumple up	1	NULL	NULL
+run about	0	NULL	NULL
+run across	0	1	0
+run after	0	1	0
+run against	1	1	0
+run along	0	0	0
+run around	0	0	0
+run around after	1	NULL	NULL
+run around with	1	NULL	NULL
+run away	0	0	0
+run away with	1	NULL	NULL
+run back	1	NULL	NULL
+run by	1	NULL	NULL
+run down	0	0	0
+run for	0	1	0
+run in	1	0	0
+run into	0	1	0
+run off	0	0	0
+run off with	1	NULL	NULL
+run on	0	1	0
+run out	0	NULL	NULL
+run out of	0	1	0
+run out on	1	NULL	NULL
+run over	0	0	0
+run through	0	0	0
+run to	1	1	0
+run up	1	0	0
+run up against	1	1	0
+run up on	1	1	0
+run with	1	1	0
+rush away	1	0	0
+rush into	0	1	0
+rush off	0	0	0
+rush out	0	0	0
+rust off	1	NULL	NULL
+rustle up	1	0	0
+sack out	1	0	0
+saddle up	0	0	0
+saddle with	1	0	1
+sag off	1	1	0
+sail into	1	1	0
+sail through	1	1	0
+sally forth	1	0	0
+sally out	1	0	0
+salt away	1	0	0
+save down	1	NULL	NULL
+save on	1	1	0
+save up	0	0	0
+saw off	0	0	0
+saw up	1	0	0
+scale back	1	0	0
+scale down	0	0	0
+scale off	1	NULL	NULL
+scale up	0	0	0
+scare away	0	0	0
+scare off	0	0	0
+scare up	1	NULL	NULL
+scarf down	1	NULL	NULL
+scent out	1	NULL	NULL
+scoop up	0	NULL	NULL
+scope out	1	NULL	NULL
+score off	1	NULL	NULL
+scout about	1	0	0
+scout around	1	0	0
+scout out	1	0	0
+scout round	1	0	0
+scout up	1	0	0
+scrape along	1	0	0
+scrape by	1	0	0
+scrape in	1	0	0
+scrape into	1	1	0
+scrape off	0	NULL	NULL
+scrape through	0	1	0
+scrape together	0	0	0
+scrape up	1	0	0
+scratch out	0	NULL	NULL
+scratch together	1	NULL	NULL
+screen off	1	0	0
+screen out	0	0	0
+screw around	0	0	0
+screw back	1	NULL	NULL
+screw off	1	NULL	NULL
+screw over	1	0	1
+screw up	0	0	0
+screw with	1	NULL	NULL
+scrounge up	1	NULL	NULL
+scrub in	1	NULL	NULL
+scrub out	0	NULL	NULL
+see about	0	1	0
+see in	0	NULL	NULL
+see into	0	0	1
+see off	0	0	0
+see out	0	0	1
+see over	1	NULL	NULL
+see through	0	0	0
+see to	0	1	0
+seek out	0	NULL	NULL
+seize up	0	NULL	NULL
+seize upon	0	NULL	NULL
+sell off	0	0	0
+sell on	1	0	0
+sell out	0	0	0
+sell up	1	0	0
+send away	0	NULL	NULL
+send away for	1	NULL	NULL
+send back	0	0	0
+send down	0	NULL	NULL
+send for	0	1	0
+send forth	1	NULL	NULL
+send in	0	0	0
+send off	0	0	0
+send off for	1	1	0
+send on	1	NULL	NULL
+send out	0	0	0
+send out for	1	1	0
+send up	0	0	0
+serve out	0	NULL	NULL
+serve up	1	NULL	NULL
+set about	0	1	0
+set apart	0	0	1
+set aside	0	0	0
+set back	0	0	0
+set down	0	NULL	NULL
+set forth	0	0	0
+set in	0	0	0
+set off	0	0	0
+set on	0	1	0
+set out	0	0	0
+set to	0	0	0
+set up	0	0	0
+set upon	0	1	0
+settle down	0	0	0
+settle for	0	1	0
+settle in	0	0	0
+settle on	0	1	0
+settle up	0	0	0
+sew up	0	NULL	NULL
+sex up	1	0	0
+shack up	0	0	0
+shade in	1	0	0
+shake down	1	0	0
+shake hands	0	NULL	NULL
+shake off	0	0	0
+shake out	1	0	0
+shake up	0	0	0
+shape up	0	0	0
+share in	0	1	0
+share out	0	0	0
+shave off	0	0	0
+shell out	0	0	0
+shine up	1	NULL	NULL
+ship off	1	0	0
+ship out	0	0	0
+shoot away	1	0	0
+shoot back	0	0	0
+shoot down	0	NULL	NULL
+shoot for	0	1	0
+shoot off	1	0	0
+shoot out	1	0	0
+shoot through	1	NULL	NULL
+shoot up	0	0	0
+shop around	0	0	0
+shore up	0	0	0
+short out	1	0	0
+shout down	0	0	0
+shout out	0	0	0
+shove off	0	NULL	NULL
+shovel out	1	NULL	NULL
+show around	0	0	1
+show in	1	0	0
+show off	0	0	0
+show out	1	0	1
+show over	1	0	1
+show round	1	0	1
+show through	1	0	0
+show up	0	0	0
+shrink away	1	NULL	NULL
+shrug off	0	0	0
+shuck down	1	NULL	NULL
+shut away	0	0	1
+shut down	0	0	0
+shut in	0	0	1
+shut off	0	0	0
+shut out	0	0	0
+shut out of	1	1	0
+shut up	0	0	0
+shut yourself away	1	0	1
+shy away	0	NULL	NULL
+shy away from	0	1	0
+sick up	1	NULL	NULL
+side with	1	1	0
+sidle up to	1	1	0
+sift through	1	1	0
+sign away	0	0	0
+sign for	0	0	1
+sign in	0	0	0
+sign into	1	1	0
+sign off	0	0	0
+sign off on	1	1	0
+sign on	0	0	0
+sign on with	1	1	0
+sign out	0	0	0
+sign out of	1	1	0
+sign up	0	0	0
+sign with	1	1	0
+silt up	1	NULL	NULL
+simmer down	0	0	0
+sing along	1	0	0
+sing out	0	0	0
+sing up	1	0	0
+single out	0	0	0
+sink in	0	0	0
+sit about	1	0	0
+sit around	0	0	0
+sit back	0	0	0
+sit by	0	0	0
+sit down	0	0	1
+sit for	1	1	0
+sit in	0	1	0
+sit in for	1	1	0
+sit in on	0	1	0
+sit on	0	1	0
+sit out	0	0	0
+sit over	1	1	0
+sit through	1	1	0
+sit up	0	NULL	NULL
+sit with	1	1	0
+size up	0	0	0
+skate over	1	NULL	NULL
+skim off	0	NULL	NULL
+skim through	0	NULL	NULL
+skin up	1	0	0
+skip out	0	NULL	NULL
+skirt around	1	NULL	NULL
+skittle out	1	NULL	NULL
+skive off	1	0	0
+slack off	0	0	0
+slacken off	1	0	0
+slag off	0	0	0
+slant toward	1	1	0
+slap down	1	NULL	NULL
+sleep around	0	0	0
+sleep in	0	0	0
+sleep off	0	0	0
+sleep on	0	1	0
+sleep over	0	0	0
+sleep through	1	1	0
+slice off	0	0	0
+slice up	0	0	0
+slide off	1	NULL	NULL
+slim down	0	NULL	NULL
+sling off	1	NULL	NULL
+slip away	0	0	0
+slip by	0	0	0
+slip down	1	0	0
+slip in	0	0	0
+slip into	0	1	0
+slip off	0	0	0
+slip off to	1	1	0
+slip on	0	0	0
+slip out	0	0	0
+slip up	0	0	0
+slob about	1	0	0
+slob around	1	0	0
+slop out	1	NULL	NULL
+slope off	0	0	0
+slot in	0	NULL	NULL
+slough off	0	0	0
+slow down	0	0	0
+slow up	0	0	0
+slug away	1	NULL	NULL
+slug it out	1	1	0
+slur over	1	NULL	NULL
+smack of	0	1	0
+smart off	1	NULL	NULL
+smarten up	0	NULL	NULL
+smash down	1	0	0
+smash in	0	0	0
+smash up	0	0	0
+smell up	1	NULL	NULL
+smoke out	0	0	1
+smoke up	1	NULL	NULL
+smooth down	0	NULL	NULL
+smooth out	0	NULL	NULL
+smooth over	0	NULL	NULL
+snack down	1	NULL	NULL
+snaffle up	1	0	0
+snap off	0	0	0
+snap out of	0	1	0
+snap to it!	1	NULL	NULL
+snap up	0	0	0
+snarl up	1	0	0
+sneak away	1	NULL	NULL
+sneak in	0	NULL	NULL
+sneak off	0	NULL	NULL
+sneak out	0	0	0
+sneak up	0	NULL	NULL
+sneak up on	0	1	0
+sniff around	0	1	0
+sniff at	0	1	0
+sniff out	0	0	0
+snitch on	1	1	0
+snoop around	0	NULL	NULL
+snow down	1	NULL	NULL
+snow in	1	NULL	NULL
+snow out	1	NULL	NULL
+snow under	1	NULL	NULL
+snuff out	0	0	0
+snuggle up	0	NULL	NULL
+soak up	0	0	0
+sober up	0	1	0
+sock in	1	NULL	NULL
+sod off	1	NULL	NULL
+soften up	0	0	0
+soldier on	0	0	0
+sop up	0	NULL	NULL
+sort out	0	0	0
+sound off	0	0	0
+sound out	0	0	0
+soup up	0	NULL	NULL
+space out	0	NULL	NULL
+spaff away	1	0	0
+spark off	0	0	0
+spark up	1	0	0
+spaz out	1	NULL	NULL
+spazz out	1	NULL	NULL
+speak for	0	NULL	NULL
+speak out	0	0	0
+speak to	0	NULL	NULL
+speak up	0	0	0
+speed up	0	0	0
+spell out	0	0	0
+spew out	0	0	0
+spew up	1	0	0
+spice up	0	NULL	NULL
+spiff up	1	NULL	NULL
+spill out	0	0	0
+spill over	0	0	0
+spin off	1	0	0
+spin out	0	0	0
+spin round	1	NULL	NULL
+spirit away	0	0	0
+spirit off	1	0	0
+spit it out	1	0	1
+spit out	0	0	0
+splash down	1	0	0
+splash out	0	0	0
+splash out on	1	1	0
+split up	0	0	0
+spoil for	1	1	0
+sponge down	1	0	0
+sponge off	1	1	0
+sponge on	0	1	0
+sponge out	1	NULL	NULL
+spook out	1	NULL	NULL
+spread out	0	NULL	NULL
+spring back	0	0	0
+spring for	0	1	0
+spring from	0	1	0
+spring on	1	0	1
+spring out	1	NULL	NULL
+spring up	0	0	0
+spruce up	0	0	0
+spur on	0	0	0
+spy on	0	NULL	NULL
+square away	1	0	0
+square off	0	0	0
+square off against	1	1	0
+square up	0	0	0
+square up to	1	1	0
+square with	0	0	0
+squeak out	1	NULL	NULL
+squeeze in	0	NULL	NULL
+squeeze into	1	NULL	NULL
+squeeze out	0	NULL	NULL
+squeeze up	1	0	0
+squirrel away	1	NULL	NULL
+stack up	0	0	0
+stack up against	1	1	0
+staff up	1	0	0
+stamp out	0	0	0
+stand about	1	0	0
+stand around	0	0	0
+stand aside	0	0	0
+stand back	0	0	0
+stand behind	1	NULL	NULL
+stand by	0	0	0
+stand down	0	0	0
+stand for	0	1	0
+stand from under	1	NULL	NULL
+stand in for	1	1	0
+stand off	1	NULL	NULL
+stand on end	1	NULL	NULL
+stand out	0	0	0
+stand up	0	0	0
+stand up against	0	NULL	NULL
+stand up for	0	1	0
+stand up to	0	1	0
+stare down	0	0	1
+start off	0	0	0
+start off on	1	0	1
+start on	0	1	0
+start on at	1	1	0
+start out	0	0	0
+start out as	1	1	0
+start out to	1	1	0
+start over	0	0	0
+start up	0	0	0
+stash away	1	0	0
+stave in	1	0	0
+stave off	0	0	0
+stay away	0	0	0
+stay away from	0	1	0
+stay behind	1	NULL	NULL
+stay in	0	0	0
+stay on	0	0	0
+stay out	0	0	0
+stay over	0	0	0
+stay up	0	0	0
+steal away	0	0	0
+steal out	1	0	0
+steal over	1	1	0
+steal up	1	0	0
+steal up on	1	1	0
+steam up	0	NULL	NULL
+steer clear of	0	1	0
+stem from	0	1	0
+step aside	0	0	0
+step back	0	0	0
+step down	0	0	0
+step forward	0	0	0
+step in	0	0	0
+step on it	1	0	1
+step out	0	0	0
+step over	0	NULL	NULL
+step to	1	1	0
+step up	0	0	0
+stick around	0	0	0
+stick at	1	1	0
+stick by	1	1	0
+stick down	0	0	0
+stick it to	0	0	0
+stick out	0	0	0
+stick out for	1	1	0
+stick to	0	1	0
+stick together	0	0	0
+stick up	0	0	0
+stick up for	0	1	0
+stick with	0	1	0
+stiffen up	1	0	0
+stir up	0	0	0
+stitch up	0	0	0
+stock up	0	NULL	NULL
+stomp off	1	0	0
+stomp on	1	1	0
+stomp out	1	NULL	NULL
+stop around	1	0	0
+stop back	1	0	0
+stop behind	1	0	0
+stop by	0	1	0
+stop in	0	0	0
+stop off	0	0	0
+stop out	0	0	0
+stop over	0	0	0
+stop up	0	0	0
+store away	0	NULL	NULL
+store up	0	NULL	NULL
+storm off	1	0	0
+storm out	1	0	0
+stow away	0	0	0
+straighten out	0	0	0
+straighten up	0	0	0
+strap up	1	NULL	NULL
+stress out	0	NULL	NULL
+stretch out	0	NULL	NULL
+stretcher off	1	0	0
+strike back	0	0	0
+strike down	0	0	0
+strike off	0	0	0
+strike on	1	1	0
+strike out	0	0	0
+strike through	0	NULL	NULL
+strike up	0	0	0
+strike upon	1	1	0
+string along	0	0	0
+string out	1	0	0
+string together	0	0	0
+string up	1	0	0
+strip away	1	NULL	NULL
+strip down	0	NULL	NULL
+strip off	0	NULL	NULL
+stub out	1	0	0
+stuff up	1	0	0
+stumble across	1	1	0
+stumble against	1	NULL	NULL
+stumble on	0	NULL	NULL
+stumble upon	1	1	0
+stump up	0	1	0
+sub in	1	NULL	NULL
+sub out	1	NULL	NULL
+suck in	0	0	0
+suck into	1	1	0
+suck off	0	NULL	NULL
+suck up	0	0	0
+suck up to	1	1	0
+suit up	1	0	0
+sum up	0	0	0
+summon up	0	0	0
+sunder out	1	NULL	NULL
+sure up	1	NULL	NULL
+suss out	1	0	0
+swallow up	0	0	0
+swan about	1	0	0
+swan around	1	0	0
+swan in	1	0	0
+swan off	1	0	0
+swear by	1	1	0
+swear down	1	0	0
+swear in	0	NULL	NULL
+swear off	0	NULL	NULL
+swear out	1	NULL	NULL
+sweat off	0	NULL	NULL
+sweep aside	1	NULL	NULL
+sweep away	0	NULL	NULL
+sweep out	0	NULL	NULL
+sweep through	1	1	0
+sweep up	0	NULL	NULL
+sweeten up	1	NULL	NULL
+swell up	0	NULL	NULL
+swing around	1	0	0
+swing at	1	1	0
+swing by	0	0	0
+swing round	1	0	0
+switch off	0	NULL	NULL
+switch on	0	NULL	NULL
+swot up on	1	NULL	NULL
+syphon off	1	0	0
+tack on	0	0	0
+tack onto	1	0	1
+tack up	1	NULL	NULL
+tag along	0	0	0
+tag off	1	NULL	NULL
+tag on	0	0	0
+tag onto	1	0	1
+tag with	1	1	0
+tail away	1	0	0
+tail back	1	0	0
+tail off	0	0	0
+take a crack at	0	NULL	NULL
+take aback	0	0	1
+take after	0	1	0
+take against	1	NULL	NULL
+take apart	0	0	0
+take aside	0	0	1
+take away	0	0	0
+take away from	0	NULL	NULL
+take back	0	0	0
+take down	0	0	0
+take for	0	NULL	NULL
+take in	0	0	0
+take it	0	1	0
+take it out on	0	0	1
+take it upon yourself	1	0	0
+take off	0	0	0
+take on	0	0	0
+take out	0	0	0
+take over	0	0	0
+take through	1	0	1
+take to	0	1	0
+take up	0	0	0
+take up with	1	NULL	NULL
+take upon	1	NULL	NULL
+talk around	1	0	0
+talk at	1	1	0
+talk back	0	0	0
+talk down	0	0	0
+talk down to	1	1	0
+talk into	0	0	1
+talk out	1	0	0
+talk out of	0	0	1
+talk over	0	0	0
+talk round	1	0	0
+talk through	1	0	1
+talk up	0	0	0
+talk yourself out	1	0	1
+tank up	0	NULL	NULL
+tap for	1	0	1
+tap in	1	NULL	NULL
+tap into	1	1	0
+tap off with	1	1	0
+tap out	1	0	0
+tap up	1	0	0
+tape off	1	NULL	NULL
+tape out	1	NULL	NULL
+tape up	1	NULL	NULL
+taper off	0	NULL	NULL
+tart up	0	NULL	NULL
+team up	0	0	0
+tear apart	0	0	0
+tear at	1	1	0
+tear away	0	0	0
+tear down	0	0	0
+tear into	1	1	0
+tear off	0	0	0
+tear out	0	0	0
+tear up	0	0	0
+tech up	1	NULL	NULL
+tee off	0	0	0
+tee off on	1	1	0
+tee up	1	0	0
+tell apart	0	0	1
+tell off	0	0	1
+tell on	0	1	0
+tense up	0	NULL	NULL
+text out	1	0	0
+thieve out	1	NULL	NULL
+thin out	0	NULL	NULL
+think about	1	NULL	NULL
+think over	0	0	0
+think through	1	0	0
+think up	0	0	0
+thrash out	0	NULL	NULL
+thresh out	1	NULL	NULL
+throw aside	1	NULL	NULL
+throw away	0	0	0
+throw down	1	NULL	NULL
+throw in	0	0	0
+throw in with	1	NULL	NULL
+throw off	0	0	0
+throw on	0	0	0
+throw out	0	0	0
+throw over	1	0	0
+throw the baby out with the bathwater	1	NULL	NULL
+throw together	0	0	0
+throw up	0	0	0
+throw yourself at	1	1	0
+throw yourself into	1	1	0
+tick along	1	0	0
+tick away	1	0	0
+tick by	1	0	0
+tick down	1	NULL	NULL
+tick off	0	0	0
+tick over	1	0	0
+tickle up	1	0	0
+tide over	1	0	1
+tidy up	0	0	0
+tie back	0	0	0
+tie down	0	0	0
+tie in	0	0	0
+tie in with	1	1	0
+tie one on	1	NULL	NULL
+tie up	0	0	0
+tighten up	0	0	0
+time out	0	0	0
+tip off	0	0	0
+tip over	0	0	0
+tip up	0	NULL	NULL
+tire of	1	1	0
+tire out	0	0	0
+toddle off	1	0	0
+toke up	1	NULL	NULL
+tone down	0	0	0
+tone up	0	NULL	NULL
+tool around	1	NULL	NULL
+tool up	1	0	0
+tootle off	1	0	0
+top off	0	0	0
+top out	0	0	0
+top up	0	0	0
+topple over	1	NULL	NULL
+toss about	1	0	0
+toss around	0	0	0
+toss back	1	0	0
+toss down	1	0	0
+toss for	1	1	0
+toss off	0	0	0
+toss up	1	0	0
+touch down	0	0	0
+touch for	1	0	1
+touch off	0	0	0
+touch on	0	1	0
+touch up	0	0	0
+touch upon	0	1	0
+tough out	1	NULL	NULL
+toughen up	0	NULL	NULL
+tow away	1	0	0
+toy at	1	1	0
+toy over	1	1	0
+toy with	1	1	0
+track down	0	0	0
+track with	1	NULL	NULL
+trade down	1	0	0
+trade in	0	0	0
+trade off	0	0	0
+trade on	1	1	0
+trade up	0	0	0
+trade upon	1	1	0
+train up	1	0	0
+trash out	1	NULL	NULL
+trick out	0	NULL	NULL
+trickle down	1	0	0
+trifle with	0	NULL	NULL
+trigger off	0	0	0
+trim up	1	NULL	NULL
+trip out	1	0	0
+trip over	0	0	0
+trip up	0	0	0
+trot off	1	0	0
+trot off to	1	1	0
+trot out	1	0	0
+truck in	1	NULL	NULL
+truck out	1	NULL	NULL
+trump up	0	0	0
+try back	1	0	0
+try for	0	1	0
+try it on	1	0	0
+try on	0	0	0
+try out	0	0	0
+try out for	1	1	0
+tuck away	0	0	0
+tuck in	0	0	0
+tuck into	1	1	0
+tuck up	1	0	0
+tucker out	1	NULL	NULL
+tumble down	0	NULL	NULL
+tumble to	1	NULL	NULL
+tune in	0	0	0
+tune in to	0	1	0
+tune out	0	0	0
+tune up	0	0	0
+turf out	1	0	0
+turn against	0	1	0
+turn around	0	0	0
+turn away	0	0	0
+turn back	0	NULL	NULL
+turn down	0	0	0
+turn in	0	0	0
+turn into	0	1	0
+turn off	0	0	0
+turn on	0	0	0
+turn out	0	0	0
+turn over	0	0	0
+turn to	0	1	0
+turn up	0	0	0
+type in	1	0	0
+type out	1	0	0
+type up	1	0	0
+urge on	0	0	0
+urge upon	0	0	1
+use up	0	0	0
+usher in	0	0	0
+vacuum up	1	0	0
+vamp up	1	0	0
+veg out	1	0	0
+venture forth	1	0	0
+verge on	1	NULL	NULL
+vote in	0	NULL	NULL
+vote out	1	NULL	NULL
+wack out	1	NULL	NULL
+wade in	0	0	0
+wade into	0	1	0
+wade through	0	1	0
+waft off	1	NULL	NULL
+wail on	1	NULL	NULL
+wait about	1	0	0
+wait around	1	0	0
+wait behind	1	0	0
+wait in	1	0	0
+wait on	0	1	0
+wait out	0	0	0
+wait up	0	0	0
+wait up!	1	NULL	NULL
+wait upon	1	1	0
+wake up	0	0	0
+walk around	0	NULL	NULL
+walk away from	1	1	0
+walk away with	0	1	0
+walk back	1	NULL	NULL
+walk back from	1	1	0
+walk in on	1	1	0
+walk into	0	1	0
+walk off	0	0	0
+walk off with	0	1	0
+walk on	0	0	0
+walk out	0	0	0
+walk out on	0	1	0
+walk over	0	NULL	NULL
+walk through	1	0	1
+walk up	0	0	0
+wall in	0	NULL	NULL
+wall off	1	NULL	NULL
+wall up	1	NULL	NULL
+waltz through	1	1	0
+wander off	0	0	0
+wank off	1	NULL	NULL
+want in	1	NULL	NULL
+want out	1	0	0
+ward off	0	NULL	NULL
+warm down	1	NULL	NULL
+warm up	0	0	0
+wash away	0	0	0
+wash down	0	0	0
+wash off	0	NULL	NULL
+wash out	0	0	0
+wash over	1	1	0
+wash up	0	0	0
+waste away	0	0	0
+watch out	0	0	0
+watch out for	0	1	0
+watch over	0	1	0
+water down	0	0	0
+wave aside	1	0	0
+wave away	1	NULL	NULL
+wave down	1	0	1
+wave off	0	0	1
+wean off	1	0	1
+wear away	0	0	0
+wear down	0	0	1
+wear off	0	0	0
+wear on	0	NULL	NULL
+wear out	0	0	0
+weasel out	1	NULL	NULL
+weed out	0	0	0
+weigh against	1	NULL	NULL
+weigh down	0	NULL	NULL
+weigh down on	1	1	0
+weigh in	0	0	0
+weigh in on	1	1	0
+weigh on	1	1	0
+weigh out	1	0	0
+weigh up	0	0	0
+weird out	1	0	0
+well up	0	0	0
+whack off	1	NULL	NULL
+whale on	1	NULL	NULL
+wheel around	1	0	0
+wheel away	1	NULL	NULL
+wheel out	1	0	0
+wheel round	1	0	0
+while away	0	0	0
+whip down	1	NULL	NULL
+whip in	1	NULL	NULL
+whip into	1	1	0
+whip off	1	NULL	NULL
+whip out	0	0	0
+whip out of	1	1	0
+whip through	1	1	0
+whip up	0	0	0
+whisk away	1	0	0
+whisk off	1	NULL	NULL
+whistle up	1	NULL	NULL
+white out	0	0	0
+whore around	1	NULL	NULL
+whore out	1	NULL	NULL
+wife up	1	NULL	NULL
+wig out	1	0	0
+wiggle out	1	0	0
+wiggle out of	1	1	0
+will on	1	NULL	NULL
+wimp out	1	0	0
+win around	1	NULL	NULL
+win back	0	NULL	NULL
+win out	0	NULL	NULL
+win over	0	NULL	NULL
+win round	0	NULL	NULL
+win through	0	NULL	NULL
+win up	1	NULL	NULL
+wind back	1	NULL	NULL
+wind down	0	0	0
+wind on	1	0	0
+wind up	0	0	0
+winkle out	1	0	0
+wipe away	0	NULL	NULL
+wipe off	0	NULL	NULL
+wipe out	0	0	0
+wipe up	0	0	0
+wire up	0	0	0
+wise up	0	0	0
+wolf down	0	NULL	NULL
+woo back	1	NULL	NULL
+word up	1	0	0
+word up!	1	NULL	NULL
+work at	0	NULL	NULL
+work off	0	0	0
+work on	0	1	0
+work out	0	0	0
+work over	0	0	0
+work through	0	1	0
+wrap around	0	0	1
+wrap round	1	0	1
+wrap up	0	0	0
+wriggle out of	0	1	0
+wring out	0	NULL	NULL
+write down	0	0	0
+write in	0	0	0
+write off	0	0	0
+write out	0	0	0
+write up	0	0	0
+X out	1	NULL	NULL
+yack on	1	0	0
+yammer on	1	0	0
+yank off	1	NULL	NULL
+yank out	1	NULL	NULL
+yield to	1	1	0
+yield up	1	NULL	NULL
+yoke together	1	NULL	NULL
+zero in	0	NULL	NULL
+zero in on	0	1	0
+zero out	1	0	0
+zip around	1	1	0
+zip by	1	1	0
+zip down	1	NULL	NULL
+zip it	1	0	0
+zip up	1	0	0
+zone in	1	0	0
+zone in on	1	1	0
+zone out	1	0	0
+zonk out	1	0	0
+zoom in	0	0	0
+zoom in on	1	1	0
+zoom off	1	0	0
+zoom out	1	0	0
