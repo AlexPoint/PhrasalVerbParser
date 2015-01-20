@@ -61,7 +61,7 @@ namespace PhrasalVerbParser
             var pathToManuallyUnvalidatedPhrasalVerbs = PathToApplication + "Resources/manual/bad.txt";
 
 
-            var sent = "A very silly, trivial thing to do, but think of the difference on a team that didn't do that at all, that got 15 euro, put it in their pocket, maybe bought themselves a coffee, or teams that had this prosocial experience where they all bonded together to buy something and do a group activity.";
+            var sent = "And because fertility rates fell across that very same period that life expectancy was going up, that pyramid that has always represented the distribution of age in the population, with many young ones at the bottom winnowed to a tiny peak of older people who make it and survive to old age is being reshaped into a rectangle.";
             var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs.ConvertAll(pv => (PhrasalVerb)pv));
 
             // missing pv detections

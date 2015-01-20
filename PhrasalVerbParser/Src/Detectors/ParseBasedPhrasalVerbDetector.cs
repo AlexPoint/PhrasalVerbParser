@@ -171,7 +171,40 @@ namespace PhrasalVerbParser.Src.Detectors
                             || string.Equals(particle1, d.Gov().GetWord(), StringComparison.InvariantCultureIgnoreCase));
                     if (rootParticle1Dependency != null)
                     {
-                        if (parts.Count <= 2)
+                        var remainingParts = parts.Skip(2).ToList();
+                        var lastTokenIndex = Math.Max(rootParticle1Dependency.Gov().Index(), rootParticle1Dependency.Dep().Index()) - 1;
+                        var endOfSentenceTokens = tokens.Skip(lastTokenIndex + 1).ToList();
+                        if (endOfSentenceTokens.Any())
+                        {
+                            for (var i = 0; i < endOfSentenceTokens.Count; i++)
+                            {
+                                if (i < remainingParts.Count)
+                                {
+                                    if (!string.Equals(remainingParts[i], endOfSentenceTokens[i],
+                                        StringComparison.InvariantCultureIgnoreCase))
+                                    {
+                                        // no match, get out of the loop
+                                        break;
+                                    }
+                                }
+                                else
+                                {
+                                    // all the remaining parts were included in the remaining tokens --> OK
+                                    matchingPhrasalVerbs.Add(phrasalVerb);
+                                }
+                            }
+                        }
+                        else
+                        {
+                            // if there is no remaining parts, the phrasal verb matches
+                            if (!remainingParts.Any())
+                            {
+                                matchingPhrasalVerbs.Add(phrasalVerb);
+                            }
+                        }
+                        
+
+                        /*if (parts.Count <= 2)
                         {
                             // phrasal verb has 1 particle only; we're done
                             matchingPhrasalVerbs.Add(phrasalVerb);
@@ -185,7 +218,7 @@ namespace PhrasalVerbParser.Src.Detectors
                             {
                                 matchingPhrasalVerbs.Add(phrasalVerb);
                             }
-                        }
+                        }*/
                     }
                 }
             }
