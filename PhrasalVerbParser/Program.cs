@@ -47,6 +47,37 @@ namespace PhrasalVerbParser
             var phrasalVerbs = ReadFleexPhrasalVerbs()
                 .Where(pv => !pv.IsMissingOnWordreference && pv.Name != "go to")
                 .ToList();
+            //var phrasalVerbs = ReadPhrasalVerbs(phrasalVerbFilePath);
+
+            //
+            /*var results = new List<Tuple<PhrasalVerb, List<TypedDependency>>>();
+            foreach (var phrasalVerb in phrasalVerbs)
+            {
+                foreach (var usage in phrasalVerb.Usages)
+                {
+                    var example = LowerCaseAllUpperCasedWords(usage.Example);
+
+                    var parse = GetParser().DoParse(example);
+                    var particle1 = phrasalVerb.Particle1;
+
+                    var deps = ParseBasedPhrasalVerbDetector.ComputeDependencies(parse);
+                    var relDeps = deps.Where(d => (d.Gov().GetWord() == particle1 && d.Gov().Index() < d.Dep().Index())
+                                                  || (d.Dep().GetWord() == particle1 && d.Dep().Index() < d.Gov().Index()))
+                                                  .ToList();
+                    results.Add(new Tuple<PhrasalVerb, List<TypedDependency>>(phrasalVerb, relDeps));
+                    /*if (relDeps.Count > 1)
+                    {
+                        Console.WriteLine("{0}|{1}", phrasalVerb.Name, example);
+                    }#1#
+                }
+            }
+            var groups = results.Where(tup => tup.Item2.Count == 1).Select(tup => tup.Item2.First().Reln()).GroupBy(s => s);
+            foreach (var g in groups)
+            {
+                Console.WriteLine("{0} -> {1} occurences", g.Key, g.Count());
+                Console.WriteLine("---");
+            }*/
+
 
             //
             var tokenizerModelPaths = PathToApplication + "Resources/OpenNlp/Models/EnglishTok.nbin";
@@ -61,8 +92,8 @@ namespace PhrasalVerbParser
             var pathToManuallyUnvalidatedPhrasalVerbs = PathToApplication + "Resources/manual/bad.txt";
 
 
-            var sent = "And because fertility rates fell across that very same period that life expectancy was going up, that pyramid that has always represented the distribution of age in the population, with many young ones at the bottom winnowed to a tiny peak of older people who make it and survive to old age is being reshaped into a rectangle.";
-            var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs.ConvertAll(pv => (PhrasalVerb)pv));
+            /*var sent = "And because fertility rates fell across that very same period that life expectancy was going up, that pyramid that has always represented the distribution of age in the population, with many young ones at the bottom winnowed to a tiny peak of older people who make it and survive to old age is being reshaped into a rectangle.";
+            var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs.ConvertAll(pv => (PhrasalVerb)pv));*/
 
             // missing pv detections
             var manuallyValidatedExamples = File.ReadAllLines(pathToManuallyValidatedPhrasalVerbs)

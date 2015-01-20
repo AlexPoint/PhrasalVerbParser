@@ -169,10 +169,11 @@ namespace PhrasalVerbParser.Src.Detectors
                     var rootParticle1Dependency = relevantDependencies
                         .FirstOrDefault(d => string.Equals(particle1, d.Dep().GetWord(), StringComparison.InvariantCultureIgnoreCase)
                             || string.Equals(particle1, d.Gov().GetWord(), StringComparison.InvariantCultureIgnoreCase));
-                    if (rootParticle1Dependency != null)
+                    if (rootParticle1Dependency != null && !AreWordSeparatedInSentence(rootParticle1Dependency, dependencies))
                     {
                         var remainingParts = parts.Skip(2).ToList();
                         var lastTokenIndex = Math.Max(rootParticle1Dependency.Gov().Index(), rootParticle1Dependency.Dep().Index()) - 1;
+                        
                         var endOfSentenceTokens = tokens.Skip(lastTokenIndex + 1).ToList();
                         if (endOfSentenceTokens.Any())
                         {
@@ -224,6 +225,16 @@ namespace PhrasalVerbParser.Src.Detectors
             }
 
             return matchingPhrasalVerbs;
+        }
+
+        private bool AreWordSeparatedInSentence(TypedDependency relation, List<TypedDependency> dependencies)
+        {
+            var btwCount = dependencies
+                .Select(d => d.Dep().Index())
+                .Distinct()
+                .Count(d => (relation.Gov().Index() < d && d < relation.Dep().Index())
+                            || (relation.Dep().Index() < d && d < relation.Gov().Index()));
+            return Math.Abs(relation.Gov().Index() - relation.Dep().Index()) - 1 > btwCount;
         }
 
         public bool IsMatch(string sentence, PhrasalVerb pv)
@@ -303,7 +314,7 @@ namespace PhrasalVerbParser.Src.Detectors
             return false;
         }
 
-        private IEnumerable<TypedDependency> ComputeDependencies(Parse parse)
+        public static IEnumerable<TypedDependency> ComputeDependencies(Parse parse)
         {
             // Extract dependencies from lexical tree
             var tlp = new PennTreebankLanguagePack();
