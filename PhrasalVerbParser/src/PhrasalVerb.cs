@@ -44,12 +44,12 @@ namespace PhrasalVerbParser.Src
             }
         }
 
-        public bool Inseparable
+        public virtual bool? Inseparable
         {
             get { return this.Usages.All(u => u.Inseparable); }
         }
 
-        public bool SeparableMandatory
+        public virtual bool? SeparableMandatory
         {
             get { return this.Usages.All(u => u.SeparableMandatory); }
         }

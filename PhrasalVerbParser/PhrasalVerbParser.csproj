@@ -60,6 +60,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Src\Detectors\BasicPhrasalVerbDetector.cs" />
     <Compile Include="Src\Detectors\ParseBasedPhrasalVerbDetector.cs" />
+    <Compile Include="Src\FleexPhrasalVerb.cs" />
     <Compile Include="Src\Usage.cs" />
     <Compile Include="Src\PhrasalVerb.cs" />
     <Compile Include="Src\UsingEnglishParser.cs" />

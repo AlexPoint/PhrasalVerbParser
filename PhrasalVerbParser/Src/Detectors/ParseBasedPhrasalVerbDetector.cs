@@ -30,17 +30,18 @@ namespace PhrasalVerbParser.Src.Detectors
             this.tagger = tagger;
         }
 
-        public bool IsMatch(string sentence, PhrasalVerb phrasalVerb)
+        /*public bool IsMatch(string sentence, PhrasalVerb phrasalVerb)
         {
+            var tokens = tokenizer.Tokenize(sentence);
             var pv = MatchingPhrasalVerbs(sentence, new List<PhrasalVerb>() {phrasalVerb});
             return pv.Any();
-        }
+        }*/
 
-        public List<PhrasalVerb> MatchingPhrasalVerbs(string sentence, List<PhrasalVerb> phrasalVerbs)
+        /*public List<PhrasalVerb> MatchingPhrasalVerbs(string sentence, List<PhrasalVerb> phrasalVerbs)
         {
             // tokenize sentence
             var tokens = tokenizer.Tokenize(sentence);
-            var taggedWords = tagger.Tag(tokens)/*.Where(t => Regex.IsMatch(t, "[A-Z]+")).ToList()*/;
+            var taggedWords = tagger.Tag(tokens)/*.Where(t => Regex.IsMatch(t, "[A-Z]+")).ToList()#1#;
             // create parse tree
             var parse = parser.DoParse(tokens);
             // retrieve dependencies
@@ -103,11 +104,170 @@ namespace PhrasalVerbParser.Src.Detectors
             }
             return matchingPhrasalVerbs;
         }
-
-        private bool IsVerb(string tag)
+        
+        private IEnumerable<TypedDependency> ComputeDependencies(Parse parse)
         {
-            return tag == "VB" || tag == "VBD" || tag == "VBG" || tag == "VBN"
-                   || tag == "VBP" || tag == "VBZ";
+            // Extract dependencies from lexical tree
+            var tlp = new PennTreebankLanguagePack();
+            var gsf = tlp.GrammaticalStructureFactory();
+            var tree = new ParseTree(parse);
+            try
+            {
+                var gs = gsf.NewGrammaticalStructure(tree);
+                return gs.TypedDependencies();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Exception when computing deps for {0}", parse);
+                return new List<TypedDependency>();
+            }
+        }*/
+
+        public List<PhrasalVerb> MatchingPhrasalVerbs(string sentence, List<PhrasalVerb> phrasalVerbs)
+        {
+            // tokenize sentence
+            var tokens = tokenizer.Tokenize(sentence);
+            // create parse tree
+            var parse = parser.DoParse(tokens);
+            // retrieve dependencies
+            var dependencies = ComputeDependencies(parse).ToList();
+
+            var matchingPhrasalVerbs = new List<PhrasalVerb>();
+            foreach (var phrasalVerb in phrasalVerbs)
+            {
+                // get relevant dependencies found
+                var parts = phrasalVerb.Name.Split(' ').ToList();
+                var root = parts.First();
+                // find dependencies for this root
+                var rootRelatedDependencies = dependencies
+                    .Where(d => // the (lemmatized) token must be equal to the gov/dep of the dependency
+                        ((string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase)
+                            && d.Gov().Index() < d.Dep().Index())
+                        || (string.Equals(root, lemmatizer.Lemmatize(d.Dep().GetWord()), StringComparison.InvariantCultureIgnoreCase)
+                            && d.Dep().Index() < d.Gov().Index()))
+                            // if the phrasal verb is inseparable, no word must be between the root and the particle
+                        && (!phrasalVerb.Inseparable.HasValue || (!phrasalVerb.Inseparable.Value || Math.Abs(d.Dep().Index() - d.Gov().Index()) == 1))
+                            // if the phrasal verb is mandatory seprable, at least one word must be between the root and the particle
+                        && (!phrasalVerb.SeparableMandatory.HasValue || (!phrasalVerb.SeparableMandatory.Value || Math.Abs(d.Dep().Index() - d.Gov().Index()) > 1))
+                    )
+                    .ToList();
+
+                // We take only the 2nd part
+                // For phrasal verbs with several particles, that's a good approximation for now
+                // (we could check that all the particles are also linked)
+                if (rootRelatedDependencies.Any() && parts.Count() > 1)
+                {
+                    var particle1 = parts[1];
+                    var relevantDependencies = rootRelatedDependencies.Where(d => d.Reln().GetShortName() == "prt").ToList();
+                    if (!relevantDependencies.Any())
+                    {
+                        // if no "prt" relation, take all relations whatsoever.
+                        relevantDependencies = rootRelatedDependencies;
+                    }
+
+                    // if one of relevant dependencies have the particle as gov/dep, it's good!
+                    var rootParticle1Dependency = relevantDependencies
+                        .FirstOrDefault(d => string.Equals(particle1, d.Dep().GetWord(), StringComparison.InvariantCultureIgnoreCase)
+                            || string.Equals(particle1, d.Gov().GetWord(), StringComparison.InvariantCultureIgnoreCase));
+                    if (rootParticle1Dependency != null)
+                    {
+                        if (parts.Count <= 2)
+                        {
+                            // phrasal verb has 1 particle only; we're done
+                            matchingPhrasalVerbs.Add(phrasalVerb);
+                        }
+                        else
+                        {
+                            // otherwise, check that the other particles are in the sentence (approximation)
+                            var lastTokenIndex = Math.Max(rootParticle1Dependency.Gov().Index(), rootParticle1Dependency.Dep().Index()) - 1;
+                            var endOfSentenceTokens = tokens.Skip(lastTokenIndex).ToList();
+                            if (parts.Skip(2).All(endOfSentenceTokens.Contains))
+                            {
+                                matchingPhrasalVerbs.Add(phrasalVerb);
+                            }
+                        }
+                    }
+                }
+            }
+
+            return matchingPhrasalVerbs;
+        }
+
+        public bool IsMatch(string sentence, PhrasalVerb pv)
+        {
+            var tokens = tokenizer.Tokenize(sentence).ToList();
+            return IsMatch(tokens, pv);
+        }
+
+        public bool IsMatch(List<string> tokens, PhrasalVerb pv)
+        {
+            try
+            {
+                // create parse tree
+                var parse = parser.DoParse(tokens);
+                // compute dependencies between words for this sentence
+                var dependencies = ComputeDependencies(parse).ToList();
+
+                // get relevant dependencies found
+                var parts = pv.Name.Split(' ').ToList();
+                var root = parts.First();
+                // find dependencies for this root
+                var rootRelatedDependencies = dependencies
+                    .Where(d => // the (lemmatized) token must be equal to the gov/dep of the dependency
+                        ((string.Equals(root, lemmatizer.Lemmatize(d.Gov().GetWord()), StringComparison.InvariantCultureIgnoreCase)
+                            && d.Gov().Index() < d.Dep().Index())
+                        || (string.Equals(root, lemmatizer.Lemmatize(d.Dep().GetWord()), StringComparison.InvariantCultureIgnoreCase)
+                            && d.Dep().Index() < d.Gov().Index()))
+                            // if the phrasal verb is inseparable, no word must be between the root and the particle
+                        && (!pv.Inseparable.HasValue || (!pv.Inseparable.Value || Math.Abs(d.Dep().Index() - d.Gov().Index()) == 1))
+                            // if the phrasal verb is mandatory seprable, at least one word must be between the root and the particle
+                        && (!pv.SeparableMandatory.HasValue || (!pv.SeparableMandatory.Value || Math.Abs(d.Dep().Index() - d.Gov().Index()) > 1))
+                    )
+                    .ToList();
+
+                // We take only the 2nd part
+                // For phrasal verbs with several particles, that's a good approximation for now
+                // (we could check that all the particles are also linked)
+                if (rootRelatedDependencies.Any() && parts.Count() > 1)
+                {
+                    var particle1 = parts[1];
+                    var relevantDependencies = rootRelatedDependencies.Where(d => d.Reln().GetShortName() == "prt").ToList();
+                    if (!relevantDependencies.Any())
+                    {
+                        // if no "prt" relation, take all relations whatsoever.
+                        relevantDependencies = rootRelatedDependencies;
+                    }
+
+                    // if one of relevant dependencies have the particle as gov/dep, it's good!
+                    var rootParticle1Dependency = relevantDependencies
+                        .FirstOrDefault(d => string.Equals(particle1, d.Dep().GetWord(), StringComparison.InvariantCultureIgnoreCase)
+                            || string.Equals(particle1, d.Gov().GetWord(), StringComparison.InvariantCultureIgnoreCase));
+                    if (rootParticle1Dependency != null)
+                    {
+                        if (parts.Count <= 2)
+                        {
+                            // phrasal verb has 1 particle only; we're done
+                            return true;
+                        }
+                        else
+                        {
+                            // otherwise, check that the other particles are in the sentence (approximation)
+                            var lastTokenIndex = Math.Max(rootParticle1Dependency.Gov().Index(),
+                            rootParticle1Dependency.Dep().Index()) - 1;
+                            var endOfSentenceTokens = tokens.Skip(lastTokenIndex).ToList();
+                            return parts.Skip(2).All(endOfSentenceTokens.Contains);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // fail silently
+                Console.WriteLine("Exception raised when trying to match '{0}' in '{1}'", pv, string.Join(" ", tokens));
+            }
+
+            // if we get here, matching failed
+            return false;
         }
 
         private IEnumerable<TypedDependency> ComputeDependencies(Parse parse)

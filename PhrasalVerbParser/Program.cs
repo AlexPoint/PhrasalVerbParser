@@ -28,9 +28,9 @@ namespace PhrasalVerbParser
         static void Main(string[] args)
         {
             // parse phrasal verb on usingEnglish.com
-            var usingEnglishParser = new UsingEnglishParser();
+            /*var usingEnglishParser = new UsingEnglishParser();
             var allPhrasalVerbs = usingEnglishParser.ParseAllPhrasalVerbs();
-            Console.Write("Parsed {0} phrasal verbs on using english", allPhrasalVerbs);
+            Console.Write("Parsed {0} phrasal verbs on using english", allPhrasalVerbs);*/
 
             // Persist phrasal verbs
             /*var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
@@ -44,7 +44,9 @@ namespace PhrasalVerbParser
             
             // load phrasal verbs & examples
             var phrasalVerbFilePath = PathToApplication + "Resources/phrasalVerbs";
-            var phrasalVerbs = ReadPhrasalVerbs(phrasalVerbFilePath);
+            var phrasalVerbs = ReadFleexPhrasalVerbs()
+                .Where(pv => !pv.IsMissingOnWordreference && pv.Name != "go to")
+                .ToList();
 
             //
             var tokenizerModelPaths = PathToApplication + "Resources/OpenNlp/Models/EnglishTok.nbin";
@@ -58,29 +60,27 @@ namespace PhrasalVerbParser
             var pathToManuallyValidatedPhrasalVerbs = PathToApplication + "Resources/manual/good.txt";
             var pathToManuallyUnvalidatedPhrasalVerbs = PathToApplication + "Resources/manual/bad.txt";
 
-            Console.WriteLine("{0} ({1}%) separable mandatory phrasal verbs", phrasalVerbs.Count(pv =>pv.SeparableMandatory), 
-                (float)(phrasalVerbs.Count(pv => pv.SeparableMandatory) * 100)/ phrasalVerbs.Count());
-            Console.WriteLine("{0} ({1}%) inseparable phrasal verbs", phrasalVerbs.Count(pv =>pv.Inseparable), 
-                (float)(phrasalVerbs.Count(pv => pv.Inseparable) * 100)/ phrasalVerbs.Count());
 
-            var sent = "I did hear something about that.";
-            var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs);
+            var sent = "A very silly, trivial thing to do, but think of the difference on a team that didn't do that at all, that got 15 euro, put it in their pocket, maybe bought themselves a coffee, or teams that had this prosocial experience where they all bonded together to buy something and do a group activity.";
+            var pvs = parseBasedDetector.MatchingPhrasalVerbs(sent, phrasalVerbs.ConvertAll(pv => (PhrasalVerb)pv));
 
             // missing pv detections
-            var manuallyValidatedExampls = File.ReadAllLines(pathToManuallyValidatedPhrasalVerbs);
+            var manuallyValidatedExamples = File.ReadAllLines(pathToManuallyValidatedPhrasalVerbs)
+                .Where(line => phrasalVerbs.Select(pv => pv.Name).Contains(line.Split('|').First()))
+                .ToList();
             Console.WriteLine("Phrasal verbs not detected:");
             var notDetected = new List<Tuple<string, string>>();
-            foreach (var example in manuallyValidatedExampls)
+            foreach (var example in manuallyValidatedExamples)
             {
                 var sentence = example.Split('|').Last();
                 var phrasalVerb = example.Split('|').First();
-                var matchingPvs = parseBasedDetector.MatchingPhrasalVerbs(sentence, phrasalVerbs);
+                var matchingPvs = parseBasedDetector.MatchingPhrasalVerbs(sentence, phrasalVerbs.ConvertAll(pv => (PhrasalVerb)pv));
                 if (!matchingPvs.Any(p => p.Name == phrasalVerb))
                 {
                     notDetected.Add(new Tuple<string, string>(sentence, phrasalVerb));
                 }
             }
-            Console.WriteLine("{0}% phrasal verbs not detected", (float)(notDetected.Count * 100)/ manuallyValidatedExampls.Count());
+            Console.WriteLine("{0}% phrasal verbs not detected", (float)(notDetected.Count * 100)/ manuallyValidatedExamples.Count());
             foreach (var tuple in notDetected)
             {
                 Console.WriteLine("{0}; {1}", tuple.Item2, tuple.Item1);
@@ -88,14 +88,16 @@ namespace PhrasalVerbParser
             Console.WriteLine("----------");
 
             // false positive detection
-            var manuallyUnvalidatedExamples = File.ReadAllLines(pathToManuallyUnvalidatedPhrasalVerbs);
+            var manuallyUnvalidatedExamples = File.ReadAllLines(pathToManuallyUnvalidatedPhrasalVerbs)
+                .Where(line => phrasalVerbs.Select(pv => pv.Name).Contains(line.Split('|').First()))
+                .ToList();
             Console.WriteLine("Wrongly detected PV ");
             var wronglyDetected = new List<Tuple<string, string>>();
             foreach (var example in manuallyUnvalidatedExamples)
             {
                 var sentence = example.Split('|').Last();
                 var phrasalVerb = example.Split('|').First();
-                var matchingPvs = parseBasedDetector.MatchingPhrasalVerbs(sentence, phrasalVerbs);
+                var matchingPvs = parseBasedDetector.MatchingPhrasalVerbs(sentence, phrasalVerbs.ConvertAll(pv => (PhrasalVerb)pv));
                 if (matchingPvs.Any(p => p.Name == phrasalVerb))
                 {
                     wronglyDetected.Add(new Tuple<string, string>(sentence, phrasalVerb));
@@ -110,7 +112,7 @@ namespace PhrasalVerbParser
 
 
             // manual input for loosely detected phrasal verb
-            /*var pathToSentenceFile = PathToApplication + "Resources/fleexSubtitlesSentencesExtract.txt";
+            /*var pathToSentenceFile = PathToApplication + "Resources/fleex_sentences.txt";
             var sentences = File.ReadAllLines(pathToSentenceFile);
             foreach (var sentence in sentences)
             {
@@ -141,40 +143,7 @@ namespace PhrasalVerbParser
                 }
             }*/
 
-
-            // detect the phrasal verbs in the examples with the various detectors
-            /*var results = new List<Tuple<string, string, bool, bool>>();
-            foreach (var phrasalVerb in phrasalVerbs)
-            {
-                foreach (var usage in phrasalVerb.Usages)
-                {
-                    // compute dependencies
-                    var example = LowerCaseAllUpperCasedWords(usage.Example);
-
-                    var isDetectedByBasic = basicDetector.IsMatch(example, phrasalVerb);
-                    var isDetectedByParseBased = parseBasedDetector.IsMatch(example, phrasalVerb);
-                    results.Add(new Tuple<string, string, bool, bool>(phrasalVerb.Name, example, isDetectedByBasic, isDetectedByParseBased));
-                }
-            }
-            Console.WriteLine("===========================");
-
-            // Print results
-            Console.WriteLine("{0} ({1}%) detected by basic detector", results.Count(tup => tup.Item3), (float)(results.Count(tup => tup.Item3) * 100) / results.Count);
-            Console.WriteLine("{0} ({1}) detected by parse based detector", results.Count(tup => tup.Item4), (float)(results.Count(tup => tup.Item4) * 100) / results.Count);
-            Console.WriteLine("----------");
-            Console.WriteLine("Missed basic detection:");
-            foreach (var result in results.Where(tup => !tup.Item3))
-            {
-                Console.WriteLine("{0} - {1}", result.Item1, result.Item2);
-            }
-            Console.WriteLine("----------");
-            Console.WriteLine("Missed parse based detection:");
-            foreach (var result in results.Where(tup => !tup.Item4))
-            {
-                Console.WriteLine("{0} - {1}", result.Item1, result.Item2);
-            }*/
             
-
             /*// persisting list of phrasal verbs
             Console.WriteLine("============");
             Console.WriteLine("Persisting phrasal verbs to {0}", phrasalVerbFilePath);
@@ -230,10 +199,13 @@ namespace PhrasalVerbParser
         
         // Reading / Writing phrasal verbs ----------------------------
 
-        private static List<string> ReadFleexPhrasalVerbs()
+        private static List<FleexPhrasalVerb> ReadFleexPhrasalVerbs()
         {
             var pathToFile = PathToApplication + "Resources/fleexPhrasalVerbs.txt";
-            var allLines = File.ReadAllLines(pathToFile).ToList();
+            var allLines = File.ReadAllLines(pathToFile)
+                .Select(l => FleexPhrasalVerb.ParseLine(l))
+                .Where(pv => pv != null)
+                .ToList();
             return allLines;
         }
 
